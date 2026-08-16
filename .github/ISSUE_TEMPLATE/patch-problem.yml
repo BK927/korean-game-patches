@@ -1,0 +1,30 @@
+name: 패치 문제 제보
+description: 설치, 실행 또는 번역 문제를 알려주세요.
+title: "[게임명] "
+labels: ["bug"]
+body:
+  - type: input
+    id: game
+    attributes:
+      label: 게임명
+    validations:
+      required: true
+  - type: input
+    id: patch-version
+    attributes:
+      label: 패치 버전
+      placeholder: 예) v1.0.0
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: 문제 설명
+      description: 발생한 화면과 재현 방법을 적어주세요.
+    validations:
+      required: true
+  - type: textarea
+    id: hash
+    attributes:
+      label: 원본 파일 SHA-256
+      description: 설치 프로그램이 표시한 해시가 있다면 적어주세요.

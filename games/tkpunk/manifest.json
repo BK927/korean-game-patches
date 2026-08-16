@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "game": {
+    "slug": "tkpunk",
+    "title": "T.K.PUNK",
+    "koreanTitle": "삼국 펑크",
+    "platform": "Windows / Steam"
+  },
+  "patchVersion": "1.0.0",
+  "target": {
+    "relativePath": "resources/app.asar",
+    "originalSize": 1265971987,
+    "originalSha256": "D6F10010E181672B1D1A444BBF500035336D3B35E6D8EE26F7A9ADAC0AB6A09A",
+    "patchedSize": 1271034403,
+    "patchedSha256": "409B7385CF54616480E6CCD9EC66C0044B420531EDF34C3B9DC35A4ABD67150B"
+  },
+  "delta": {
+    "format": "VCDIFF",
+    "file": "payload/app.asar.vcdiff",
+    "size": 10769103,
+    "sha256": "053CC7B80412325B8E886E5D9B46D1AFCD30470EE37FA0E9BA3FD5F8358BA5C1"
+  },
+  "tool": {
+    "name": "Xdelta",
+    "version": "3.2.0",
+    "license": "Apache-2.0"
+  },
+  "knownLimitations": [
+    "51 tutorial videos contain baked-in Chinese UI",
+    "Some environmental signs remain as original artwork"
+  ]
+}
