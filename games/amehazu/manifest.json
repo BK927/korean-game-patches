@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "game": {
+    "slug": "amehazu",
+    "title": "Absent in the Rain",
+    "originalTitle": "雨にして人を外れ",
+    "koreanTitle": "비가 되어, 사람을 벗다",
+    "platform": "Windows / Steam",
+    "steamAppId": "2168610",
+    "gameVersion": "1.04",
+    "engine": "TyranoScript 5 / NW.js"
+  },
+  "patchVersion": "1.0.0",
+  "language": {
+    "code": "ko",
+    "label": "한국어",
+    "slot": "sf.trans==7",
+    "font": "Noto Serif CJK KR (게임 내장 NotoSerifCJK-Regular.ttc)"
+  },
+  "target": {
+    "root": "resources/app",
+    "fileCount": 70,
+    "replacedOriginals": 13,
+    "addedFiles": 57,
+    "representative": {
+      "relativePath": "resources/app/data/scenario/first.ks",
+      "originalSize": 6771,
+      "originalSha256": "2A2D08495D52C3D640025FFBD9143B16CD6CFA4001B4BF881586C0217C2156BA",
+      "patchedSize": 7427,
+      "patchedSha256": "2B120690387AC2E3AE56158E082AFCE9EAE2F629FB732F21F5B6D47D514242FA"
+    }
+  },
+  "payload": {
+    "manifest": "payload/files.json",
+    "delta": {
+      "format": "VCDIFF",
+      "count": 40,
+      "bytes": 4327754,
+      "note": "사용자가 보유한 정품 원본에서 재구성합니다"
+    },
+    "ownAssets": {
+      "count": 30,
+      "bytes": 65461,
+      "note": "빈 캔버스에 직접 조판한 한글 이미지입니다"
+    }
+  },
+  "distribution": {
+    "zip": "AMEHAZU_KoreanPatch_v1.0.0.zip",
+    "zipSize": 4579323,
+    "zipSha256": "519659E7C11336CA52A22058B8B1DF4230AA1743BE20ECD98A7C4C8F3346A187"
+  },
+  "tool": {
+    "name": "Xdelta",
+    "version": "3.2.0",
+    "license": "Apache-2.0"
+  },
+  "translationProgress": {
+    "uiAndMenus": "complete",
+    "speakerLabels": {
+      "done": 1132,
+      "total": 1132
+    },
+    "scriptLines": {
+      "done": 1841,
+      "total": 1841,
+      "percent": 100
+    },
+    "completedScenes": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8A",
+      "8B",
+      "9A",
+      "9B",
+      "10A",
+      "10B",
+      "EX"
+    ],
+    "remainingScenes": []
+  },
+  "knownLimitations": [
+    "OP·ED 영상은 자막이 영상에 새겨져 있어 일본어판을 그대로 사용합니다",
+    "칠판 손글씨 낙서는 원작 미술을 보존하고 이름 라벨만 덧붙였습니다",
+    "엔진이 직접 그리는 저장 슬롯 날짜 등 일부 문자열은 원래 형식을 따릅니다"
+  ],
+  "rights": {
+    "official": false,
+    "notice": "정품 보유자를 위한 비공식 팬 패치이며 개발사의 허락을 받지 않았습니다. 모든 권리는 DIORAMA에 있습니다.",
+    "takedown": "권리자의 요청이 있으면 관련 자료를 조정하거나 제거합니다."
+  }
+}
