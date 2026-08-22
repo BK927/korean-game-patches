@@ -6,7 +6,7 @@
 
 게임이 이미 지원하는 6개 언어 옆에 7번째 언어 슬롯을 새로 만드는 방식이라, 기존 언어의 동작에는 영향을 주지 않습니다.
 
-## v1.0.0 적용 범위
+## v1.0.1 적용 범위
 
 **완료**
 
@@ -33,7 +33,7 @@
 
 ## 설치 방법
 
-1. [Releases](https://github.com/BK927/korean-game-patches/releases)에서 `AMEHAZU_KoreanPatch_v1.0.0.zip`을 받습니다.
+1. [Releases](https://github.com/BK927/korean-game-patches/releases)에서 `AMEHAZU_KoreanPatch_v1.0.1.zip`을 받습니다.
 2. 원하는 폴더에 압축을 완전히 풉니다.
 3. 게임을 종료합니다.
 4. `INSTALL_KOREAN_PATCH.bat`을 실행합니다.

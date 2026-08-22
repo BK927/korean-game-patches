@@ -3,7 +3,7 @@ param(
 )
 
 $ErrorActionPreference = "Stop"
-$PatchVersion = "1.0.0"
+$PatchVersion = "1.0.1"
 $PackageRoot = Split-Path -Parent $MyInvocation.MyCommand.Path
 $PayloadRoot = Join-Path $PackageRoot "payload"
 $ManifestPath = Join-Path $PayloadRoot "files.json"

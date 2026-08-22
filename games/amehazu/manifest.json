@@ -10,7 +10,7 @@
     "gameVersion": "1.04",
     "engine": "TyranoScript 5 / NW.js"
   },
-  "patchVersion": "1.0.0",
+  "patchVersion": "1.0.1",
   "language": {
     "code": "ko",
     "label": "한국어",
@@ -35,7 +35,7 @@
     "delta": {
       "format": "VCDIFF",
       "count": 40,
-      "bytes": 4327754,
+      "bytes": 4358957,
       "note": "사용자가 보유한 정품 원본에서 재구성합니다"
     },
     "ownAssets": {
@@ -45,9 +45,9 @@
     }
   },
   "distribution": {
-    "zip": "AMEHAZU_KoreanPatch_v1.0.0.zip",
-    "zipSize": 4579323,
-    "zipSha256": "519659E7C11336CA52A22058B8B1DF4230AA1743BE20ECD98A7C4C8F3346A187"
+    "zip": "AMEHAZU_KoreanPatch_v1.0.1.zip",
+    "zipSize": 4606784,
+    "zipSha256": "BFCFC1B9AE27E6E2F208BFDA1DD356B6EA38457ABECC73C38876240444B2C04D"
   },
   "tool": {
     "name": "Xdelta",
