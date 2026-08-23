@@ -8,7 +8,7 @@ BK927이 제작한 게임 한글 패치를 장기적으로 보관하고 배포�
 
 | 게임 | 상태 | 최신 버전 | 안내 |
 | --- | --- | --- | --- |
-| T.K.PUNK (삼국 펑크) | 배포 준비 완료 | v1.0.0 | [설치 및 상세 정보](games/tkpunk/README.md) |
+| T.K.PUNK (삼국 펑크) | 배포 준비 완료 | v1.1.0 | [설치 및 상세 정보](games/tkpunk/README.md) |
 | Absent in the Rain (비가 되어, 사람을 벗다) | 번역 완료 | v1.0.1 | [설치 및 상세 정보](games/amehazu/README.md) |
 
 ## 저장소 구성

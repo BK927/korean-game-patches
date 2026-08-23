@@ -6,19 +6,20 @@
     "koreanTitle": "삼국 펑크",
     "platform": "Windows / Steam"
   },
-  "patchVersion": "1.0.0",
+  "patchVersion": "1.1.0",
+  "supportedGameBuild": "1.0.260821.1",
   "target": {
     "relativePath": "resources/app.asar",
-    "originalSize": 1265971987,
-    "originalSha256": "D6F10010E181672B1D1A444BBF500035336D3B35E6D8EE26F7A9ADAC0AB6A09A",
-    "patchedSize": 1271034403,
-    "patchedSha256": "409B7385CF54616480E6CCD9EC66C0044B420531EDF34C3B9DC35A4ABD67150B"
+    "originalSize": 1275372089,
+    "originalSha256": "6796F141A3C8CBA15D7283AD98AE121AEBB33904BA1CB2EC9D62E54B0731A536",
+    "patchedSize": 1280261190,
+    "patchedSha256": "A621837E8133ACC9455BBBA263A799B8C4D3E9D324A2DDADE9E485B5971126AC"
   },
   "delta": {
     "format": "VCDIFF",
     "file": "payload/app.asar.vcdiff",
-    "size": 10769103,
-    "sha256": "053CC7B80412325B8E886E5D9B46D1AFCD30470EE37FA0E9BA3FD5F8358BA5C1"
+    "size": 9093556,
+    "sha256": "7E36A323642AE319A235FC65811DE53F8A1B55791F61ECB93D392B7DEDC2E9B6"
   },
   "tool": {
     "name": "Xdelta",

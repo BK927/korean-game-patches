@@ -3,8 +3,11 @@ param(
 )
 
 $ErrorActionPreference = "Stop"
-$OriginalSha256 = "D6F10010E181672B1D1A444BBF500035336D3B35E6D8EE26F7A9ADAC0AB6A09A"
-$PatchedSha256 = "409B7385CF54616480E6CCD9EC66C0044B420531EDF34C3B9DC35A4ABD67150B"
+$OriginalSha256 = "6796F141A3C8CBA15D7283AD98AE121AEBB33904BA1CB2EC9D62E54B0731A536"
+$PatchedSha256 = "A621837E8133ACC9455BBBA263A799B8C4D3E9D324A2DDADE9E485B5971126AC"
+$PatchVersion = "1.1.0"
+$GameBuild = "1.0.260821.1"
+$BackupFileName = "app.asar.korean-patch-backup.$GameBuild"
 $PackageRoot = Split-Path -Parent $MyInvocation.MyCommand.Path
 $DeltaPath = Join-Path $PackageRoot "payload\app.asar.vcdiff"
 $XdeltaPath = Join-Path $PackageRoot "tools\xdelta3.exe"
@@ -68,11 +71,12 @@ try {
 
     $root = Find-GameRoot $GamePath
     $appAsar = Join-Path $root "resources\app.asar"
-    $backup = Join-Path $root "resources\app.asar.korean-patch-backup"
+    $backup = Join-Path $root "resources\$BackupFileName"
     $temporary = Join-Path $root "resources\app.asar.korean-patch-new"
     $currentHash = Get-Sha256 $appAsar
 
     Write-Host "Game folder: $root"
+    Write-Host "Supported game build: $GameBuild"
     if ($currentHash -eq $PatchedSha256) {
         Write-Host "The Korean patch is already installed."
         exit 0
@@ -113,7 +117,7 @@ try {
         throw "Final verification failed. Restore the backup before launching the game."
     }
 
-    Write-Host "Korean patch v1.0.0 installed successfully."
+    Write-Host "Korean patch v$PatchVersion installed successfully."
     Write-Host "Backup: $backup"
     exit 0
 } catch {

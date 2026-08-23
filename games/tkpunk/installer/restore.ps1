@@ -3,7 +3,10 @@ param(
 )
 
 $ErrorActionPreference = "Stop"
-$OriginalSha256 = "D6F10010E181672B1D1A444BBF500035336D3B35E6D8EE26F7A9ADAC0AB6A09A"
+$OriginalSha256 = "6796F141A3C8CBA15D7283AD98AE121AEBB33904BA1CB2EC9D62E54B0731A536"
+$PatchedSha256 = "A621837E8133ACC9455BBBA263A799B8C4D3E9D324A2DDADE9E485B5971126AC"
+$GameBuild = "1.0.260821.1"
+$BackupFileName = "app.asar.korean-patch-backup.$GameBuild"
 
 function Get-Sha256([string]$Path) {
     return (Get-FileHash -Algorithm SHA256 -LiteralPath $Path).Hash.ToUpperInvariant()
@@ -58,7 +61,7 @@ function Find-GameRoot([string]$RequestedPath) {
 try {
     $root = Find-GameRoot $GamePath
     $appAsar = Join-Path $root "resources\app.asar"
-    $backup = Join-Path $root "resources\app.asar.korean-patch-backup"
+    $backup = Join-Path $root "resources\$BackupFileName"
 
     if (-not (Test-Path -LiteralPath $backup)) {
         throw "Original backup not found: $backup"
@@ -67,9 +70,13 @@ try {
         throw "Backup SHA-256 does not match the supported original."
     }
 
-    if ((Get-Sha256 $appAsar) -eq $OriginalSha256) {
+    $currentHash = Get-Sha256 $appAsar
+    if ($currentHash -eq $OriginalSha256) {
         Write-Host "The original file is already installed."
         exit 0
+    }
+    if ($currentHash -ne $PatchedSha256) {
+        throw "The current app.asar is neither the supported original nor Korean patch v1.1.0. Current SHA-256: $currentHash"
     }
 
     Copy-Item -LiteralPath $backup -Destination $appAsar -Force
