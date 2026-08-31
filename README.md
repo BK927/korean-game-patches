@@ -15,6 +15,7 @@ BK927이 제작한 게임 한글 패치를 장기적으로 보관하고 배포�
 | Benefitship | 릴리스 후보 | v0.1.0-rc1 | [설치 및 상세 정보](games/benefitship/README.md) |
 | My succubus Kukula | 릴리스 후보 | v0.2.0-rc1 | [설치 및 상세 정보](games/my-succubus-kukula/README.md) |
 | Tiny Shadows: Interwoven Hearts | 릴리스 후보 | v0.1.0-rc1 | [설치 및 상세 정보](games/tiny-shadows-interwoven-hearts/README-KO.md) |
+| Dream Date | 릴리스 후보 | v0.1.0-rc1 | [설치 및 상세 정보](games/dream-date/README.md) |
 
 ## 저장소 구성
 
@@ -23,6 +24,7 @@ games/
 ├─ _template/       새 게임을 추가할 때 사용하는 기본 틀
 ├─ amehazu/         Absent in the Rain 한글 패치
 ├─ benefitship/     Benefitship 한글 패치
+├─ dream-date/      Dream Date 한글 패치
 ├─ my-succubus-kukula/ My succubus Kukula 한글 패치
 ├─ outsidethedoor/  outside the door 한글 패치
 ├─ surmount/        奇迹一刻 Surmount 한글 패치

@@ -1,0 +1,232 @@
+{
+  "schema": "dream-date-recovery/release-candidate/v1",
+  "status": "RELEASE_CANDIDATE",
+  "release_name": "Dream-Date-Korean-recovery-0.1.0-rc1",
+  "generated_at_utc": "2026-08-31T03:19:04Z",
+  "game": {
+    "name": "Dream Date",
+    "appid": 1256610,
+    "unity": "2020.2.5f1 Mono"
+  },
+  "distribution": {
+    "delta_only": true,
+    "complete_original_assets_in_archive": false,
+    "original_backup_files_in_archive": false,
+    "sidecars_modified": false,
+    "minimal_original_work_distribution": true,
+    "package_safety_scan": {
+      "complete_asset_files": [],
+      "original_backup_files": [],
+      "banned_font_payload_hits": [],
+      "nanum_font_present": true,
+      "safe": true
+    }
+  },
+  "target_relative_paths": [
+    "Dream Date_Data\\resources.assets",
+    "Dream Date_Data\\sharedassets0.assets",
+    "Dream Date_Data\\level2"
+  ],
+  "source_variants": {
+    "active-existing": {
+      "description": "현재 설치 파일(기존 비활성 번역 패치 포함)",
+      "source_hashes": {
+        "resources.assets": "a39e5fbc61f77334859aec77f14c6d4613ebe03b87840fbdbfde81e1d87a5b18",
+        "sharedassets0.assets": "3c739b77d45323e12c577c4754664c49ca65ba82cc99becccd02937ed6b42b64",
+        "level2": "4c2f8a27d81df1be5a52feb15d48be37edbba276f2b007223471f847bcd9763c"
+      },
+      "delta_files": {
+        "resources.assets": "delta/active-existing.resources.assets.vcdiff",
+        "sharedassets0.assets": "delta/active-existing.sharedassets0.assets.vcdiff",
+        "level2": "delta/active-existing.level2.vcdiff"
+      },
+      "delta_sha256": {
+        "resources.assets": "63a8993f0f56b80fea1d4d0410a06bcb3bab093c486db2057ea9e1f128ced579",
+        "sharedassets0.assets": "6e282ee67b45016ec707d779c13068d906806568b619d4169694dcb683225c9d",
+        "level2": "7e59d94601f92533f09d5f691c997d0e8b31fc84371beb5ec591224c8ce3b6d6"
+      },
+      "delta_bytes": {
+        "resources.assets": 7010,
+        "sharedassets0.assets": 552895,
+        "level2": 641
+      }
+    },
+    "original-clean": {
+      "description": "설치본의 .orig 원본 백업과 변경 전 level2",
+      "source_hashes": {
+        "resources.assets": "59876b0b5987c68135f4a04feb73ecb0c6da0917a21747e77d529bc3b1d135fa",
+        "sharedassets0.assets": "4126473248de6a04f6b571f819379afc9dff49565c1e5102b3aa91d16eaa275d",
+        "level2": "4c2f8a27d81df1be5a52feb15d48be37edbba276f2b007223471f847bcd9763c"
+      },
+      "delta_files": {
+        "resources.assets": "delta/original-clean.resources.assets.vcdiff",
+        "sharedassets0.assets": "delta/original-clean.sharedassets0.assets.vcdiff",
+        "level2": "delta/original-clean.level2.vcdiff"
+      },
+      "delta_sha256": {
+        "resources.assets": "838ecda90b8189e65f6718622fb90d1f928f797058ea424b5b1e61c8173f678e",
+        "sharedassets0.assets": "100f89d668a96f85ed8e20d7f0b45233c1c422b090331c1de629956e9d8f7b64",
+        "level2": "7e59d94601f92533f09d5f691c997d0e8b31fc84371beb5ec591224c8ce3b6d6"
+      },
+      "delta_bytes": {
+        "resources.assets": 59485,
+        "sharedassets0.assets": 551278,
+        "level2": 641
+      }
+    }
+  },
+  "output_assets": {
+    "resources.assets": {
+      "sha256": "46d9696160ef585e69b74bdebc1270bd61e1c46072a6886abaf893a5e9c5496c",
+      "size_bytes": 2888112
+    },
+    "sharedassets0.assets": {
+      "sha256": "b8bbbae410ddb3d2dcd93a8dd825c145702fab017a5f7e6c54bfd9a9c2196e63",
+      "size_bytes": 5253520
+    },
+    "level2": {
+      "sha256": "5d757c18431f2662060b7f0ac2cc4950fbd52fe3bc4e2e5033140a9cf4baac68",
+      "size_bytes": 255584
+    }
+  },
+  "changed_object_allowlist": {
+    "resources.assets": [
+      [
+        "MonoBehaviour",
+        3832
+      ]
+    ],
+    "sharedassets0.assets": [
+      [
+        "Font",
+        93
+      ],
+      [
+        "Font",
+        94
+      ]
+    ],
+    "level2": [
+      [
+        "MonoBehaviour",
+        764
+      ],
+      [
+        "MonoBehaviour",
+        768
+      ],
+      [
+        "MonoBehaviour",
+        776
+      ],
+      [
+        "MonoBehaviour",
+        822
+      ]
+    ]
+  },
+  "localization": {
+    "target_object": {
+      "type": "MonoBehaviour",
+      "path_id": 3832,
+      "name": "Localization_CN_Generated"
+    },
+    "source_object": {
+      "type": "MonoBehaviour",
+      "path_id": 3833,
+      "name": "Localization_EN_Generated"
+    },
+    "translated_pairs": 1274,
+    "row_count_including_header": 1275,
+    "source_target_order_preserved": true,
+    "staged_residual_cjk_rows": [],
+    "staged_control_character_rows": [],
+    "staged_token_mismatch_rows": [],
+    "profile_ui": {
+      "source": "../profile-label-stage.json",
+      "labels": [
+        {
+          "path_id": 764,
+          "game_object": "Birthday",
+          "text": "생일"
+        },
+        {
+          "path_id": 768,
+          "game_object": "Height",
+          "text": "신장"
+        },
+        {
+          "path_id": 776,
+          "game_object": "Hobby",
+          "text": "취미"
+        },
+        {
+          "path_id": 822,
+          "game_object": "Measurement",
+          "text": "치수"
+        }
+      ],
+      "allowlist_exact": true
+    }
+  },
+  "font": {
+    "file": "fonts/NanumGothic-Regular.ttf",
+    "license": "fonts/OFL.txt",
+    "notice": "fonts/LICENSE-NanumGothic.md",
+    "source_url": "https://github.com/google/fonts/tree/main/ofl/nanumgothic",
+    "sha256": "76f45ef4a6bcff344c837c95a7dcc26e017e38b5846d5ae0cdcb5b86be2e2d31",
+    "size_bytes": 2054744,
+    "license_id": "OFL-1.1",
+    "changed_font_objects": [
+      [
+        "Font",
+        93
+      ],
+      [
+        "Font",
+        94
+      ]
+    ],
+    "required_hangul_codepoints": 812,
+    "missing_required_hangul_codepoints": [],
+    "staged_font_data_matches": true
+  },
+  "install": {
+    "script": "install.ps1",
+    "requires": "xdelta3 3.x (Apache-2.0; not bundled)",
+    "xdelta3_observed_path": "resolved during build; not bundled",
+    "original_hash_gate": true,
+    "automatic_backup": true,
+    "atomic_replacement": true,
+    "rollback_on_failure": true,
+    "sidecars_untouched": true
+  },
+  "restore": {
+    "script": "restore.ps1",
+    "requires_patched_hash_gate": true,
+    "backup_hash_gate": true
+  },
+  "verification": {
+    "release_build_source": "../build-result.json",
+    "profile_label_build_source": "../profile-label-stage.json",
+    "object_allowlist_exact": true,
+    "json_and_delta_decode_round_trip": true,
+    "package_scan_safe": true,
+    "actual_runtime_qa": {
+      "source": "RUNTIME-QA.json",
+      "status": "PASS_WITH_ORIGINAL_RENDERING_ISSUE",
+      "profile_labels_verified": [
+        "신장",
+        "치수",
+        "생일",
+        "취미"
+      ],
+      "first_dialogue_verified": true
+    }
+  },
+  "archive": {
+    "file": "Dream-Date-Korean-recovery-0.1.0-rc1.zip",
+    "sha256_sidecar": "Dream-Date-Korean-recovery-0.1.0-rc1.zip.sha256",
+    "sha256_recorded_outside_archive": true
+  }
+}

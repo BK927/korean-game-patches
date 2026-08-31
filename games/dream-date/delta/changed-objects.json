@@ -1,0 +1,57 @@
+{
+  "schema": "dream-date-release/changed-objects/v1",
+  "note": "This metadata identifies the only Unity objects changed by the staged build; it contains no original dialogue.",
+  "files": {
+    "resources.assets": {
+      "output_sha256": "46d9696160ef585e69b74bdebc1270bd61e1c46072a6886abaf893a5e9c5496c",
+      "changed_objects": [
+        [
+          "MonoBehaviour",
+          3832
+        ]
+      ],
+      "localization_rows": 1274
+    },
+    "sharedassets0.assets": {
+      "output_sha256": "b8bbbae410ddb3d2dcd93a8dd825c145702fab017a5f7e6c54bfd9a9c2196e63",
+      "changed_objects": [
+        [
+          "Font",
+          93
+        ],
+        [
+          "Font",
+          94
+        ]
+      ],
+      "font": "fonts/NanumGothic-Regular.ttf"
+    },
+    "level2": {
+      "output_sha256": "5d757c18431f2662060b7f0ac2cc4950fbd52fe3bc4e2e5033140a9cf4baac68",
+      "changed_objects": [
+        [
+          "MonoBehaviour",
+          764
+        ],
+        [
+          "MonoBehaviour",
+          768
+        ],
+        [
+          "MonoBehaviour",
+          776
+        ],
+        [
+          "MonoBehaviour",
+          822
+        ]
+      ],
+      "profile_labels": [
+        "생일",
+        "신장",
+        "취미",
+        "치수"
+      ]
+    }
+  }
+}

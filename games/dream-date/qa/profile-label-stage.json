@@ -1,0 +1,127 @@
+{
+  "schema": "dream-date/profile-label-stage/v1",
+  "generated_at_utc": "2026-08-31T03:01:00Z",
+  "status": "PASS",
+  "steam_game_modified": false,
+  "source": {
+    "path": "D:\\SteamLibrary\\steamapps\\common\\Dream Date\\Dream Date_Data\\level2",
+    "sha256": "4c2f8a27d81df1be5a52feb15d48be37edbba276f2b007223471f847bcd9763c",
+    "size_bytes": 255580
+  },
+  "output": {
+    "path": "C:\\Users\\dead4\\Documents\\Codex\\2026-08-16\\d-steamlibrary-steamapps-common-tkpunk-ui\\library-audit\\work\\dream-date-recovery-build\\staging\\Dream Date_Data\\level2",
+    "sha256": "5d757c18431f2662060b7f0ac2cc4950fbd52fe3bc4e2e5033140a9cf4baac68",
+    "size_bytes": 255584
+  },
+  "baseline": "C:\\Users\\dead4\\Documents\\Codex\\2026-08-16\\d-steamlibrary-steamapps-common-tkpunk-ui\\library-audit\\work\\dream-date-recovery-build\\baseline\\Dream Date_Data\\level2",
+  "runtime_stage_updated": true,
+  "changes": [
+    {
+      "type": "MonoBehaviour",
+      "path_id": 764,
+      "game_object": "Birthday",
+      "old": "生日",
+      "new": "생일",
+      "raw_bytes": 156,
+      "fixed_size": true
+    },
+    {
+      "type": "MonoBehaviour",
+      "path_id": 768,
+      "game_object": "Height",
+      "old": "身高",
+      "new": "신장",
+      "raw_bytes": 156,
+      "fixed_size": true
+    },
+    {
+      "type": "MonoBehaviour",
+      "path_id": 776,
+      "game_object": "Hobby",
+      "old": "爱好",
+      "new": "취미",
+      "raw_bytes": 156,
+      "fixed_size": true
+    },
+    {
+      "type": "MonoBehaviour",
+      "path_id": 822,
+      "game_object": "Measurement",
+      "old": "三围",
+      "new": "치수",
+      "raw_bytes": 156,
+      "fixed_size": true
+    }
+  ],
+  "verification": {
+    "class_counts_unchanged": true,
+    "object_identity_set_unchanged": true,
+    "changed_object_allowlist": [
+      [
+        "MonoBehaviour",
+        764
+      ],
+      [
+        "MonoBehaviour",
+        768
+      ],
+      [
+        "MonoBehaviour",
+        776
+      ],
+      [
+        "MonoBehaviour",
+        822
+      ]
+    ],
+    "expected_changed_object_allowlist": [
+      [
+        "MonoBehaviour",
+        764
+      ],
+      [
+        "MonoBehaviour",
+        768
+      ],
+      [
+        "MonoBehaviour",
+        776
+      ],
+      [
+        "MonoBehaviour",
+        822
+      ]
+    ],
+    "allowlist_exact": true,
+    "labels": [
+      {
+        "path_id": 764,
+        "game_object": "Birthday",
+        "new": "생일",
+        "payload_present": true,
+        "old_payload_absent": true
+      },
+      {
+        "path_id": 768,
+        "game_object": "Height",
+        "new": "신장",
+        "payload_present": true,
+        "old_payload_absent": true
+      },
+      {
+        "path_id": 776,
+        "game_object": "Hobby",
+        "new": "취미",
+        "payload_present": true,
+        "old_payload_absent": true
+      },
+      {
+        "path_id": 822,
+        "game_object": "Measurement",
+        "new": "치수",
+        "payload_present": true,
+        "old_payload_absent": true
+      }
+    ]
+  }
+}

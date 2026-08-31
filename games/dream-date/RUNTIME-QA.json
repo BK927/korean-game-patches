@@ -1,0 +1,32 @@
+{
+  "schema": "dream-date-recovery/runtime-qa/v1",
+  "observed_at_local": "2026-08-31T12:15:44+09:00",
+  "status": "PASS_WITH_ORIGINAL_RENDERING_ISSUE",
+  "release_version": "0.1.0-rc1",
+  "game_build": "Steam / Unity 2020.2.5f1 Mono",
+  "observations": {
+    "main_menu_korean": true,
+    "profile_labels": ["신장", "치수", "생일", "취미"],
+    "profile_labels_render_cleanly": true,
+    "first_map_dialogue": "이게 대학교",
+    "first_map_dialogue_render_cleanly": true,
+    "tofu_or_broken_utf8_observed": false
+  },
+  "pink_map_panel_comparison": {
+    "patched_state_observed": true,
+    "source_state_observed": true,
+    "same_position_size_and_shape": true,
+    "introduced_by_patch": false,
+    "static_texture_sprite_payloads_match_orig": true
+  },
+  "final_install": {
+    "state": "patched",
+    "verification_pass": true,
+    "backup_root": "D:\\SteamLibrary\\steamapps\\common\\Dream Date\\.codex-dream-date-release-backup-20260831-121544",
+    "sha256": {
+      "resources.assets": "46d9696160ef585e69b74bdebc1270bd61e1c46072a6886abaf893a5e9c5496c",
+      "sharedassets0.assets": "b8bbbae410ddb3d2dcd93a8dd825c145702fab017a5f7e6c54bfd9a9c2196e63",
+      "level2": "5d757c18431f2662060b7f0ac2cc4950fbd52fe3bc4e2e5033140a9cf4baac68"
+    }
+  }
+}
