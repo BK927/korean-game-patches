@@ -1,0 +1,1 @@
+This is an unofficial Korean localization delta. It contains no complete original game asset. A legally installed copy of Swaying Girl is required. xdelta3 is not bundled. Do not redistribute the original game files or a prepatched full asset.

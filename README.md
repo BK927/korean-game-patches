@@ -16,6 +16,7 @@ BK927이 제작한 게임 한글 패치를 장기적으로 보관하고 배포�
 | My succubus Kukula | 릴리스 후보 | v0.2.0-rc1 | [설치 및 상세 정보](games/my-succubus-kukula/README.md) |
 | Tiny Shadows: Interwoven Hearts | 릴리스 후보 | v0.1.0-rc1 | [설치 및 상세 정보](games/tiny-shadows-interwoven-hearts/README-KO.md) |
 | Dream Date | 릴리스 후보 | v0.1.0-rc1 | [설치 및 상세 정보](games/dream-date/README.md) |
+| Swaying Girl | 릴리스 후보 | v0.1.0-rc1 | [설치 및 상세 정보](games/swaying-girl/README.md) |
 
 ## 저장소 구성
 
@@ -28,6 +29,7 @@ games/
 ├─ my-succubus-kukula/ My succubus Kukula 한글 패치
 ├─ outsidethedoor/  outside the door 한글 패치
 ├─ surmount/        奇迹一刻 Surmount 한글 패치
+├─ swaying-girl/    Swaying Girl 한국어 복구 패치
 ├─ tiny-shadows-interwoven-hearts/ Tiny Shadows 한글 패치
 └─ tkpunk/          T.K.PUNK 한글 패치
    ├─ assets/       소개용 이미지

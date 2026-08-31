@@ -1,0 +1,29 @@
+{
+  "schema": "bk927.swaying-girl-runtime-qa/v1",
+  "status": "PASS",
+  "checked_at_utc": "2026-08-31T03:40:51.6579587Z",
+  "game_root": "D:\\SteamLibrary\\steamapps\\common\\Swaying Girl",
+  "installed_source_variant": "previous-korean-patch",
+  "checks": {
+    "main_menu_adult_notice": "PASS",
+    "help_overlay": "PASS",
+    "first_narration": "PASS",
+    "first_dialogue": "PASS",
+    "first_choice_list": "PASS",
+    "hangul_glyph_rendering": "PASS",
+    "visible_cjk_residual": "PASS",
+    "visible_tofu_glyphs": "PASS",
+    "visible_text_clipping": "PASS"
+  },
+  "observed_korean": [
+    "모든 등장인물은 18세 이상입니다",
+    "도움말",
+    "나는 19살 대학교 1학년이다.",
+    "나: 자기야, 나 오늘 수액 맞고 왔어.",
+    "말할 내용을 고르세요(Backspace: 질문 건너뛰기):"
+  ],
+  "scope_limit": "메인 화면과 첫 번째 루트의 도입부/첫 선택지까지 확인한 스모크 테스트이며 전체 엔딩과 자유 모드는 포함하지 않음",
+  "game_closed_after_qa": true
+}
+
+

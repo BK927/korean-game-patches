@@ -1,0 +1,73 @@
+{
+  "schema": "bk927.swaying-girl-korean-recovery/v1",
+  "game": "Swaying Girl",
+  "appid": 1393350,
+  "buildid": "12343356",
+  "version": "0.1.0-rc1",
+  "status": "RELEASE_CANDIDATE",
+  "language": "ko-KR",
+  "engine": "Unity 2019.2.5f1 Mono",
+  "delta_only": true,
+  "requires": "xdelta3 3.x (Apache-2.0; not bundled)",
+  "source_variants": {
+    "original-clean": {
+      "source_hashes": {
+        "sharedassets1.assets": "66A51AB43A1CE66B5670CC5D0BAEB6D2DCEABE8EE7D4F1BAA32636E6FCB92136",
+        "level1": "239BC3F4D8D003B4931CD547C90B97E31DD177E151AED7C50CD7A2355463B658"
+      },
+      "delta_files": {
+        "sharedassets1.assets": "delta/original-clean.sharedassets1.assets.vcdiff",
+        "level1": "delta/original-clean.level1.vcdiff"
+      },
+      "delta_sha256": {
+        "sharedassets1.assets": "C3C1A63B47D9D7347E80E3142F80DB5A733F818AA3AFB3CD2BABCFDC549CB874",
+        "level1": "CBB6BDF4A86CA3743E77A0023D615A683CE3D9820245E4AC6276C0A52BF760F2"
+      },
+      "delta_bytes": {
+        "sharedassets1.assets": 4451,
+        "level1": 4926
+      }
+    },
+    "previous-korean-patch": {
+      "source_hashes": {
+        "sharedassets1.assets": "544042FCC9B824E7E593FBA5E7F75376D8F18AE6498107313D651FF373412220",
+        "level1": "EB93A3AA1E3A516C6CA9C8DAA1019EE4D9CFA75652852C8E9DB61DFB837DF738"
+      },
+      "delta_files": {
+        "sharedassets1.assets": "delta/previous-korean-patch.sharedassets1.assets.vcdiff",
+        "level1": "delta/previous-korean-patch.level1.vcdiff"
+      },
+      "delta_sha256": {
+        "sharedassets1.assets": "9E87D7990F0DEDF53D3A1A32E15D3C4E0DFD5EA83085C73AF386C3FE1BAB60E5",
+        "level1": "5D62114FC022A18EF341AD2D81D84799BE3EA3F5DD37311A29D118C73A6B1804"
+      },
+      "delta_bytes": {
+        "sharedassets1.assets": 964,
+        "level1": 4429
+      }
+    }
+  },
+  "output_assets": {
+    "sharedassets1.assets": {
+      "relative_path": "SwayingGirl_Data/sharedassets1.assets",
+      "sha256": "D53C779F82E7CDE163D787C767E714D4FA0CDCD531A2619BFB29C7760EE54264",
+      "bytes": 331696
+    },
+    "level1": {
+      "relative_path": "SwayingGirl_Data/level1",
+      "sha256": "B13FF2975C20538C8798C5623BA8DACCF3148111E75878058DE0B602B93F68F6",
+      "bytes": 568264
+    }
+  },
+  "translation": {
+    "text_assets": 2,
+    "ui_objects": 26,
+    "ui_strings": 31,
+    "manual_source_review": "complete"
+  },
+  "qa": {
+    "static": "PASS",
+    "delta_round_trip": "PASS",
+    "runtime": "PASS"
+  }
+}
