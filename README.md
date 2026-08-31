@@ -17,6 +17,7 @@ BK927이 제작한 게임 한글 패치를 장기적으로 보관하고 배포�
 | Tiny Shadows: Interwoven Hearts | 릴리스 후보 | v0.1.0-rc1 | [설치 및 상세 정보](games/tiny-shadows-interwoven-hearts/README-KO.md) |
 | Dream Date | 릴리스 후보 | v0.1.0-rc1 | [설치 및 상세 정보](games/dream-date/README.md) |
 | Swaying Girl | 릴리스 후보 | v0.1.0-rc1 | [설치 및 상세 정보](games/swaying-girl/README.md) |
+| Misha's incident | 릴리스 후보 | v0.1.0-rc1 | [설치 및 상세 정보](games/mishas-incident/README.md) |
 
 ## 저장소 구성
 
@@ -27,6 +28,7 @@ games/
 ├─ benefitship/     Benefitship 한글 패치
 ├─ dream-date/      Dream Date 한글 패치
 ├─ my-succubus-kukula/ My succubus Kukula 한글 패치
+├─ mishas-incident/ Misha's incident 한국어 품질 복구 패치
 ├─ outsidethedoor/  outside the door 한글 패치
 ├─ surmount/        奇迹一刻 Surmount 한글 패치
 ├─ swaying-girl/    Swaying Girl 한국어 복구 패치

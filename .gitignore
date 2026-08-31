@@ -3,3 +3,5 @@ dist/
 *.vcdiff
 *.asar
 *.tmp
+__pycache__/
+*.pyc

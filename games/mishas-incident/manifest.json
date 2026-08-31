@@ -1,0 +1,30 @@
+{
+  "schema": "bk927.korean-game-patch/v1",
+  "game": "Misha's incident",
+  "slug": "mishas-incident",
+  "version": "0.1.0-rc1",
+  "steam": {
+    "appid": 2723520,
+    "buildid": "13860399"
+  },
+  "engine": "RPG Maker MV / NW.js",
+  "payload": {
+    "format": "mishas-incident-field-patch-v1",
+    "path": "payload/translations.json",
+    "sha256": "4FADAD3463B11E8CF5F3C52038E701377E745D842E26093CEF0C0204495865CF",
+    "bytes": 1767970,
+    "files": 78,
+    "operations": 6193,
+    "uniqueTargets": 3797,
+    "acceptedPreviousAliases": 1280
+  },
+  "translationQa": {
+    "reviewedUnits": 3829,
+    "corrections": 800,
+    "priorityP1": 160,
+    "priorityP2": 640,
+    "status": "PASS"
+  },
+  "runtimeQa": "PASS",
+  "sourcePolicy": "No original game files; source and previous strings are represented only by SHA-256."
+}

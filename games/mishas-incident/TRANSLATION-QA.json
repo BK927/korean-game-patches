@@ -1,0 +1,42 @@
+{
+  "schema": "bk927.mishas-incident-translation-qa/v1",
+  "status": "PASS",
+  "reviewedUnits": 3829,
+  "corrections": 800,
+  "priorityCounts": {
+    "P1": 160,
+    "P2": 640
+  },
+  "changedPaths": 1136,
+  "payloadFiles": 78,
+  "payloadOperations": 6193,
+  "automatedIssues": {
+    "duplicateIds": 0,
+    "unknownIds": 0,
+    "emptyTargets": 0,
+    "protectedTokenMismatches": 0,
+    "placeholderMismatches": 0,
+    "newlineMismatches": 0,
+    "residualCjk": 0
+  },
+  "roundTrips": {
+    "cleanInstallVerifyRestore": "PASS",
+    "previousPatchUpgradeVerifyRestore": "PASS",
+    "powershellDesktop": "PASS",
+    "powershellCore": "PASS"
+  },
+  "runtime": {
+    "status": "PASS",
+    "checked": [
+      "Korean window title",
+      "main menu",
+      "new game opening dialogue",
+      "Hangul font rendering",
+      "dialogue line wrapping"
+    ],
+    "notCovered": [
+      "all branches",
+      "all endings"
+    ]
+  }
+}
