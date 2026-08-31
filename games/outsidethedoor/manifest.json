@@ -1,0 +1,107 @@
+{
+  "schema": "bk927.outsidethedoor-release-package/v1",
+  "packageVersion": "0.1.0-rc1",
+  "status": "STAGING_ONLY",
+  "game": "OutsideTheDoor",
+  "steamAppId": 2680680,
+  "languageSlot": "english",
+  "baseProposalManifestSha256": "1691b97c2b519f682d5ec6b1f68d05649a2fc2560469bcdd566c5d125037ec66",
+  "contextResolutionSha256": "8404f85c845bbf14f60b74181d47ca44f01e789a99fb0c97f7d210c19ac1dd21",
+  "sourceBindings": {
+    "game/tl/english/common.rpy": {
+      "size": 23305,
+      "sha256": "40b38a8d711aeae6ae1d49660c201f0b49a96127c0c86f005722e6e1ec3c0b76"
+    },
+    "game/tl/english/image.rpy": {
+      "size": 543,
+      "sha256": "1fe34be20450910940471690dbb11ed116c659c7c80a3a34f4f2aeb9b076ccfa"
+    },
+    "game/tl/english/kinetic_text_tags.rpy": {
+      "size": 160,
+      "sha256": "2a9dc5f8fcf891a2e2f276f06b8704698318ba158111a01011db951aba93fa80"
+    },
+    "game/tl/english/options.rpy": {
+      "size": 287,
+      "sha256": "ade1d7ea132818ee14f265160e60e99c3cb26fec4747eed9e8ca3be450fb7c97"
+    },
+    "game/tl/english/screens.rpy": {
+      "size": 5826,
+      "sha256": "3340855f697bc45d534b3e3eb5f18853180a67fc2d2beff3d61dd70b41e5df94"
+    },
+    "game/tl/english/script.rpy": {
+      "size": 260813,
+      "sha256": "a6980aafd6a335e3b65e58203efe3bc158998235c8a6145fcfa5f9e8e875cea7"
+    }
+  },
+  "payloadFiles": [
+    {
+      "relativePath": "game/tl/english/common.rpy",
+      "payloadGroup": "base",
+      "size": 23945,
+      "sha256": "1e60d0b43292ccb1c6b8aff5bc6b8d7ec2bad712a08815184b41727155d7d325",
+      "operation": "replace"
+    },
+    {
+      "relativePath": "game/tl/english/image.rpy",
+      "payloadGroup": "base",
+      "size": 546,
+      "sha256": "5d88b6a0c8b9d99564ab9cb3fef5eda167107f92afb656827b1f24fb389a7f67",
+      "operation": "replace"
+    },
+    {
+      "relativePath": "game/tl/english/kinetic_text_tags.rpy",
+      "payloadGroup": "base",
+      "size": 160,
+      "sha256": "2a9dc5f8fcf891a2e2f276f06b8704698318ba158111a01011db951aba93fa80",
+      "operation": "replace"
+    },
+    {
+      "relativePath": "game/tl/english/options.rpy",
+      "payloadGroup": "base",
+      "size": 287,
+      "sha256": "ade1d7ea132818ee14f265160e60e99c3cb26fec4747eed9e8ca3be450fb7c97",
+      "operation": "replace"
+    },
+    {
+      "relativePath": "game/tl/english/screens.rpy",
+      "payloadGroup": "base",
+      "size": 5831,
+      "sha256": "872da2581e411e52286f13adb5b65e467318b5fea8f348d484f74c376d94b51e",
+      "operation": "replace"
+    },
+    {
+      "relativePath": "game/tl/english/script.rpy",
+      "payloadGroup": "base",
+      "size": 260842,
+      "sha256": "8714e13003c33d86b79d0e92932513f203c79bf710a2092847d305359e9c7b56",
+      "operation": "replace"
+    },
+    {
+      "relativePath": "game/zz_korean_image_caption_overlay.rpy",
+      "payloadGroup": "base",
+      "size": 21227,
+      "sha256": "a67866dc8cfa8b27c00c51aa61b04521fb772d57f98056ed2239748f8d151fba",
+      "operation": "add"
+    },
+    {
+      "relativePath": "game/zz_korean_context_resolution.rpy",
+      "payloadGroup": "delta",
+      "size": 561,
+      "sha256": "f731171a3f4870093998be8727a360e79e7eea7d57558abdeb1401a03dd792a8",
+      "operation": "add"
+    }
+  ],
+  "counts": {
+    "replaceFiles": 6,
+    "addFiles": 2,
+    "payloadFiles": 8,
+    "effectiveRepairActions": 319,
+    "remainingContextNeeded": 0
+  },
+  "releaseBlockers": [
+    "END_TO_END_ROUTE_TRAVERSAL_NOT_RUN",
+    "STEAM_CLIENT_UPDATE_NOT_RUN",
+    "LEGAL_REVIEW_NOT_FINAL",
+    "GITHUB_PUBLICATION_NOT_RUN"
+  ]
+}
