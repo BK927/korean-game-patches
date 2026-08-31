@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "game": {
+    "slug": "benefitship",
+    "title": "Benefitship",
+    "koreanTitle": "베네핏십",
+    "platform": "Windows / Steam",
+    "steamAppId": "2404000",
+    "gameVersion": "1.2.3",
+    "steamBuildId": "21409340",
+    "engine": "Ren'Py 8.5.0.25111603"
+  },
+  "patchVersion": "0.1.0-rc1",
+  "language": {
+    "code": "ko",
+    "label": "한국어",
+    "slot": "korean",
+    "font": "Noto Sans CJK KR"
+  },
+  "translationProgress": {
+    "dialogueBlocks": {
+      "done": 1569,
+      "total": 1569,
+      "percent": 100
+    },
+    "uiSettingsCreditsStrings": 102,
+    "sourceAlignment": "complete",
+    "linguisticQa": "pass",
+    "manualCorrectionEntries": 69,
+    "manualCorrectionPaths": 102
+  },
+  "target": {
+    "modifiedSourceFiles": 2,
+    "addedTranslationFiles": 5,
+    "addedFontFiles": 2,
+    "supportedSourceBindings": "installer/package-manifest.json"
+  },
+  "distribution": {
+    "format": "line transformations plus translation scripts and OFL fonts",
+    "zip": "Benefitship-Korean-Patch-0.1.0-rc1.zip",
+    "zipSize": 28034138,
+    "zipSha256": "251B2B9353B1ADAB301FB2EA8B5B539E4AAB140FA84AB24CCB560A242D9F2FBF"
+  },
+  "verification": {
+    "cleanInstall": "pass",
+    "verify": "pass",
+    "repeatInstall": "pass",
+    "restore": "pass",
+    "priorPatchUpgrade": "pass",
+    "runtimeCompilation": "pass",
+    "fullRoutePlaythrough": "not-complete"
+  },
+  "knownLimitations": [
+    "모든 분기를 처음부터 엔딩까지 연속으로 플레이하는 전 경로 검증은 아직 끝나지 않았습니다.",
+    "한국어 전용 로고는 만들지 않았으며 공식 기본 로고를 사용합니다."
+  ],
+  "rights": {
+    "official": false,
+    "notice": "정품 보유자를 위한 비공식 팬 패치이며 개발사의 허락을 받지 않았습니다.",
+    "takedown": "권리자의 요청이 있으면 관련 자료를 조정하거나 제거합니다."
+  }
+}

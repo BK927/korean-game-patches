@@ -1,0 +1,242 @@
+{
+  "schema": "bk927.benefitship-release-package/v1",
+  "packageVersion": "0.1.0-rc1",
+  "status": "RELEASE_CANDIDATE",
+  "game": "Benefitship",
+  "steamAppId": 2404000,
+  "supportedBuildId": "21409340",
+  "languageSlot": "korean",
+  "textPatches": [
+    {
+      "relativePath": "game/screens.rpy",
+      "sourceBindings": [
+        {
+          "label": "Steam build 21409340",
+          "size": 71149,
+          "sha256": "89fde0e3630757cc542a0c381e99eb18570b660684cfab3ded408f27d6d60a5e"
+        }
+      ],
+      "patched": {
+        "size": 71519,
+        "sha256": "d62db6e594af2553363cb265a50aa4509325eb4764e6423966c59b02c7f6dfd7"
+      },
+      "acceptedPatchedBindings": [
+        {
+          "label": "pre-QA mixed-line-ending patch",
+          "size": 71509,
+          "sha256": "49cf62ba917f6ffbc112dd6a05d4ab478b6e79c8d7099654d264b977e1d51a4e"
+        }
+      ],
+      "derivedPaths": [
+        "game/screens.rpyc"
+      ],
+      "replacements": [
+        {
+          "oldLines": [
+            "        add \"gui/logo_[_preferences.language].png\":"
+          ],
+          "newLines": [
+            "        add ConditionSwitch(",
+            "            \"renpy.loadable('gui/logo_' + str(_preferences.language) + '.png')\", \"gui/logo_[_preferences.language].png\",",
+            "            \"True\", \"gui/logo_None.png\"",
+            "        ):"
+          ]
+        },
+        {
+          "oldLines": [
+            "        add \"gui/logo_[_preferences.language].png\" at main_menu_logo_fade:"
+          ],
+          "newLines": [
+            "        add ConditionSwitch(",
+            "            \"renpy.loadable('gui/logo_' + str(_preferences.language) + '.png')\", \"gui/logo_[_preferences.language].png\",",
+            "            \"True\", \"gui/logo_None.png\"",
+            "        ) at main_menu_logo_fade:"
+          ]
+        },
+        {
+          "oldLines": [
+            "            vbox:",
+            "                style_prefix \"radio\"",
+            "                label _(\"Text Language\"):",
+            "                    top_margin 0",
+            "                textbutton _(\"English (Original)\") action Language(None)",
+            "                textbutton \"日本語\" action Language(\"japanese\")",
+            "",
+            "            vbox:",
+            "                style_prefix \"radio\"",
+            "                label _(\"Voice Language\"):"
+          ],
+          "newLines": [
+            "            vbox:",
+            "                style_prefix \"radio\"",
+            "                label _(\"Text Language\"):",
+            "                    top_margin 0",
+            "                textbutton _(\"English (Original)\") action Language(None)",
+            "                textbutton \"日本語\" action Language(\"japanese\")",
+            "                textbutton \"한국어\" action Language(\"korean\")",
+            "",
+            "            vbox:",
+            "                style_prefix \"radio\"",
+            "                label _(\"Voice Language\"):"
+          ]
+        }
+      ]
+    },
+    {
+      "relativePath": "game/credits.rpy",
+      "sourceBindings": [
+        {
+          "label": "Steam build 21409340",
+          "size": 2455,
+          "sha256": "219d25f6b2b1f268f02ed49c1da63db6124f04973f072a06fe0750091c0b7e44"
+        }
+      ],
+      "patched": {
+        "size": 2676,
+        "sha256": "2bbf2f35967966db469b0963107f73a25f2fcc06ac9160211373564b185228f8"
+      },
+      "acceptedPatchedBindings": [
+        {
+          "label": "pre-QA mixed-line-ending patch",
+          "size": 2666,
+          "sha256": "7680287f275085a77cf5b796bfc375fe77fbbc8c8b3230c814928b23c3e0c2a9"
+        }
+      ],
+      "derivedPaths": [
+        "game/credits.rpyc"
+      ],
+      "replacements": [
+        {
+          "oldLines": [
+            "    show image \"gui/logo_[_preferences.language].png\":",
+            "        align [0.5, 0.5]",
+            "        size [512, 269 * (512 / 1225)]"
+          ],
+          "newLines": [
+            "    $ benefitship_credit_logo = \"gui/logo_{}.png\".format(_preferences.language)",
+            "    if not renpy.loadable(benefitship_credit_logo):",
+            "        $ benefitship_credit_logo = \"gui/logo_None.png\"",
+            "",
+            "    show expression benefitship_credit_logo as benefitship_logo:",
+            "        align [0.5, 0.5]",
+            "        size [512, 269 * (512 / 1225)]"
+          ]
+        },
+        {
+          "oldLines": [
+            "    call credit_text(\"Illustrated by Sulcate\") from _call_credit_text",
+            "    call credit_text(\"Voice cast:\\nBaku Satsu (Amy)\\nGina Galore (Chloe)\") from _call_credit_text_1",
+            "    call credit_text(\"Voice cast (Japanese):\\nNISHIURI  SUIKA 「西瓜すいか」 (Amy)\\nIINO KANA 「飯野かな」 (Chloe)\") from _call_credit_text_4",
+            "    call credit_text(\"Localization (Japanese):\\nMediBang Inc.\") from _call_credit_text_5 ",
+            "    call credit_text(\"Created by MadCreativity\") from _call_credit_text_2",
+            "    call credit_text(\"Patreons:\\nNemo, Zetsubouka, Nikolai, AceRen\") from _call_credit_text_3"
+          ],
+          "newLines": [
+            "    call credit_text(_(\"Illustrated by Sulcate\")) from _call_credit_text",
+            "    call credit_text(_(\"Voice cast:\\nBaku Satsu (Amy)\\nGina Galore (Chloe)\")) from _call_credit_text_1",
+            "    call credit_text(_(\"Voice cast (Japanese):\\nNISHIURI  SUIKA 「西瓜すいか」 (Amy)\\nIINO KANA 「飯野かな」 (Chloe)\")) from _call_credit_text_4",
+            "    call credit_text(_(\"Localization (Japanese):\\nMediBang Inc.\")) from _call_credit_text_5 ",
+            "    call credit_text(_(\"Created by MadCreativity\")) from _call_credit_text_2",
+            "    call credit_text(_(\"Patreons:\\nNemo, Zetsubouka, Nikolai, AceRen\")) from _call_credit_text_3"
+          ]
+        }
+      ]
+    }
+  ],
+  "payloadFiles": [
+    {
+      "relativePath": "game/gui/fonts/NotoSansKR-Bold.otf",
+      "size": 16997996,
+      "sha256": "26d0c6748500a0444844280b308f5b62c7ae92ac6c6ac88148e502dd211eb52a",
+      "acceptedExistingBindings": [],
+      "derivedPaths": []
+    },
+    {
+      "relativePath": "game/gui/fonts/NotoSansKR-Regular.otf",
+      "size": 16433112,
+      "sha256": "6bcb2a0703aa137e874fc2dffa85f6c21ba9a67fa329e81b8c801663af7e992a",
+      "acceptedExistingBindings": [],
+      "derivedPaths": []
+    },
+    {
+      "relativePath": "game/tl/korean/common.rpy",
+      "size": 748,
+      "sha256": "1c1d2f4dba627cf1007de93677c63cd0d126aa91476257803a95fd7f785cb0f1",
+      "acceptedExistingBindings": [
+        {
+          "label": "pre-QA release candidate",
+          "size": 769,
+          "sha256": "ba27932254a100d1f5d8e5c9981abc25c0c0c40c64a7120d760e61b337b7c35c"
+        }
+      ],
+      "derivedPaths": [
+        "game/tl/korean/common.rpyc"
+      ]
+    },
+    {
+      "relativePath": "game/tl/korean/credits.rpy",
+      "size": 811,
+      "sha256": "9e18813197dba9f742c25fd25625a9a5f455a2bd51f67aa48c2542a1ee99156c",
+      "acceptedExistingBindings": [
+        {
+          "label": "pre-QA release candidate",
+          "size": 832,
+          "sha256": "a592266bc9d3cfc846974489e1a4dfb58d43fbadb6503ed1f752afc99cf6efa3"
+        }
+      ],
+      "derivedPaths": [
+        "game/tl/korean/credits.rpyc"
+      ]
+    },
+    {
+      "relativePath": "game/tl/korean/options.rpy",
+      "size": 6538,
+      "sha256": "ca4c332d326397305d04da892f3aceebf1bf86e26ae917224e3ebbd52167cc95",
+      "acceptedExistingBindings": [
+        {
+          "label": "pre-QA release candidate",
+          "size": 2489,
+          "sha256": "c3fba2c8a705ccc2a0f3ba30bf4c8f740c045cccd97a49c84f828f16411d4d3c"
+        },
+        {
+          "label": "unfinished v1.1 patch",
+          "size": 2330,
+          "sha256": "c0a8efcf54203f9dd06c47f1134fc8cd95c90af70bff621cdf5f1fea258fc9c2"
+        }
+      ],
+      "derivedPaths": [
+        "game/tl/korean/options.rpyc"
+      ]
+    },
+    {
+      "relativePath": "game/tl/korean/screens.rpy",
+      "size": 5183,
+      "sha256": "edf28e19ddba49d1f70faa45a265e46fa57a12fe707faca604d203e85b680af1",
+      "acceptedExistingBindings": [
+        {
+          "label": "pre-QA release candidate",
+          "size": 5453,
+          "sha256": "19793d9b69b62c2322e98dd220a80cfcd8f743c13fb7d47093b179a5ac2d7c7a"
+        }
+      ],
+      "derivedPaths": [
+        "game/tl/korean/screens.rpyc"
+      ]
+    },
+    {
+      "relativePath": "game/tl/korean/script.rpy",
+      "size": 268229,
+      "sha256": "cd6954947bfa150c8cb6a4cd5ca58f556ea4fd519fc07fb0a4cdec1ad42068dc",
+      "acceptedExistingBindings": [
+        {
+          "label": "pre-QA release candidate",
+          "size": 495924,
+          "sha256": "0c2a45d2ebe96a5c89b916e9961d5ece12b69936905149e776acd5aff46f8a6f"
+        }
+      ],
+      "derivedPaths": [
+        "game/tl/korean/script.rpyc"
+      ]
+    }
+  ]
+}
