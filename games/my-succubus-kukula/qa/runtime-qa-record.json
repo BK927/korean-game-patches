@@ -1,0 +1,50 @@
+{
+  "status": "PARTIAL_BLOCKED",
+  "checked_at_local": "2026-08-31T11:41:46+09:00",
+  "game": {
+    "appid": 2848420,
+    "name": "My succubus Kukula",
+    "engine": "NW.js",
+    "install_root": "D:\\SteamLibrary\\steamapps\\common\\KUKULA"
+  },
+  "computer_use": {
+    "direct_exe": {
+      "attempted": true,
+      "window": "KUKULA - NW.js",
+      "renderer_reached": true,
+      "visible_text": "please run steam !",
+      "visible_korean_button": "확인",
+      "tofu_or_square_glyphs_observed": false,
+      "title_menu_reached": false,
+      "language_selector_reached": false,
+      "settings_reached": false,
+      "first_dialogue_reached": false
+    },
+    "steam_context": {
+      "steam_running": true,
+      "attempts": [
+        "steam.exe -applaunch 2848420",
+        "steam://run/2848420",
+        "steam://rungameid/2848420"
+      ],
+      "kukula_window_observed": false
+    },
+    "input_recovery": {
+      "reobserved_after_failures": true,
+      "further_coordinate_or_index_input_stopped": true,
+      "reason": "The modal click and Steam search input did not return a known refreshed state."
+    }
+  },
+  "log_snapshot": {
+    "path": "runtime-evidence/debug.log.snapshot.txt",
+    "source": "D:\\SteamLibrary\\steamapps\\common\\KUKULA\\debug.log",
+    "text": "[1230/222459.426:ERROR:settings.cc(263)] Settings version is not 1"
+  },
+  "evidence": {
+    "screen_observation": "runtime-evidence/direct-launch-screen-observation.md",
+    "screenshots_displayed_by_computer_use": true,
+    "screenshot_binary_persisted": false,
+    "screenshot_persistence_note": "Computer Use guidance prohibits decoding or persisting screenshot payloads solely for inspection; durable text metadata is retained instead."
+  },
+  "conclusion": "Patch renderer and Korean UI field are partially confirmed, but Steam API context prevented menu/language/first-dialogue runtime QA. No further UI input was attempted."
+}

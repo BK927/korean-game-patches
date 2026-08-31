@@ -1,0 +1,107 @@
+{
+  "format": "codex-kukula-publish-ready-v1",
+  "package_version": "0.2.0-rc1",
+  "generated_local": "2026-08-31T11:49:32.984007+09:00",
+  "game": {
+    "appid": 2848420,
+    "name": "My succubus Kukula",
+    "install_dir": "KUKULA",
+    "engine": "NW.js",
+    "game_root": "D:\\SteamLibrary\\steamapps\\common\\KUKULA"
+  },
+  "contains_original_full_assets": false,
+  "payload_scope": "translation field patch, helper scripts, glossary, QA, and documentation only",
+  "targets": [
+    {
+      "path": "asset/language/한국어.json",
+      "base_sha256": "CD58002A9955E14F991801B6872DC41309821792D9FFC35E947A793EC4E7468F",
+      "result_sha256": "8339E4B19F6017F67C6C2600953949C5117293A430D1B61C626BF8C044A7A6DC",
+      "operations": 91
+    },
+    {
+      "path": "script.js",
+      "base_sha256": "A1A0D1C216B84DCA739381BC8DA54DB1EFE2B258B79A2C9C0C00F1123219C352",
+      "result_sha256": "955D541F32307F60FA98F0F0F9880E43637B9F6422DD09AB802E69AA87DC2EBB",
+      "operations": 16,
+      "result_map_count": 330
+    }
+  ],
+  "qa": {
+    "static_applied_patch": "PASS",
+    "runtime_gui": "PARTIAL_BLOCKED_STEAM_API_CONTEXT",
+    "translation_model_used": false
+  },
+  "rollback": "installer-payload/tools/apply_patch.py --root <KUKULA_INSTALL_ROOT> --patch installer-payload/kukula-recovery.patch.json --reverse --apply",
+  "files": [
+    {
+      "path": "docs/glossary.json",
+      "size": 1957,
+      "sha256": "AE94FD28250716AA7E11410745E9F7170B90128CD87011DC136C4F0769795889"
+    },
+    {
+      "path": "docs/glossary.md",
+      "size": 1326,
+      "sha256": "9D19426382BEBD969564761E59329A9095A279502B7D8CECBB7B474FC29F1223"
+    },
+    {
+      "path": "installer-payload/kukula-recovery.patch.json",
+      "size": 21692,
+      "sha256": "3D682E519B361700C9DB4B46B82B44554E95C00B0D433CFFE38B1BF8E8B6243F"
+    },
+    {
+      "path": "installer-payload/tools/apply_patch.py",
+      "size": 11169,
+      "sha256": "EA5F010830A4EBB85EC76EC8FDDB92CF7EE1F5386CF75E15BD53A27E5F173BA2"
+    },
+    {
+      "path": "installer-payload/verify_applied.py",
+      "size": 8811,
+      "sha256": "438F0E0CA261A01779F4E377A7EE6CB5004D80B3944137EE48FDEEC4A61FE8C7"
+    },
+    {
+      "path": "LEGAL.md",
+      "size": 887,
+      "sha256": "D6414E4EB3D20355E24F59AE3B93787095052B31AAF147DBFBBC6E3817F3EAAC"
+    },
+    {
+      "path": "qa/qa-final.json",
+      "size": 5045,
+      "sha256": "4C359B8C9CB57CC8BE12E25666C659E547B5B6EAAD3B051DD7742996083A73EE"
+    },
+    {
+      "path": "qa/runtime-apply-qa.json",
+      "size": 4460,
+      "sha256": "EC12415EEC30F67E82AAE51BD0B8DB9DDA2686EB850C0DEF390B1D2B17A3AF33"
+    },
+    {
+      "path": "qa/runtime-evidence/debug.log.snapshot.txt",
+      "size": 67,
+      "sha256": "5A5A664AA7ED80B12BAAA2CA0AAE08657F714C191FD0DCC731CC8D034C6BCF34"
+    },
+    {
+      "path": "qa/runtime-evidence/direct-launch-screen-observation.md",
+      "size": 1350,
+      "sha256": "737B8ABBA2B82740EB36F1848CDB0ABCA86EB22AE1361EAB46EE02CDA62BB097"
+    },
+    {
+      "path": "qa/runtime-qa-record.json",
+      "size": 1922,
+      "sha256": "CB1E7666F85E307AD4A19CEC3F2FA08957EEB787F6F115E9C1A4A2D87B7CF050"
+    },
+    {
+      "path": "qa/runtime-qa-record.md",
+      "size": 1144,
+      "sha256": "A1BB23A8E7B40DCC26CB62F2953C4CA0DA6F999E92A84256D67F0F245526F283"
+    },
+    {
+      "path": "README.md",
+      "size": 2580,
+      "sha256": "62096A3B1576B38387AF2EEFF99D76A67C45594048F9404C2CC69EF87BA9B52D"
+    },
+    {
+      "path": "RELEASE_NOTES.md",
+      "size": 1279,
+      "sha256": "C57115DA5F0ACC0B1A8D73B6710FD1C8F13427A41A5C52BF172FDA126D129134"
+    }
+  ]
+}

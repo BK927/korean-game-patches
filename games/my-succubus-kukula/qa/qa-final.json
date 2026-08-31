@@ -1,0 +1,156 @@
+{
+  "status": "PASS",
+  "game": {
+    "appid": 2848420,
+    "name": "My succubus Kukula",
+    "install_dir": "KUKULA",
+    "engine": "NW.js",
+    "game_root": "D:\\SteamLibrary\\steamapps\\common\\KUKULA"
+  },
+  "installed_base_hashes_match": true,
+  "language_json": {
+    "key_count_before": 1391,
+    "duplicate_keys_before": [],
+    "empty_values_before": [],
+    "cjk_residual_before": [],
+    "key_count_after": 1391,
+    "duplicate_keys_after": [],
+    "cjk_residual_after": []
+  },
+  "script_override": {
+    "key_count_before": 329,
+    "expected_key_count_after": 330,
+    "missing_before": [
+      "end_1_8"
+    ],
+    "key_count_after": 330,
+    "missing_after": [],
+    "duplicate_keys_before": [],
+    "cjk_residual_after": []
+  },
+  "control_tokens": {
+    "mismatches": [],
+    "placeholder_pattern": "[@s6] and other bracket/% tokens compared old vs new"
+  },
+  "roundtrip": {
+    "stage_directory_removed_after_check": true,
+    "forward": {
+      "ok": true,
+      "language": {
+        "path": "C:\\Users\\dead4\\AppData\\Local\\Temp\\kukula-recovery-tbfgowne\\asset\\language\\한국어.json",
+        "before_sha256": "CD58002A9955E14F991801B6872DC41309821792D9FFC35E947A793EC4E7468F",
+        "after_sha256": "8339E4B19F6017F67C6C2600953949C5117293A430D1B61C626BF8C044A7A6DC",
+        "operations": 91,
+        "backup": null,
+        "written": true
+      },
+      "script": {
+        "path": "C:\\Users\\dead4\\AppData\\Local\\Temp\\kukula-recovery-tbfgowne\\script.js",
+        "before_sha256": "A1A0D1C216B84DCA739381BC8DA54DB1EFE2B258B79A2C9C0C00F1123219C352",
+        "after_sha256": "955D541F32307F60FA98F0F0F9880E43637B9F6422DD09AB802E69AA87DC2EBB",
+        "operations": 16,
+        "map_count": 330,
+        "backup": null,
+        "written": true
+      }
+    },
+    "reverse": {
+      "ok": true,
+      "language": {
+        "path": "C:\\Users\\dead4\\AppData\\Local\\Temp\\kukula-recovery-tbfgowne\\asset\\language\\한국어.json",
+        "before_sha256": "8339E4B19F6017F67C6C2600953949C5117293A430D1B61C626BF8C044A7A6DC",
+        "after_sha256": "CD58002A9955E14F991801B6872DC41309821792D9FFC35E947A793EC4E7468F",
+        "operations": 91,
+        "backup": null,
+        "written": true
+      },
+      "script": {
+        "path": "C:\\Users\\dead4\\AppData\\Local\\Temp\\kukula-recovery-tbfgowne\\script.js",
+        "before_sha256": "955D541F32307F60FA98F0F0F9880E43637B9F6422DD09AB802E69AA87DC2EBB",
+        "after_sha256": "A1A0D1C216B84DCA739381BC8DA54DB1EFE2B258B79A2C9C0C00F1123219C352",
+        "operations": 16,
+        "map_count": 329,
+        "backup": null,
+        "written": true
+      }
+    },
+    "status": "PASS"
+  },
+  "semantic_samples": [
+    {
+      "file": "asset/language/한국어.json",
+      "key": "超过镜头",
+      "before": "초과 범위",
+      "after": "카메라 범위 초과"
+    },
+    {
+      "file": "asset/language/한국어.json",
+      "key": "如果存在贴图的话",
+      "before": "맵(배경 이미지)이 있는 경우,",
+      "after": "텍스처가 있는 경우,"
+    },
+    {
+      "file": "asset/language/한국어.json",
+      "key": "打开界面载入",
+      "before": "인터페이스 열림 로딩",
+      "after": "인터페이스 열기 로드"
+    },
+    {
+      "file": "asset/language/한국어.json",
+      "key": "按钮装饰底色",
+      "before": "버튼 색상",
+      "after": "버튼 장식 배경색"
+    },
+    {
+      "file": "asset/language/한국어.json",
+      "key": "读取存档标题容器",
+      "before": "저장 파일 헤더 컨테이너",
+      "after": "불러오기 제목 컨테이너"
+    },
+    {
+      "file": "asset/language/한국어.json",
+      "key": "隐藏对话界面",
+      "before": "대화 숨김 인터페이스",
+      "after": "대화 숨기기 인터페이스"
+    },
+    {
+      "file": "asset/language/한국어.json",
+      "key": "显示模式",
+      "before": "채우기 모드",
+      "after": "표시 모드"
+    },
+    {
+      "file": "asset/language/한국어.json",
+      "key": "初始滑块位置",
+      "before": "블록 위치 모드",
+      "after": "초기 슬라이더 위치"
+    },
+    {
+      "file": "script.js",
+      "key": "end_1_8",
+      "before": null,
+      "after": "「뭐?! 내가 미숙하다고? 죽고 싶어?!」"
+    },
+    {
+      "file": "script.js",
+      "key": "true_end_31",
+      "before": "「내가 너랑 같이 있는 걸 보여주면 안 돼.」",
+      "after": "「걔들이 내가 너랑 같이 있는 걸 보면 안 돼.」"
+    },
+    {
+      "file": "script.js",
+      "key": "true_end_75",
+      "before": "「네가 그렇게 날 좋아한다면, 특별히 상을 하나 줄게.」",
+      "after": "「네가 그렇게 날 좋아한다면, 마지못해 상 하나 줄게.」"
+    },
+    {
+      "file": "script.js",
+      "key": "true_end_79",
+      "before": "「대바보.」",
+      "after": "「왕바보.」"
+    }
+  ],
+  "failures": [],
+  "game_files_modified_by_this_validator": false,
+  "translation_model_used": false
+}

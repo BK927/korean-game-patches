@@ -1,0 +1,138 @@
+{
+  "status": "PASS",
+  "checked_at_local": "2026-08-31T11:35:40.130434+09:00",
+  "game": {
+    "appid": 2848420,
+    "name": "My succubus Kukula",
+    "install_dir": "KUKULA",
+    "engine": "NW.js",
+    "game_root": "D:\\SteamLibrary\\steamapps\\common\\KUKULA"
+  },
+  "installed": true,
+  "translation_model_used": false,
+  "targets": {
+    "language": {
+      "path": "D:\\SteamLibrary\\steamapps\\common\\KUKULA\\asset\\language\\한국어.json",
+      "sha256": "8339E4B19F6017F67C6C2600953949C5117293A430D1B61C626BF8C044A7A6DC",
+      "expected_sha256": "8339E4B19F6017F67C6C2600953949C5117293A430D1B61C626BF8C044A7A6DC",
+      "key_count": 1391,
+      "duplicate_keys": [],
+      "empty_values": [],
+      "cjk_residual": [],
+      "bom": false
+    },
+    "script": {
+      "path": "D:\\SteamLibrary\\steamapps\\common\\KUKULA\\script.js",
+      "sha256": "955D541F32307F60FA98F0F0F9880E43637B9F6422DD09AB802E69AA87DC2EBB",
+      "expected_sha256": "955D541F32307F60FA98F0F0F9880E43637B9F6422DD09AB802E69AA87DC2EBB",
+      "key_count": 330,
+      "expected_key_count": 330,
+      "duplicate_keys": [],
+      "missing_keys": [],
+      "cjk_residual": [],
+      "end_1_8": "「뭐?! 내가 미숙하다고? 죽고 싶어?!」"
+    }
+  },
+  "control_tokens": {
+    "mismatches": [],
+    "pattern": "\\[@[^\\]]+\\]|\\[[^\\]]+\\]|%[A-Za-z0-9_]+"
+  },
+  "rollback_dry_run": {
+    "language": {
+      "path": "D:\\SteamLibrary\\steamapps\\common\\KUKULA\\asset\\language\\한국어.json",
+      "before_sha256": "8339E4B19F6017F67C6C2600953949C5117293A430D1B61C626BF8C044A7A6DC",
+      "after_sha256": "CD58002A9955E14F991801B6872DC41309821792D9FFC35E947A793EC4E7468F",
+      "operations": 91,
+      "backup": null,
+      "written": false
+    },
+    "script": {
+      "path": "D:\\SteamLibrary\\steamapps\\common\\KUKULA\\script.js",
+      "before_sha256": "955D541F32307F60FA98F0F0F9880E43637B9F6422DD09AB802E69AA87DC2EBB",
+      "after_sha256": "A1A0D1C216B84DCA739381BC8DA54DB1EFE2B258B79A2C9C0C00F1123219C352",
+      "operations": 16,
+      "map_count": 329,
+      "backup": null,
+      "written": false
+    },
+    "status": "PASS"
+  },
+  "apply_backups": [
+    {
+      "target": "D:\\SteamLibrary\\steamapps\\common\\KUKULA\\asset\\language\\한국어.json",
+      "backups": [
+        {
+          "path": "D:\\SteamLibrary\\steamapps\\common\\KUKULA\\asset\\language\\한국어.json.codex-kukula-recovery-20260831-113425.bak",
+          "sha256": "CD58002A9955E14F991801B6872DC41309821792D9FFC35E947A793EC4E7468F",
+          "size": 83263,
+          "modified": "2026-06-10T18:42:54.380976+09:00"
+        }
+      ]
+    },
+    {
+      "target": "D:\\SteamLibrary\\steamapps\\common\\KUKULA\\script.js",
+      "backups": [
+        {
+          "path": "D:\\SteamLibrary\\steamapps\\common\\KUKULA\\script.js.codex-kukula-recovery-20260831-113425.bak",
+          "sha256": "A1A0D1C216B84DCA739381BC8DA54DB1EFE2B258B79A2C9C0C00F1123219C352",
+          "size": 7597465,
+          "modified": "2026-06-10T19:19:22.092933+09:00"
+        }
+      ]
+    }
+  ],
+  "semantic_samples": [
+    {
+      "file": "asset/language/한국어.json",
+      "source_key": "显示模式",
+      "korean": "표시 모드"
+    },
+    {
+      "file": "asset/language/한국어.json",
+      "source_key": "材质",
+      "korean": "재질"
+    },
+    {
+      "file": "asset/language/한국어.json",
+      "source_key": "环境声效",
+      "korean": null
+    },
+    {
+      "file": "asset/language/한국어.json",
+      "source_key": "我",
+      "korean": "나"
+    },
+    {
+      "file": "asset/language/한국어.json",
+      "source_key": "星之瞳",
+      "korean": "별의 눈"
+    },
+    {
+      "file": "script.js",
+      "source_key": "end_1_8",
+      "korean": "「뭐?! 내가 미숙하다고? 죽고 싶어?!」"
+    },
+    {
+      "file": "script.js",
+      "source_key": "end_7_2",
+      "korean": "「야, 나 지금 엄청 화난 거, 알고 있어?」"
+    },
+    {
+      "file": "script.js",
+      "source_key": "true_end_31",
+      "korean": "「걔들이 내가 너랑 같이 있는 걸 보면 안 돼.」"
+    },
+    {
+      "file": "script.js",
+      "source_key": "true_end_75",
+      "korean": "「네가 그렇게 날 좋아한다면, 마지못해 상 하나 줄게.」"
+    },
+    {
+      "file": "script.js",
+      "source_key": "true_end_79",
+      "korean": "「왕바보.」"
+    }
+  ],
+  "failures": [],
+  "game_files_modified_by_verifier": false
+}

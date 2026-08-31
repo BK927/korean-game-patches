@@ -1,0 +1,89 @@
+{
+  "game": "My succubus Kukula / 쿠쿠라",
+  "terms": [
+    {
+      "source": "库库拉",
+      "ko": "쿠쿠라",
+      "note": "character name"
+    },
+    {
+      "source": "魅魔",
+      "ko": "서큐버스",
+      "note": "succubus"
+    },
+    {
+      "source": "恶魔",
+      "ko": "악마",
+      "note": "demon"
+    },
+    {
+      "source": "契约",
+      "ko": "계약",
+      "note": "pact/contract"
+    },
+    {
+      "source": "主人",
+      "ko": "주인",
+      "note": "master"
+    },
+    {
+      "source": "舍友",
+      "ko": "룸메이트",
+      "note": "roommate"
+    },
+    {
+      "source": "存档/读档",
+      "ko": "저장/불러오기",
+      "note": "save/load UI"
+    },
+    {
+      "source": "场景",
+      "ko": "장면",
+      "note": "scene; not 시나리오"
+    },
+    {
+      "source": "镜头/相机",
+      "ko": "카메라",
+      "note": "camera; not 렌즈/샷"
+    },
+    {
+      "source": "贴图/纹理",
+      "ko": "텍스처",
+      "note": "texture"
+    },
+    {
+      "source": "材质",
+      "ko": "재질",
+      "note": "material"
+    },
+    {
+      "source": "表情",
+      "ko": "표정",
+      "note": "expression; not 액션"
+    },
+    {
+      "source": "环境声效",
+      "ko": "환경음",
+      "note": "ambient sound; not 배경음악"
+    },
+    {
+      "source": "停止播放/暂停播放",
+      "ko": "재생 중지/일시 정지",
+      "note": "distinct controls"
+    },
+    {
+      "source": "滤色/混合添加/溶解",
+      "ko": "스크린/가산 혼합/디졸브",
+      "note": "blend/effect terms"
+    },
+    {
+      "source": "[@s6]",
+      "ko": "[@s6]",
+      "note": "preserve runtime placeholder exactly"
+    }
+  ],
+  "voice": {
+    "Kukula": "친근하고 장난스러운 반말; 당황·투덜거림의 말줄임과 감탄을 유지",
+    "player": "장면 서술은 자연스러운 중립 문장; 선택지와 대사는 원문의 직접성을 유지"
+  }
+}
