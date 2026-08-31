@@ -1,5 +1,8 @@
 # Dream Date Korean recovery — delta release candidate
 
+> 저장소 소스에는 배포용 `.vcdiff` 바이너리를 넣지 않습니다. 실제 설치는
+> GitHub Releases의 `Dream-Date-Korean-recovery-0.1.0-rc1.zip`을 받아 진행하세요.
+
 이 폴더는 원본 게임 자산을 포함하지 않는 설치용 릴리스 후보입니다.
 `delta/`의 VCDIFF 파일은 매니페스트의 정확한 원본 해시가 일치할 때만
 적용됩니다. 새 패치나 다른 버전에는 적용하지 마세요.
