@@ -3,7 +3,7 @@ param(
 )
 
 $ErrorActionPreference = "Stop"
-$PatchVersion = "1.0.1"
+$PatchVersion = "1.0.2"
 $PackageRoot = Split-Path -Parent $MyInvocation.MyCommand.Path
 $PayloadRoot = Join-Path $PackageRoot "payload"
 $ManifestPath = Join-Path $PayloadRoot "files.json"
@@ -124,6 +124,14 @@ try {
     # --- apply ---------------------------------------------------------------
     Write-Host "Applying the Korean patch..."
     $added = New-Object System.Collections.Generic.List[string]
+    # Keep the original added-file list when upgrading an existing patch.
+    # Otherwise every target already exists and an empty list would make restore
+    # leave the patch-only files behind.
+    if (Test-Path -LiteralPath $backupRecord) {
+        foreach ($targetName in (Get-Content -LiteralPath $backupRecord)) {
+            if ($targetName.Trim() -and -not $added.Contains($targetName)) { $added.Add($targetName) }
+        }
+    }
     foreach ($e in $entries) {
         $target = Join-Path $appRoot ($e.target -replace '/', '\')
         $targetDir = Split-Path -Parent $target
@@ -156,7 +164,7 @@ try {
             Copy-Item -LiteralPath $file -Destination $target -Force
         }
 
-        if (-not $existedBefore) { $added.Add($e.target) }
+        if (-not $existedBefore -and -not $added.Contains($e.target)) { $added.Add($e.target) }
     }
 
     # --- verify --------------------------------------------------------------
