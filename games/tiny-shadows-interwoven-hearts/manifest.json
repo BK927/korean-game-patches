@@ -1,0 +1,201 @@
+{
+  "format": "tiny-shadows-korean-recovery/v1",
+  "title": "Tiny Shadows Interwoven Hearts Korean recovery delta",
+  "game_root_name": "小小的身影，重叠的内心",
+  "game_build": "1.28",
+  "renpy_version": "8.6.0.26032101+nightly",
+  "source_archive": {
+    "path": "game/scripts.rpa",
+    "sha256": "D35526EE841CA44E1ED5DBA14F54E64C299DE82CE91DB6E365D50C8CD43EBC15",
+    "size": 824025,
+    "mtime": "2026-07-31T22:12:48.184296+00:00"
+  },
+  "payload_policy": "translation-source-only; no original archives/assets/executable/runtime",
+  "files": [
+    {
+      "path": "scripts/content/script.rpy",
+      "patch": "patch/game/scripts/content/script.rpy",
+      "sha256": "1EE3845F40CF9C93A6EC8679D17CE6735CE710D05299278EA059C8A2720DB3CD",
+      "size": 39831,
+      "allowed_base_sha256": [
+        "B8BEAF40ECC12A0171079B3A3316C697D1365E8DECCD2A57350B2570A2BD3756"
+      ],
+      "base_missing_allowed": false
+    },
+    {
+      "path": "scripts/content/part2.rpy",
+      "patch": "patch/game/scripts/content/part2.rpy",
+      "sha256": "89D969FE43102C7C2A28CC56F9A4A4BEC9C339843016E54396139469D5EDDBE1",
+      "size": 54647,
+      "allowed_base_sha256": [
+        "9BB3E0A7CB6590555D36533D3A540A64DD1937FB7F490A78E3B68EF4E7C8E2CA"
+      ],
+      "base_missing_allowed": false
+    },
+    {
+      "path": "scripts/content/part3.rpy",
+      "patch": "patch/game/scripts/content/part3.rpy",
+      "sha256": "902230F10AE52EDD5F6A825B9236701A85D71E3ABAE259C43B66874C86D2DE64",
+      "size": 41202,
+      "allowed_base_sha256": [
+        "9A6E27ABBAEA0B4282BBDDB0A3B8D40A8CB453C4F23684221BA607C9368A4BB1"
+      ],
+      "base_missing_allowed": false
+    },
+    {
+      "path": "scripts/content/part4.rpy",
+      "patch": "patch/game/scripts/content/part4.rpy",
+      "sha256": "02C2EA37DDCE5ECFF291D91C57F9185121656B6CB8DDA5867A862152357D7FF5",
+      "size": 73345,
+      "allowed_base_sha256": [
+        "D5836AA3B238097C6849F7442190FE12076E058F4B6E3BAB5211E3489686790F"
+      ],
+      "base_missing_allowed": false
+    },
+    {
+      "path": "scripts/content/end.rpy",
+      "patch": "patch/game/scripts/content/end.rpy",
+      "sha256": "CE64C19B150A81B75DC122306D9D76020AA07463CD22A940B351E2E5F0596ADD",
+      "size": 3735,
+      "allowed_base_sha256": [
+        "9DA2C6FAFBF7F298E9941B24D00A8DA3A295421DC4AD85466BAC4D19CFF51BB9"
+      ],
+      "base_missing_allowed": false
+    },
+    {
+      "path": "scripts/content/extra1.rpy",
+      "patch": "patch/game/scripts/content/extra1.rpy",
+      "sha256": "378C3FBF1BDBFFFA8E1D50925A4568A06000F586B7C7DE0CC773590642B4CD05",
+      "size": 29372,
+      "allowed_base_sha256": [],
+      "base_missing_allowed": true
+    },
+    {
+      "path": "scripts/roles/role.rpy",
+      "patch": "patch/game/scripts/roles/role.rpy",
+      "sha256": "7379E810115BDD1E64C167BEBB53133B6319D79E0127FFE8684662A4BA38F148",
+      "size": 2379,
+      "allowed_base_sha256": [],
+      "base_missing_allowed": true
+    },
+    {
+      "path": "scripts/roles/syq.rpy",
+      "patch": "patch/game/scripts/roles/syq.rpy",
+      "sha256": "B6874CC37B453BFD89CF20551B2D34242F8FFBAAD1F6987FC60E72B915EE3EA0",
+      "size": 10910,
+      "allowed_base_sha256": [],
+      "base_missing_allowed": true
+    },
+    {
+      "path": "scripts/zzzz_codex_korean_main_menu.rpy",
+      "patch": "patch/game/scripts/zzzz_codex_korean_main_menu.rpy",
+      "sha256": "6E5145F77933C5F1D7CA13518BA45AC3A24BC31AF3F2C34294BBB4EA10718AD4",
+      "size": 8133,
+      "allowed_base_sha256": [
+        "51AB6AE3777E09566A6F2BC88B011301AAC7528990D95316A8F8029A4CE2583D"
+      ],
+      "base_missing_allowed": false
+    }
+  ],
+  "remove": [
+    {
+      "path": "scripts/content/background.rpy",
+      "allowed_sha256": [
+        "5DBFF87CFB81F18C544DD3CC26BA61E1BB301FCD54DD72AC2A2E422FFEAAD4E7"
+      ],
+      "missing_only": false
+    },
+    {
+      "path": "scripts/content/background.rpyc",
+      "allowed_sha256": [
+        "48E4C86E533D2CDA0911470DC06F52DBA188D301C98FC85F16757CB75C997126"
+      ],
+      "missing_only": false
+    },
+    {
+      "path": "scripts/content/bgm.rpy",
+      "allowed_sha256": [
+        "F469D7E9AE13A2DEBB03C93171AAF2EA108D11171BECBA866821C70E54388E41"
+      ],
+      "missing_only": false
+    },
+    {
+      "path": "scripts/content/bgm.rpyc",
+      "allowed_sha256": [
+        "BB4367BDC7081699A18A78E5B0CAAC20F1A03BAFE29590A5E4BFEBF2B8C9E590"
+      ],
+      "missing_only": false
+    },
+    {
+      "path": "scripts/content/role.rpy",
+      "allowed_sha256": [
+        "2EF18A9713AA6CB558D1A54D1486CF5ABD4257A40E0E12DEA4C7FDC90E578F0F"
+      ],
+      "missing_only": false
+    },
+    {
+      "path": "scripts/content/script.rpyc",
+      "allowed_sha256": [
+        "783DC20499A291E719AB707CA15C00A4E52F22F05D71957BFE63AAB3C4AE3D2D"
+      ],
+      "missing_only": false
+    },
+    {
+      "path": "scripts/content/part2.rpyc",
+      "allowed_sha256": [
+        "B9765FA6C9F51F21BB14AD0A1FC8339455CD17B0DE7D0F73E4B730AABC62810C"
+      ],
+      "missing_only": false
+    },
+    {
+      "path": "scripts/content/part3.rpyc",
+      "allowed_sha256": [
+        "375AFB21E40F543AE90ED45EDB24A2601911FDC86070F3CCF8CEAE8C76D67450"
+      ],
+      "missing_only": false
+    },
+    {
+      "path": "scripts/content/part4.rpyc",
+      "allowed_sha256": [
+        "922B4DB6FBEEE5A022561A955117F393919BD4A13CE20200F4D34E004942C5F1"
+      ],
+      "missing_only": false
+    },
+    {
+      "path": "scripts/content/end.rpyc",
+      "allowed_sha256": [
+        "A074621AF16EE902358B474E2378C74A4398C9EE33F4688ED6955DC9260085A1"
+      ],
+      "missing_only": false
+    },
+    {
+      "path": "scripts/content/role.rpyc",
+      "allowed_sha256": [
+        "F598306109317C8A2A76B06587B2FD4CCF5AB3153EDCFB961F00D1D2CFA2C63F"
+      ],
+      "missing_only": false
+    },
+    {
+      "path": "scripts/zzzz_codex_korean_main_menu.rpyc",
+      "allowed_sha256": [
+        "180B66EFDA6B882AE8BC2E7668198CF67841B1CA71D499C7BB59955FC5C2BC8F"
+      ],
+      "missing_only": false
+    },
+    {
+      "path": "scripts/content/extra1.rpyc",
+      "allowed_sha256": [],
+      "missing_only": true
+    },
+    {
+      "path": "scripts/roles/role.rpyc",
+      "allowed_sha256": [],
+      "missing_only": true
+    },
+    {
+      "path": "scripts/roles/syq.rpyc",
+      "allowed_sha256": [],
+      "missing_only": true
+    }
+  ]
+}

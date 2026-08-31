@@ -1,0 +1,489 @@
+{
+  "generated_utc": "2026-08-31T03:05:45.215897+00:00",
+  "game_root": "D:\\SteamLibrary\\steamapps\\common\\小小的身影，重叠的内心",
+  "release_root": "C:\\Users\\dead4\\Documents\\Codex\\2026-08-16\\d-steamlibrary-steamapps-common-tkpunk-ui\\library-audit\\work\\tiny-shadows-recovery\\release",
+  "backup": {
+    "backup_root": "C:\\Users\\dead4\\Documents\\Codex\\2026-08-16\\d-steamlibrary-steamapps-common-tkpunk-ui\\library-audit\\work\\tiny-shadows-recovery\\actual-install\\original-backup",
+    "manifest": "C:\\Users\\dead4\\Documents\\Codex\\2026-08-16\\d-steamlibrary-steamapps-common-tkpunk-ui\\library-audit\\work\\tiny-shadows-recovery\\actual-install\\original-backup\\original-manifest.json",
+    "verified": true,
+    "mismatches": []
+  },
+  "install_verification": {
+    "payload": {
+      "scripts/content/script.rpy": {
+        "exists": true,
+        "sha256": "1EE3845F40CF9C93A6EC8679D17CE6735CE710D05299278EA059C8A2720DB3CD",
+        "size": 39831
+      },
+      "scripts/content/part2.rpy": {
+        "exists": true,
+        "sha256": "89D969FE43102C7C2A28CC56F9A4A4BEC9C339843016E54396139469D5EDDBE1",
+        "size": 54647
+      },
+      "scripts/content/part3.rpy": {
+        "exists": true,
+        "sha256": "902230F10AE52EDD5F6A825B9236701A85D71E3ABAE259C43B66874C86D2DE64",
+        "size": 41202
+      },
+      "scripts/content/part4.rpy": {
+        "exists": true,
+        "sha256": "02C2EA37DDCE5ECFF291D91C57F9185121656B6CB8DDA5867A862152357D7FF5",
+        "size": 73345
+      },
+      "scripts/content/end.rpy": {
+        "exists": true,
+        "sha256": "CE64C19B150A81B75DC122306D9D76020AA07463CD22A940B351E2E5F0596ADD",
+        "size": 3735
+      },
+      "scripts/content/extra1.rpy": {
+        "exists": true,
+        "sha256": "378C3FBF1BDBFFFA8E1D50925A4568A06000F586B7C7DE0CC773590642B4CD05",
+        "size": 29372
+      },
+      "scripts/roles/role.rpy": {
+        "exists": true,
+        "sha256": "7379E810115BDD1E64C167BEBB53133B6319D79E0127FFE8684662A4BA38F148",
+        "size": 2379
+      },
+      "scripts/roles/syq.rpy": {
+        "exists": true,
+        "sha256": "B6874CC37B453BFD89CF20551B2D34242F8FFBAAD1F6987FC60E72B915EE3EA0",
+        "size": 10910
+      },
+      "scripts/zzzz_codex_korean_main_menu.rpy": {
+        "exists": true,
+        "sha256": "6E5145F77933C5F1D7CA13518BA45AC3A24BC31AF3F2C34294BBB4EA10718AD4",
+        "size": 8133
+      }
+    },
+    "payload_errors": [],
+    "removed_legacy_present": [],
+    "generated_sidecars": [
+      "scripts/content/script.rpyc",
+      "scripts/content/part2.rpyc",
+      "scripts/content/part3.rpyc",
+      "scripts/content/part4.rpyc",
+      "scripts/content/end.rpyc",
+      "scripts/zzzz_codex_korean_main_menu.rpyc",
+      "scripts/content/extra1.rpyc",
+      "scripts/roles/role.rpyc",
+      "scripts/roles/syq.rpyc"
+    ],
+    "state": {
+      "format": "tiny-shadows-korean-recovery-state/v1",
+      "status": "installed",
+      "manifest_sha256": "91EB2F695339D47E6B7ABCA65E56718D6281DCE3325F9659DB5B96255CD48C17",
+      "backup_root": "_tiny_shadows_korean_recovery_backup_20260831T030340Z_45396",
+      "entries": [
+        {
+          "action": "replace",
+          "path": "scripts/content/script.rpy",
+          "original_exists": true,
+          "original_sha256": "B8BEAF40ECC12A0171079B3A3316C697D1365E8DECCD2A57350B2570A2BD3756",
+          "installed_sha256": "1EE3845F40CF9C93A6EC8679D17CE6735CE710D05299278EA059C8A2720DB3CD",
+          "backup_relative": "scripts/content/script.rpy"
+        },
+        {
+          "action": "replace",
+          "path": "scripts/content/part2.rpy",
+          "original_exists": true,
+          "original_sha256": "9BB3E0A7CB6590555D36533D3A540A64DD1937FB7F490A78E3B68EF4E7C8E2CA",
+          "installed_sha256": "89D969FE43102C7C2A28CC56F9A4A4BEC9C339843016E54396139469D5EDDBE1",
+          "backup_relative": "scripts/content/part2.rpy"
+        },
+        {
+          "action": "replace",
+          "path": "scripts/content/part3.rpy",
+          "original_exists": true,
+          "original_sha256": "9A6E27ABBAEA0B4282BBDDB0A3B8D40A8CB453C4F23684221BA607C9368A4BB1",
+          "installed_sha256": "902230F10AE52EDD5F6A825B9236701A85D71E3ABAE259C43B66874C86D2DE64",
+          "backup_relative": "scripts/content/part3.rpy"
+        },
+        {
+          "action": "replace",
+          "path": "scripts/content/part4.rpy",
+          "original_exists": true,
+          "original_sha256": "D5836AA3B238097C6849F7442190FE12076E058F4B6E3BAB5211E3489686790F",
+          "installed_sha256": "02C2EA37DDCE5ECFF291D91C57F9185121656B6CB8DDA5867A862152357D7FF5",
+          "backup_relative": "scripts/content/part4.rpy"
+        },
+        {
+          "action": "replace",
+          "path": "scripts/content/end.rpy",
+          "original_exists": true,
+          "original_sha256": "9DA2C6FAFBF7F298E9941B24D00A8DA3A295421DC4AD85466BAC4D19CFF51BB9",
+          "installed_sha256": "CE64C19B150A81B75DC122306D9D76020AA07463CD22A940B351E2E5F0596ADD",
+          "backup_relative": "scripts/content/end.rpy"
+        },
+        {
+          "action": "replace",
+          "path": "scripts/content/extra1.rpy",
+          "original_exists": false,
+          "original_sha256": null,
+          "installed_sha256": "378C3FBF1BDBFFFA8E1D50925A4568A06000F586B7C7DE0CC773590642B4CD05",
+          "backup_relative": null
+        },
+        {
+          "action": "replace",
+          "path": "scripts/roles/role.rpy",
+          "original_exists": false,
+          "original_sha256": null,
+          "installed_sha256": "7379E810115BDD1E64C167BEBB53133B6319D79E0127FFE8684662A4BA38F148",
+          "backup_relative": null
+        },
+        {
+          "action": "replace",
+          "path": "scripts/roles/syq.rpy",
+          "original_exists": false,
+          "original_sha256": null,
+          "installed_sha256": "B6874CC37B453BFD89CF20551B2D34242F8FFBAAD1F6987FC60E72B915EE3EA0",
+          "backup_relative": null
+        },
+        {
+          "action": "replace",
+          "path": "scripts/zzzz_codex_korean_main_menu.rpy",
+          "original_exists": true,
+          "original_sha256": "51AB6AE3777E09566A6F2BC88B011301AAC7528990D95316A8F8029A4CE2583D",
+          "installed_sha256": "6E5145F77933C5F1D7CA13518BA45AC3A24BC31AF3F2C34294BBB4EA10718AD4",
+          "backup_relative": "scripts/zzzz_codex_korean_main_menu.rpy"
+        },
+        {
+          "action": "remove",
+          "path": "scripts/content/background.rpy",
+          "original_exists": true,
+          "original_sha256": "5DBFF87CFB81F18C544DD3CC26BA61E1BB301FCD54DD72AC2A2E422FFEAAD4E7",
+          "installed_sha256": null,
+          "backup_relative": "scripts/content/background.rpy"
+        },
+        {
+          "action": "remove",
+          "path": "scripts/content/background.rpyc",
+          "original_exists": true,
+          "original_sha256": "48E4C86E533D2CDA0911470DC06F52DBA188D301C98FC85F16757CB75C997126",
+          "installed_sha256": null,
+          "backup_relative": "scripts/content/background.rpyc"
+        },
+        {
+          "action": "remove",
+          "path": "scripts/content/bgm.rpy",
+          "original_exists": true,
+          "original_sha256": "F469D7E9AE13A2DEBB03C93171AAF2EA108D11171BECBA866821C70E54388E41",
+          "installed_sha256": null,
+          "backup_relative": "scripts/content/bgm.rpy"
+        },
+        {
+          "action": "remove",
+          "path": "scripts/content/bgm.rpyc",
+          "original_exists": true,
+          "original_sha256": "BB4367BDC7081699A18A78E5B0CAAC20F1A03BAFE29590A5E4BFEBF2B8C9E590",
+          "installed_sha256": null,
+          "backup_relative": "scripts/content/bgm.rpyc"
+        },
+        {
+          "action": "remove",
+          "path": "scripts/content/role.rpy",
+          "original_exists": true,
+          "original_sha256": "2EF18A9713AA6CB558D1A54D1486CF5ABD4257A40E0E12DEA4C7FDC90E578F0F",
+          "installed_sha256": null,
+          "backup_relative": "scripts/content/role.rpy"
+        },
+        {
+          "action": "remove",
+          "path": "scripts/content/script.rpyc",
+          "original_exists": true,
+          "original_sha256": "783DC20499A291E719AB707CA15C00A4E52F22F05D71957BFE63AAB3C4AE3D2D",
+          "installed_sha256": null,
+          "backup_relative": "scripts/content/script.rpyc"
+        },
+        {
+          "action": "remove",
+          "path": "scripts/content/part2.rpyc",
+          "original_exists": true,
+          "original_sha256": "B9765FA6C9F51F21BB14AD0A1FC8339455CD17B0DE7D0F73E4B730AABC62810C",
+          "installed_sha256": null,
+          "backup_relative": "scripts/content/part2.rpyc"
+        },
+        {
+          "action": "remove",
+          "path": "scripts/content/part3.rpyc",
+          "original_exists": true,
+          "original_sha256": "375AFB21E40F543AE90ED45EDB24A2601911FDC86070F3CCF8CEAE8C76D67450",
+          "installed_sha256": null,
+          "backup_relative": "scripts/content/part3.rpyc"
+        },
+        {
+          "action": "remove",
+          "path": "scripts/content/part4.rpyc",
+          "original_exists": true,
+          "original_sha256": "922B4DB6FBEEE5A022561A955117F393919BD4A13CE20200F4D34E004942C5F1",
+          "installed_sha256": null,
+          "backup_relative": "scripts/content/part4.rpyc"
+        },
+        {
+          "action": "remove",
+          "path": "scripts/content/end.rpyc",
+          "original_exists": true,
+          "original_sha256": "A074621AF16EE902358B474E2378C74A4398C9EE33F4688ED6955DC9260085A1",
+          "installed_sha256": null,
+          "backup_relative": "scripts/content/end.rpyc"
+        },
+        {
+          "action": "remove",
+          "path": "scripts/content/role.rpyc",
+          "original_exists": true,
+          "original_sha256": "F598306109317C8A2A76B06587B2FD4CCF5AB3153EDCFB961F00D1D2CFA2C63F",
+          "installed_sha256": null,
+          "backup_relative": "scripts/content/role.rpyc"
+        },
+        {
+          "action": "remove",
+          "path": "scripts/zzzz_codex_korean_main_menu.rpyc",
+          "original_exists": true,
+          "original_sha256": "180B66EFDA6B882AE8BC2E7668198CF67841B1CA71D499C7BB59955FC5C2BC8F",
+          "installed_sha256": null,
+          "backup_relative": "scripts/zzzz_codex_korean_main_menu.rpyc"
+        },
+        {
+          "action": "remove",
+          "path": "scripts/content/extra1.rpyc",
+          "original_exists": false,
+          "original_sha256": null,
+          "installed_sha256": null,
+          "backup_relative": null
+        },
+        {
+          "action": "remove",
+          "path": "scripts/roles/role.rpyc",
+          "original_exists": false,
+          "original_sha256": null,
+          "installed_sha256": null,
+          "backup_relative": null
+        },
+        {
+          "action": "remove",
+          "path": "scripts/roles/syq.rpyc",
+          "original_exists": false,
+          "original_sha256": null,
+          "installed_sha256": null,
+          "backup_relative": null
+        }
+      ],
+      "installed_utc": "2026-08-31T03:03:40.3879353Z"
+    },
+    "state_error": null,
+    "passed": true
+  },
+  "restore_verification": {
+    "original_file_mismatches": [],
+    "new_target_files_present": [],
+    "state": {
+      "format": "tiny-shadows-korean-recovery-state/v1",
+      "status": "restored",
+      "manifest_sha256": "91EB2F695339D47E6B7ABCA65E56718D6281DCE3325F9659DB5B96255CD48C17",
+      "backup_root": "_tiny_shadows_korean_recovery_backup_20260831T030340Z_45396",
+      "entries": [
+        {
+          "action": "replace",
+          "path": "scripts/content/script.rpy",
+          "original_exists": true,
+          "original_sha256": "B8BEAF40ECC12A0171079B3A3316C697D1365E8DECCD2A57350B2570A2BD3756",
+          "installed_sha256": "1EE3845F40CF9C93A6EC8679D17CE6735CE710D05299278EA059C8A2720DB3CD",
+          "backup_relative": "scripts/content/script.rpy"
+        },
+        {
+          "action": "replace",
+          "path": "scripts/content/part2.rpy",
+          "original_exists": true,
+          "original_sha256": "9BB3E0A7CB6590555D36533D3A540A64DD1937FB7F490A78E3B68EF4E7C8E2CA",
+          "installed_sha256": "89D969FE43102C7C2A28CC56F9A4A4BEC9C339843016E54396139469D5EDDBE1",
+          "backup_relative": "scripts/content/part2.rpy"
+        },
+        {
+          "action": "replace",
+          "path": "scripts/content/part3.rpy",
+          "original_exists": true,
+          "original_sha256": "9A6E27ABBAEA0B4282BBDDB0A3B8D40A8CB453C4F23684221BA607C9368A4BB1",
+          "installed_sha256": "902230F10AE52EDD5F6A825B9236701A85D71E3ABAE259C43B66874C86D2DE64",
+          "backup_relative": "scripts/content/part3.rpy"
+        },
+        {
+          "action": "replace",
+          "path": "scripts/content/part4.rpy",
+          "original_exists": true,
+          "original_sha256": "D5836AA3B238097C6849F7442190FE12076E058F4B6E3BAB5211E3489686790F",
+          "installed_sha256": "02C2EA37DDCE5ECFF291D91C57F9185121656B6CB8DDA5867A862152357D7FF5",
+          "backup_relative": "scripts/content/part4.rpy"
+        },
+        {
+          "action": "replace",
+          "path": "scripts/content/end.rpy",
+          "original_exists": true,
+          "original_sha256": "9DA2C6FAFBF7F298E9941B24D00A8DA3A295421DC4AD85466BAC4D19CFF51BB9",
+          "installed_sha256": "CE64C19B150A81B75DC122306D9D76020AA07463CD22A940B351E2E5F0596ADD",
+          "backup_relative": "scripts/content/end.rpy"
+        },
+        {
+          "action": "replace",
+          "path": "scripts/content/extra1.rpy",
+          "original_exists": false,
+          "original_sha256": null,
+          "installed_sha256": "378C3FBF1BDBFFFA8E1D50925A4568A06000F586B7C7DE0CC773590642B4CD05",
+          "backup_relative": null
+        },
+        {
+          "action": "replace",
+          "path": "scripts/roles/role.rpy",
+          "original_exists": false,
+          "original_sha256": null,
+          "installed_sha256": "7379E810115BDD1E64C167BEBB53133B6319D79E0127FFE8684662A4BA38F148",
+          "backup_relative": null
+        },
+        {
+          "action": "replace",
+          "path": "scripts/roles/syq.rpy",
+          "original_exists": false,
+          "original_sha256": null,
+          "installed_sha256": "B6874CC37B453BFD89CF20551B2D34242F8FFBAAD1F6987FC60E72B915EE3EA0",
+          "backup_relative": null
+        },
+        {
+          "action": "replace",
+          "path": "scripts/zzzz_codex_korean_main_menu.rpy",
+          "original_exists": true,
+          "original_sha256": "51AB6AE3777E09566A6F2BC88B011301AAC7528990D95316A8F8029A4CE2583D",
+          "installed_sha256": "6E5145F77933C5F1D7CA13518BA45AC3A24BC31AF3F2C34294BBB4EA10718AD4",
+          "backup_relative": "scripts/zzzz_codex_korean_main_menu.rpy"
+        },
+        {
+          "action": "remove",
+          "path": "scripts/content/background.rpy",
+          "original_exists": true,
+          "original_sha256": "5DBFF87CFB81F18C544DD3CC26BA61E1BB301FCD54DD72AC2A2E422FFEAAD4E7",
+          "installed_sha256": null,
+          "backup_relative": "scripts/content/background.rpy"
+        },
+        {
+          "action": "remove",
+          "path": "scripts/content/background.rpyc",
+          "original_exists": true,
+          "original_sha256": "48E4C86E533D2CDA0911470DC06F52DBA188D301C98FC85F16757CB75C997126",
+          "installed_sha256": null,
+          "backup_relative": "scripts/content/background.rpyc"
+        },
+        {
+          "action": "remove",
+          "path": "scripts/content/bgm.rpy",
+          "original_exists": true,
+          "original_sha256": "F469D7E9AE13A2DEBB03C93171AAF2EA108D11171BECBA866821C70E54388E41",
+          "installed_sha256": null,
+          "backup_relative": "scripts/content/bgm.rpy"
+        },
+        {
+          "action": "remove",
+          "path": "scripts/content/bgm.rpyc",
+          "original_exists": true,
+          "original_sha256": "BB4367BDC7081699A18A78E5B0CAAC20F1A03BAFE29590A5E4BFEBF2B8C9E590",
+          "installed_sha256": null,
+          "backup_relative": "scripts/content/bgm.rpyc"
+        },
+        {
+          "action": "remove",
+          "path": "scripts/content/role.rpy",
+          "original_exists": true,
+          "original_sha256": "2EF18A9713AA6CB558D1A54D1486CF5ABD4257A40E0E12DEA4C7FDC90E578F0F",
+          "installed_sha256": null,
+          "backup_relative": "scripts/content/role.rpy"
+        },
+        {
+          "action": "remove",
+          "path": "scripts/content/script.rpyc",
+          "original_exists": true,
+          "original_sha256": "783DC20499A291E719AB707CA15C00A4E52F22F05D71957BFE63AAB3C4AE3D2D",
+          "installed_sha256": null,
+          "backup_relative": "scripts/content/script.rpyc"
+        },
+        {
+          "action": "remove",
+          "path": "scripts/content/part2.rpyc",
+          "original_exists": true,
+          "original_sha256": "B9765FA6C9F51F21BB14AD0A1FC8339455CD17B0DE7D0F73E4B730AABC62810C",
+          "installed_sha256": null,
+          "backup_relative": "scripts/content/part2.rpyc"
+        },
+        {
+          "action": "remove",
+          "path": "scripts/content/part3.rpyc",
+          "original_exists": true,
+          "original_sha256": "375AFB21E40F543AE90ED45EDB24A2601911FDC86070F3CCF8CEAE8C76D67450",
+          "installed_sha256": null,
+          "backup_relative": "scripts/content/part3.rpyc"
+        },
+        {
+          "action": "remove",
+          "path": "scripts/content/part4.rpyc",
+          "original_exists": true,
+          "original_sha256": "922B4DB6FBEEE5A022561A955117F393919BD4A13CE20200F4D34E004942C5F1",
+          "installed_sha256": null,
+          "backup_relative": "scripts/content/part4.rpyc"
+        },
+        {
+          "action": "remove",
+          "path": "scripts/content/end.rpyc",
+          "original_exists": true,
+          "original_sha256": "A074621AF16EE902358B474E2378C74A4398C9EE33F4688ED6955DC9260085A1",
+          "installed_sha256": null,
+          "backup_relative": "scripts/content/end.rpyc"
+        },
+        {
+          "action": "remove",
+          "path": "scripts/content/role.rpyc",
+          "original_exists": true,
+          "original_sha256": "F598306109317C8A2A76B06587B2FD4CCF5AB3153EDCFB961F00D1D2CFA2C63F",
+          "installed_sha256": null,
+          "backup_relative": "scripts/content/role.rpyc"
+        },
+        {
+          "action": "remove",
+          "path": "scripts/zzzz_codex_korean_main_menu.rpyc",
+          "original_exists": true,
+          "original_sha256": "180B66EFDA6B882AE8BC2E7668198CF67841B1CA71D499C7BB59955FC5C2BC8F",
+          "installed_sha256": null,
+          "backup_relative": "scripts/zzzz_codex_korean_main_menu.rpyc"
+        },
+        {
+          "action": "remove",
+          "path": "scripts/content/extra1.rpyc",
+          "original_exists": false,
+          "original_sha256": null,
+          "installed_sha256": null,
+          "backup_relative": null
+        },
+        {
+          "action": "remove",
+          "path": "scripts/roles/role.rpyc",
+          "original_exists": false,
+          "original_sha256": null,
+          "installed_sha256": null,
+          "backup_relative": null
+        },
+        {
+          "action": "remove",
+          "path": "scripts/roles/syq.rpyc",
+          "original_exists": false,
+          "original_sha256": null,
+          "installed_sha256": null,
+          "backup_relative": null
+        }
+      ],
+      "installed_utc": "2026-08-31T03:03:40.3879353Z",
+      "restored_utc": "2026-08-31T03:05:10.1995672Z"
+    },
+    "state_ok": true,
+    "passed": true
+  },
+  "notes": [
+    "The original backup is separate from the game and contains game/scripts.rpa plus the complete pre-install game/scripts tree.",
+    "Restore intentionally retains the installer state file with status restored as an audit marker; all backed-up game files otherwise match their original hashes.",
+    "Runtime UI evidence is recorded separately by Computer Use screenshots, actual-install/runtime-observations.md/json, and copied logs."
+  ]
+}

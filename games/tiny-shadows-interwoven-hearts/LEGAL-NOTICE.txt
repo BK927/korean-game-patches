@@ -1,0 +1,14 @@
+LEGAL NOTICE
+
+This archive is a user-created localization delta and safety tooling for the
+Steam game Tiny Shadows Interwoven Hearts (小小的身影，重叠的内心). It contains
+no original game archive, executable, image, audio, font, or Ren'Py runtime.
+The game, its scripts, characters, artwork, music, and trademarks remain the
+property of their respective copyright holders. A legitimate copy of the
+game is required. Do not redistribute the original game or bundle this delta
+with extracted game assets.
+
+The translated text and installer/restore scripts in this package are provided
+as-is for personal localization use. The decompiled source layout is included
+only as the minimum path-preserving delta needed to apply the translations to
+the user's own installed build.

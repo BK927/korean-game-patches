@@ -1,0 +1,1215 @@
+{
+  "generated_utc": "2026-08-31T03:06:10.391304+00:00",
+  "game": {
+    "path": "D:\\SteamLibrary\\steamapps\\common\\小小的身影，重叠的内心",
+    "build_info": {
+      "info": {},
+      "time": 1785241364.3672154,
+      "name": "小小的身影，重叠的内心",
+      "version": "1.28"
+    },
+    "source_archive": {
+      "exists": true,
+      "path": "D:\\SteamLibrary\\steamapps\\common\\小小的身影，重叠的内心\\game\\scripts.rpa",
+      "sha256": "D35526EE841CA44E1ED5DBA14F54E64C299DE82CE91DB6E365D50C8CD43EBC15",
+      "size": 824025
+    },
+    "latest_rpa_extract_files": 53,
+    "latest_rpa_extract_rpyc_files": 52,
+    "latest_rpa_extract_root": "C:\\Users\\dead4\\Documents\\Codex\\2026-08-16\\d-steamlibrary-steamapps-common-tkpunk-ui\\library-audit\\work\\tiny-shadows-recovery\\staging\\latest-scripts-rpa"
+  },
+  "game_write_guard": {
+    "before": {
+      "D:\\SteamLibrary\\steamapps\\common\\小小的身影，重叠的内心\\game\\scripts.rpa": {
+        "exists": true,
+        "path": "D:\\SteamLibrary\\steamapps\\common\\小小的身影，重叠的内心\\game\\scripts.rpa",
+        "sha256": "D35526EE841CA44E1ED5DBA14F54E64C299DE82CE91DB6E365D50C8CD43EBC15",
+        "size": 824025
+      },
+      "D:\\SteamLibrary\\steamapps\\common\\小小的身影，重叠的内心\\game\\scripts\\content\\script.rpy": {
+        "exists": true,
+        "path": "D:\\SteamLibrary\\steamapps\\common\\小小的身影，重叠的内心\\game\\scripts\\content\\script.rpy",
+        "sha256": "B8BEAF40ECC12A0171079B3A3316C697D1365E8DECCD2A57350B2570A2BD3756",
+        "size": 43496
+      },
+      "D:\\SteamLibrary\\steamapps\\common\\小小的身影，重叠的内心\\game\\scripts\\content\\part2.rpy": {
+        "exists": true,
+        "path": "D:\\SteamLibrary\\steamapps\\common\\小小的身影，重叠的内心\\game\\scripts\\content\\part2.rpy",
+        "sha256": "9BB3E0A7CB6590555D36533D3A540A64DD1937FB7F490A78E3B68EF4E7C8E2CA",
+        "size": 60519
+      },
+      "D:\\SteamLibrary\\steamapps\\common\\小小的身影，重叠的内心\\game\\scripts\\content\\part3.rpy": {
+        "exists": true,
+        "path": "D:\\SteamLibrary\\steamapps\\common\\小小的身影，重叠的内心\\game\\scripts\\content\\part3.rpy",
+        "sha256": "9A6E27ABBAEA0B4282BBDDB0A3B8D40A8CB453C4F23684221BA607C9368A4BB1",
+        "size": 46091
+      },
+      "D:\\SteamLibrary\\steamapps\\common\\小小的身影，重叠的内心\\game\\scripts\\content\\part4.rpy": {
+        "exists": true,
+        "path": "D:\\SteamLibrary\\steamapps\\common\\小小的身影，重叠的内心\\game\\scripts\\content\\part4.rpy",
+        "sha256": "D5836AA3B238097C6849F7442190FE12076E058F4B6E3BAB5211E3489686790F",
+        "size": 82349
+      },
+      "D:\\SteamLibrary\\steamapps\\common\\小小的身影，重叠的内心\\game\\scripts\\content\\end.rpy": {
+        "exists": true,
+        "path": "D:\\SteamLibrary\\steamapps\\common\\小小的身影，重叠的内心\\game\\scripts\\content\\end.rpy",
+        "sha256": "9DA2C6FAFBF7F298E9941B24D00A8DA3A295421DC4AD85466BAC4D19CFF51BB9",
+        "size": 3490
+      },
+      "D:\\SteamLibrary\\steamapps\\common\\小小的身影，重叠的内心\\game\\scripts\\content\\role.rpy": {
+        "exists": true,
+        "path": "D:\\SteamLibrary\\steamapps\\common\\小小的身影，重叠的内心\\game\\scripts\\content\\role.rpy",
+        "sha256": "2EF18A9713AA6CB558D1A54D1486CF5ABD4257A40E0E12DEA4C7FDC90E578F0F",
+        "size": 6263
+      },
+      "D:\\SteamLibrary\\steamapps\\common\\小小的身影，重叠的内心\\game\\scripts\\zzzz_codex_korean_main_menu.rpy": {
+        "exists": true,
+        "path": "D:\\SteamLibrary\\steamapps\\common\\小小的身影，重叠的内心\\game\\scripts\\zzzz_codex_korean_main_menu.rpy",
+        "sha256": "51AB6AE3777E09566A6F2BC88B011301AAC7528990D95316A8F8029A4CE2583D",
+        "size": 7866
+      }
+    },
+    "after": {
+      "D:\\SteamLibrary\\steamapps\\common\\小小的身影，重叠的内心\\game\\scripts.rpa": {
+        "exists": true,
+        "path": "D:\\SteamLibrary\\steamapps\\common\\小小的身影，重叠的内心\\game\\scripts.rpa",
+        "sha256": "D35526EE841CA44E1ED5DBA14F54E64C299DE82CE91DB6E365D50C8CD43EBC15",
+        "size": 824025
+      },
+      "D:\\SteamLibrary\\steamapps\\common\\小小的身影，重叠的内心\\game\\scripts\\content\\script.rpy": {
+        "exists": true,
+        "path": "D:\\SteamLibrary\\steamapps\\common\\小小的身影，重叠的内心\\game\\scripts\\content\\script.rpy",
+        "sha256": "B8BEAF40ECC12A0171079B3A3316C697D1365E8DECCD2A57350B2570A2BD3756",
+        "size": 43496
+      },
+      "D:\\SteamLibrary\\steamapps\\common\\小小的身影，重叠的内心\\game\\scripts\\content\\part2.rpy": {
+        "exists": true,
+        "path": "D:\\SteamLibrary\\steamapps\\common\\小小的身影，重叠的内心\\game\\scripts\\content\\part2.rpy",
+        "sha256": "9BB3E0A7CB6590555D36533D3A540A64DD1937FB7F490A78E3B68EF4E7C8E2CA",
+        "size": 60519
+      },
+      "D:\\SteamLibrary\\steamapps\\common\\小小的身影，重叠的内心\\game\\scripts\\content\\part3.rpy": {
+        "exists": true,
+        "path": "D:\\SteamLibrary\\steamapps\\common\\小小的身影，重叠的内心\\game\\scripts\\content\\part3.rpy",
+        "sha256": "9A6E27ABBAEA0B4282BBDDB0A3B8D40A8CB453C4F23684221BA607C9368A4BB1",
+        "size": 46091
+      },
+      "D:\\SteamLibrary\\steamapps\\common\\小小的身影，重叠的内心\\game\\scripts\\content\\part4.rpy": {
+        "exists": true,
+        "path": "D:\\SteamLibrary\\steamapps\\common\\小小的身影，重叠的内心\\game\\scripts\\content\\part4.rpy",
+        "sha256": "D5836AA3B238097C6849F7442190FE12076E058F4B6E3BAB5211E3489686790F",
+        "size": 82349
+      },
+      "D:\\SteamLibrary\\steamapps\\common\\小小的身影，重叠的内心\\game\\scripts\\content\\end.rpy": {
+        "exists": true,
+        "path": "D:\\SteamLibrary\\steamapps\\common\\小小的身影，重叠的内心\\game\\scripts\\content\\end.rpy",
+        "sha256": "9DA2C6FAFBF7F298E9941B24D00A8DA3A295421DC4AD85466BAC4D19CFF51BB9",
+        "size": 3490
+      },
+      "D:\\SteamLibrary\\steamapps\\common\\小小的身影，重叠的内心\\game\\scripts\\content\\role.rpy": {
+        "exists": true,
+        "path": "D:\\SteamLibrary\\steamapps\\common\\小小的身影，重叠的内心\\game\\scripts\\content\\role.rpy",
+        "sha256": "2EF18A9713AA6CB558D1A54D1486CF5ABD4257A40E0E12DEA4C7FDC90E578F0F",
+        "size": 6263
+      },
+      "D:\\SteamLibrary\\steamapps\\common\\小小的身影，重叠的内心\\game\\scripts\\zzzz_codex_korean_main_menu.rpy": {
+        "exists": true,
+        "path": "D:\\SteamLibrary\\steamapps\\common\\小小的身影，重叠的内心\\game\\scripts\\zzzz_codex_korean_main_menu.rpy",
+        "sha256": "51AB6AE3777E09566A6F2BC88B011301AAC7528990D95316A8F8029A4CE2583D",
+        "size": 7866
+      }
+    },
+    "unchanged": true,
+    "game_modified": false
+  },
+  "rebase": {
+    "alignment": {
+      "scripts/content/script.rpy": {
+        "latest": "C:\\Users\\dead4\\Documents\\Codex\\2026-08-16\\d-steamlibrary-steamapps-common-tkpunk-ui\\library-audit\\work\\tiny-shadows-recovery\\staging\\latest-scripts-rpa\\scripts\\content\\script.rpy",
+        "candidate": "C:\\Users\\dead4\\Documents\\Codex\\2026-08-16\\d-steamlibrary-steamapps-common-tkpunk-ui\\library-audit\\work\\tiny-shadows-recovery\\rebased\\game\\scripts\\content\\script.rpy",
+        "latest_lines": 1206,
+        "candidate_lines": 1206,
+        "latest_literals": 410,
+        "candidate_literals": 410,
+        "literal_count_ok": true,
+        "skeleton_ok": true,
+        "skeleton_difference_count": 0,
+        "latest_code_counts": {
+          "label": 2,
+          "menu": 1,
+          "if": 7,
+          "elif": 6,
+          "else": 7,
+          "jump": 4,
+          "call": 3,
+          "return": 2
+        },
+        "candidate_code_counts": {
+          "label": 2,
+          "menu": 1,
+          "if": 7,
+          "elif": 6,
+          "else": 7,
+          "jump": 4,
+          "call": 3,
+          "return": 2
+        },
+        "latest_labels": [
+          "start",
+          "part1"
+        ],
+        "candidate_labels": [
+          "start",
+          "part1"
+        ],
+        "latest_references": [
+          "part1",
+          "extra1",
+          "part1",
+          "achievement",
+          "achievement",
+          "achievement",
+          "part2"
+        ],
+        "candidate_references": [
+          "part1",
+          "extra1",
+          "part1",
+          "achievement",
+          "achievement",
+          "achievement",
+          "part2"
+        ]
+      },
+      "scripts/content/part2.rpy": {
+        "latest": "C:\\Users\\dead4\\Documents\\Codex\\2026-08-16\\d-steamlibrary-steamapps-common-tkpunk-ui\\library-audit\\work\\tiny-shadows-recovery\\staging\\latest-scripts-rpa\\scripts\\content\\part2.rpy",
+        "candidate": "C:\\Users\\dead4\\Documents\\Codex\\2026-08-16\\d-steamlibrary-steamapps-common-tkpunk-ui\\library-audit\\work\\tiny-shadows-recovery\\rebased\\game\\scripts\\content\\part2.rpy",
+        "latest_lines": 1359,
+        "candidate_lines": 1359,
+        "latest_literals": 588,
+        "candidate_literals": 588,
+        "literal_count_ok": true,
+        "skeleton_ok": true,
+        "skeleton_difference_count": 0,
+        "latest_code_counts": {
+          "label": 4,
+          "menu": 1,
+          "if": 1,
+          "elif": 0,
+          "else": 0,
+          "jump": 5,
+          "call": 2,
+          "return": 1
+        },
+        "candidate_code_counts": {
+          "label": 4,
+          "menu": 1,
+          "if": 1,
+          "elif": 0,
+          "else": 0,
+          "jump": 5,
+          "call": 2,
+          "return": 1
+        },
+        "latest_labels": [
+          "part2",
+          "part2_B",
+          "part2_A",
+          "part2_C"
+        ],
+        "candidate_labels": [
+          "part2",
+          "part2_B",
+          "part2_A",
+          "part2_C"
+        ],
+        "latest_references": [
+          "part2_A",
+          "part2_B",
+          "part2_C",
+          "achievement",
+          "achievement",
+          "part2_C",
+          "part3"
+        ],
+        "candidate_references": [
+          "part2_A",
+          "part2_B",
+          "part2_C",
+          "achievement",
+          "achievement",
+          "part2_C",
+          "part3"
+        ]
+      },
+      "scripts/content/part3.rpy": {
+        "latest": "C:\\Users\\dead4\\Documents\\Codex\\2026-08-16\\d-steamlibrary-steamapps-common-tkpunk-ui\\library-audit\\work\\tiny-shadows-recovery\\staging\\latest-scripts-rpa\\scripts\\content\\part3.rpy",
+        "candidate": "C:\\Users\\dead4\\Documents\\Codex\\2026-08-16\\d-steamlibrary-steamapps-common-tkpunk-ui\\library-audit\\work\\tiny-shadows-recovery\\rebased\\game\\scripts\\content\\part3.rpy",
+        "latest_lines": 831,
+        "candidate_lines": 831,
+        "latest_literals": 419,
+        "candidate_literals": 419,
+        "literal_count_ok": true,
+        "skeleton_ok": true,
+        "skeleton_difference_count": 0,
+        "latest_code_counts": {
+          "label": 5,
+          "menu": 1,
+          "if": 5,
+          "elif": 5,
+          "else": 5,
+          "jump": 7,
+          "call": 1,
+          "return": 1
+        },
+        "candidate_code_counts": {
+          "label": 5,
+          "menu": 1,
+          "if": 5,
+          "elif": 5,
+          "else": 5,
+          "jump": 7,
+          "call": 1,
+          "return": 1
+        },
+        "latest_labels": [
+          "part3",
+          "part3_choice_black",
+          "part3_choice_white",
+          "part3_choice_barefoot",
+          "part3_after_choice"
+        ],
+        "candidate_labels": [
+          "part3",
+          "part3_choice_black",
+          "part3_choice_white",
+          "part3_choice_barefoot",
+          "part3_after_choice"
+        ],
+        "latest_references": [
+          "part3_choice_black",
+          "part3_choice_white",
+          "part3_choice_barefoot",
+          "part3_after_choice",
+          "part3_after_choice",
+          "part3_after_choice",
+          "achievement",
+          "part4"
+        ],
+        "candidate_references": [
+          "part3_choice_black",
+          "part3_choice_white",
+          "part3_choice_barefoot",
+          "part3_after_choice",
+          "part3_after_choice",
+          "part3_after_choice",
+          "achievement",
+          "part4"
+        ]
+      },
+      "scripts/content/part4.rpy": {
+        "latest": "C:\\Users\\dead4\\Documents\\Codex\\2026-08-16\\d-steamlibrary-steamapps-common-tkpunk-ui\\library-audit\\work\\tiny-shadows-recovery\\staging\\latest-scripts-rpa\\scripts\\content\\part4.rpy",
+        "candidate": "C:\\Users\\dead4\\Documents\\Codex\\2026-08-16\\d-steamlibrary-steamapps-common-tkpunk-ui\\library-audit\\work\\tiny-shadows-recovery\\rebased\\game\\scripts\\content\\part4.rpy",
+        "latest_lines": 1887,
+        "candidate_lines": 1887,
+        "latest_literals": 809,
+        "candidate_literals": 809,
+        "literal_count_ok": true,
+        "skeleton_ok": true,
+        "skeleton_difference_count": 0,
+        "latest_code_counts": {
+          "label": 6,
+          "menu": 1,
+          "if": 4,
+          "elif": 3,
+          "else": 4,
+          "jump": 8,
+          "call": 4,
+          "return": 1
+        },
+        "candidate_code_counts": {
+          "label": 6,
+          "menu": 1,
+          "if": 4,
+          "elif": 3,
+          "else": 4,
+          "jump": 8,
+          "call": 4,
+          "return": 1
+        },
+        "latest_labels": [
+          "part4",
+          "part4_route_b",
+          "part4_route_a",
+          "part4_C",
+          "part4_bad_ending",
+          "part4_good_ending"
+        ],
+        "candidate_labels": [
+          "part4",
+          "part4_route_b",
+          "part4_route_a",
+          "part4_C",
+          "part4_bad_ending",
+          "part4_good_ending"
+        ],
+        "latest_references": [
+          "part4_route_a",
+          "part4_route_b",
+          "part4_C",
+          "part4_C",
+          "part4_good_ending",
+          "part4_bad_ending",
+          "disable_user_interaction",
+          "enable_user_interaction",
+          "achievement",
+          "splashscreen",
+          "achievement",
+          "end"
+        ],
+        "candidate_references": [
+          "part4_route_a",
+          "part4_route_b",
+          "part4_C",
+          "part4_C",
+          "part4_good_ending",
+          "part4_bad_ending",
+          "disable_user_interaction",
+          "enable_user_interaction",
+          "achievement",
+          "splashscreen",
+          "achievement",
+          "end"
+        ]
+      },
+      "scripts/content/end.rpy": {
+        "latest": "C:\\Users\\dead4\\Documents\\Codex\\2026-08-16\\d-steamlibrary-steamapps-common-tkpunk-ui\\library-audit\\work\\tiny-shadows-recovery\\staging\\latest-scripts-rpa\\scripts\\content\\end.rpy",
+        "candidate": "C:\\Users\\dead4\\Documents\\Codex\\2026-08-16\\d-steamlibrary-steamapps-common-tkpunk-ui\\library-audit\\work\\tiny-shadows-recovery\\rebased\\game\\scripts\\content\\end.rpy",
+        "latest_lines": 133,
+        "candidate_lines": 133,
+        "latest_literals": 4,
+        "candidate_literals": 4,
+        "literal_count_ok": true,
+        "skeleton_ok": true,
+        "skeleton_difference_count": 0,
+        "latest_code_counts": {
+          "label": 1,
+          "menu": 0,
+          "if": 3,
+          "elif": 3,
+          "else": 0,
+          "jump": 1,
+          "call": 0,
+          "return": 1
+        },
+        "candidate_code_counts": {
+          "label": 1,
+          "menu": 0,
+          "if": 3,
+          "elif": 3,
+          "else": 0,
+          "jump": 1,
+          "call": 0,
+          "return": 1
+        },
+        "latest_labels": [
+          "end"
+        ],
+        "candidate_labels": [
+          "end"
+        ],
+        "latest_references": [
+          "extra1"
+        ],
+        "candidate_references": [
+          "extra1"
+        ]
+      },
+      "scripts/content/extra1.rpy": {
+        "latest": "C:\\Users\\dead4\\Documents\\Codex\\2026-08-16\\d-steamlibrary-steamapps-common-tkpunk-ui\\library-audit\\work\\tiny-shadows-recovery\\staging\\latest-scripts-rpa\\scripts\\content\\extra1.rpy",
+        "candidate": "C:\\Users\\dead4\\Documents\\Codex\\2026-08-16\\d-steamlibrary-steamapps-common-tkpunk-ui\\library-audit\\work\\tiny-shadows-recovery\\rebased\\game\\scripts\\content\\extra1.rpy",
+        "latest_lines": 704,
+        "candidate_lines": 704,
+        "latest_literals": 288,
+        "candidate_literals": 288,
+        "literal_count_ok": true,
+        "skeleton_ok": true,
+        "skeleton_difference_count": 0,
+        "latest_code_counts": {
+          "label": 1,
+          "menu": 0,
+          "if": 3,
+          "elif": 3,
+          "else": 3,
+          "jump": 0,
+          "call": 1,
+          "return": 2
+        },
+        "candidate_code_counts": {
+          "label": 1,
+          "menu": 0,
+          "if": 3,
+          "elif": 3,
+          "else": 3,
+          "jump": 0,
+          "call": 1,
+          "return": 2
+        },
+        "latest_labels": [
+          "extra1"
+        ],
+        "candidate_labels": [
+          "extra1"
+        ],
+        "latest_references": [
+          "splashscreen"
+        ],
+        "candidate_references": [
+          "splashscreen"
+        ]
+      },
+      "scripts/roles/role.rpy": {
+        "latest": "C:\\Users\\dead4\\Documents\\Codex\\2026-08-16\\d-steamlibrary-steamapps-common-tkpunk-ui\\library-audit\\work\\tiny-shadows-recovery\\staging\\latest-scripts-rpa\\scripts\\roles\\role.rpy",
+        "candidate": "C:\\Users\\dead4\\Documents\\Codex\\2026-08-16\\d-steamlibrary-steamapps-common-tkpunk-ui\\library-audit\\work\\tiny-shadows-recovery\\rebased\\game\\scripts\\roles\\role.rpy",
+        "latest_lines": 69,
+        "candidate_lines": 69,
+        "latest_literals": 2,
+        "candidate_literals": 2,
+        "literal_count_ok": true,
+        "skeleton_ok": true,
+        "skeleton_difference_count": 0,
+        "latest_code_counts": {
+          "label": 0,
+          "menu": 0,
+          "if": 2,
+          "elif": 2,
+          "else": 0,
+          "jump": 0,
+          "call": 0,
+          "return": 1
+        },
+        "candidate_code_counts": {
+          "label": 0,
+          "menu": 0,
+          "if": 2,
+          "elif": 2,
+          "else": 0,
+          "jump": 0,
+          "call": 0,
+          "return": 1
+        },
+        "latest_labels": [],
+        "candidate_labels": [],
+        "latest_references": [],
+        "candidate_references": []
+      },
+      "scripts/roles/syq.rpy": {
+        "latest": "C:\\Users\\dead4\\Documents\\Codex\\2026-08-16\\d-steamlibrary-steamapps-common-tkpunk-ui\\library-audit\\work\\tiny-shadows-recovery\\staging\\latest-scripts-rpa\\scripts\\roles\\syq.rpy",
+        "candidate": "C:\\Users\\dead4\\Documents\\Codex\\2026-08-16\\d-steamlibrary-steamapps-common-tkpunk-ui\\library-audit\\work\\tiny-shadows-recovery\\rebased\\game\\scripts\\roles\\syq.rpy",
+        "latest_lines": 358,
+        "candidate_lines": 358,
+        "latest_literals": 106,
+        "candidate_literals": 106,
+        "literal_count_ok": true,
+        "skeleton_ok": true,
+        "skeleton_difference_count": 0,
+        "latest_code_counts": {
+          "label": 0,
+          "menu": 0,
+          "if": 0,
+          "elif": 0,
+          "else": 0,
+          "jump": 0,
+          "call": 0,
+          "return": 0
+        },
+        "candidate_code_counts": {
+          "label": 0,
+          "menu": 0,
+          "if": 0,
+          "elif": 0,
+          "else": 0,
+          "jump": 0,
+          "call": 0,
+          "return": 0
+        },
+        "latest_labels": [],
+        "candidate_labels": [],
+        "latest_references": [],
+        "candidate_references": []
+      },
+      "scripts/zzzz_codex_korean_main_menu.rpy": {
+        "latest_exists": false,
+        "candidate_exists": true,
+        "ok": false
+      }
+    },
+    "token_issues": [],
+    "empty_translations": [],
+    "exact_nonempty_count": 249,
+    "exact_nonempty_samples": [
+      {
+        "path": "scripts/content/script.rpy",
+        "line": 57,
+        "text": "……"
+      },
+      {
+        "path": "scripts/content/script.rpy",
+        "line": 71,
+        "text": "……"
+      },
+      {
+        "path": "scripts/content/script.rpy",
+        "line": 127,
+        "text": "………………"
+      },
+      {
+        "path": "scripts/content/script.rpy",
+        "line": 138,
+        "text": "……"
+      },
+      {
+        "path": "scripts/content/script.rpy",
+        "line": 290,
+        "text": "……"
+      },
+      {
+        "path": "scripts/content/script.rpy",
+        "line": 333,
+        "text": "……"
+      },
+      {
+        "path": "scripts/content/script.rpy",
+        "line": 396,
+        "text": "………………"
+      },
+      {
+        "path": "scripts/content/script.rpy",
+        "line": 426,
+        "text": "……"
+      },
+      {
+        "path": "scripts/content/script.rpy",
+        "line": 496,
+        "text": "……………………"
+      },
+      {
+        "path": "scripts/content/script.rpy",
+        "line": 554,
+        "text": "……"
+      },
+      {
+        "path": "scripts/content/script.rpy",
+        "line": 578,
+        "text": "……"
+      },
+      {
+        "path": "scripts/content/script.rpy",
+        "line": 694,
+        "text": "……"
+      },
+      {
+        "path": "scripts/content/script.rpy",
+        "line": 708,
+        "text": "……"
+      },
+      {
+        "path": "scripts/content/script.rpy",
+        "line": 767,
+        "text": "……"
+      },
+      {
+        "path": "scripts/content/script.rpy",
+        "line": 769,
+        "text": "……"
+      },
+      {
+        "path": "scripts/content/script.rpy",
+        "line": 874,
+        "text": "……"
+      },
+      {
+        "path": "scripts/content/script.rpy",
+        "line": 896,
+        "text": "……"
+      },
+      {
+        "path": "scripts/content/script.rpy",
+        "line": 947,
+        "text": "……………………"
+      },
+      {
+        "path": "scripts/content/script.rpy",
+        "line": 983,
+        "text": "……"
+      },
+      {
+        "path": "scripts/content/script.rpy",
+        "line": 1009,
+        "text": "……"
+      }
+    ],
+    "current_only_part4_literals_intentionally_omitted": 9,
+    "payload_hashes": {
+      "scripts/content/script.rpy": {
+        "exists": true,
+        "path": "C:\\Users\\dead4\\Documents\\Codex\\2026-08-16\\d-steamlibrary-steamapps-common-tkpunk-ui\\library-audit\\work\\tiny-shadows-recovery\\rebased\\game\\scripts\\content\\script.rpy",
+        "sha256": "1EE3845F40CF9C93A6EC8679D17CE6735CE710D05299278EA059C8A2720DB3CD",
+        "size": 39831
+      },
+      "scripts/content/part2.rpy": {
+        "exists": true,
+        "path": "C:\\Users\\dead4\\Documents\\Codex\\2026-08-16\\d-steamlibrary-steamapps-common-tkpunk-ui\\library-audit\\work\\tiny-shadows-recovery\\rebased\\game\\scripts\\content\\part2.rpy",
+        "sha256": "89D969FE43102C7C2A28CC56F9A4A4BEC9C339843016E54396139469D5EDDBE1",
+        "size": 54647
+      },
+      "scripts/content/part3.rpy": {
+        "exists": true,
+        "path": "C:\\Users\\dead4\\Documents\\Codex\\2026-08-16\\d-steamlibrary-steamapps-common-tkpunk-ui\\library-audit\\work\\tiny-shadows-recovery\\rebased\\game\\scripts\\content\\part3.rpy",
+        "sha256": "902230F10AE52EDD5F6A825B9236701A85D71E3ABAE259C43B66874C86D2DE64",
+        "size": 41202
+      },
+      "scripts/content/part4.rpy": {
+        "exists": true,
+        "path": "C:\\Users\\dead4\\Documents\\Codex\\2026-08-16\\d-steamlibrary-steamapps-common-tkpunk-ui\\library-audit\\work\\tiny-shadows-recovery\\rebased\\game\\scripts\\content\\part4.rpy",
+        "sha256": "02C2EA37DDCE5ECFF291D91C57F9185121656B6CB8DDA5867A862152357D7FF5",
+        "size": 73345
+      },
+      "scripts/content/end.rpy": {
+        "exists": true,
+        "path": "C:\\Users\\dead4\\Documents\\Codex\\2026-08-16\\d-steamlibrary-steamapps-common-tkpunk-ui\\library-audit\\work\\tiny-shadows-recovery\\rebased\\game\\scripts\\content\\end.rpy",
+        "sha256": "CE64C19B150A81B75DC122306D9D76020AA07463CD22A940B351E2E5F0596ADD",
+        "size": 3735
+      },
+      "scripts/content/extra1.rpy": {
+        "exists": true,
+        "path": "C:\\Users\\dead4\\Documents\\Codex\\2026-08-16\\d-steamlibrary-steamapps-common-tkpunk-ui\\library-audit\\work\\tiny-shadows-recovery\\rebased\\game\\scripts\\content\\extra1.rpy",
+        "sha256": "378C3FBF1BDBFFFA8E1D50925A4568A06000F586B7C7DE0CC773590642B4CD05",
+        "size": 29372
+      },
+      "scripts/roles/role.rpy": {
+        "exists": true,
+        "path": "C:\\Users\\dead4\\Documents\\Codex\\2026-08-16\\d-steamlibrary-steamapps-common-tkpunk-ui\\library-audit\\work\\tiny-shadows-recovery\\rebased\\game\\scripts\\roles\\role.rpy",
+        "sha256": "7379E810115BDD1E64C167BEBB53133B6319D79E0127FFE8684662A4BA38F148",
+        "size": 2379
+      },
+      "scripts/roles/syq.rpy": {
+        "exists": true,
+        "path": "C:\\Users\\dead4\\Documents\\Codex\\2026-08-16\\d-steamlibrary-steamapps-common-tkpunk-ui\\library-audit\\work\\tiny-shadows-recovery\\rebased\\game\\scripts\\roles\\syq.rpy",
+        "sha256": "B6874CC37B453BFD89CF20551B2D34242F8FFBAAD1F6987FC60E72B915EE3EA0",
+        "size": 10910
+      },
+      "scripts/zzzz_codex_korean_main_menu.rpy": {
+        "exists": true,
+        "path": "C:\\Users\\dead4\\Documents\\Codex\\2026-08-16\\d-steamlibrary-steamapps-common-tkpunk-ui\\library-audit\\work\\tiny-shadows-recovery\\rebased\\game\\scripts\\zzzz_codex_korean_main_menu.rpy",
+        "sha256": "6E5145F77933C5F1D7CA13518BA45AC3A24BC31AF3F2C34294BBB4EA10718AD4",
+        "size": 8133
+      }
+    }
+  },
+  "renpy_structure": {
+    "duplicate_candidate_labels": [],
+    "candidate_label_count": 19,
+    "external_call_or_jump_targets": [
+      "achievement",
+      "disable_user_interaction",
+      "enable_user_interaction",
+      "splashscreen"
+    ],
+    "missing_call_or_jump_targets_against_latest_sources": [],
+    "route_checks": {
+      "start_menu_has_korean_base_option": true,
+      "start_menu_has_korean_postscript_option": true,
+      "start_menu_routes_to_extra1": true,
+      "end_routes_to_extra1": true,
+      "gallery_unlock_action_present": true,
+      "disabled_gallery_action_absent": true
+    }
+  },
+  "translation_audit": {
+    "candidate_rpy_files": 9,
+    "candidate_dialogue_literals": 2637,
+    "unexpected_cjk_lines": [],
+    "expected_japanese_credit_lines": [
+      {
+        "path": "scripts\\content\\end.rpy",
+        "line": 67,
+        "chars": "祈里",
+        "text": "    show screen fullscreen_text(\"cg40\",_(\"성우\"),\"Character Voice\",\"중국어: 첸밍링\\n일본어: 祈里マリヱ\")"
+      }
+    ],
+    "unexpected_cjk_in_literals": [],
+    "candidate_voice_refs": [],
+    "old_voice_refs": {
+      "count": 650,
+      "samples": [
+        {
+          "path": "scripts\\content\\part2.rpy",
+          "line": 15,
+          "asset": "audio/voice/100-1.ogg"
+        },
+        {
+          "path": "scripts\\content\\part2.rpy",
+          "line": 22,
+          "asset": "audio/voice/101-2.ogg"
+        },
+        {
+          "path": "scripts\\content\\part2.rpy",
+          "line": 36,
+          "asset": "audio/voice/102-1.ogg"
+        },
+        {
+          "path": "scripts\\content\\part2.rpy",
+          "line": 38,
+          "asset": "audio/voice/103.ogg"
+        },
+        {
+          "path": "scripts\\content\\part2.rpy",
+          "line": 47,
+          "asset": "audio/voice/104.ogg"
+        },
+        {
+          "path": "scripts\\content\\part2.rpy",
+          "line": 54,
+          "asset": "audio/voice/105.ogg"
+        },
+        {
+          "path": "scripts\\content\\part2.rpy",
+          "line": 63,
+          "asset": "audio/voice/106.ogg"
+        },
+        {
+          "path": "scripts\\content\\part2.rpy",
+          "line": 71,
+          "asset": "audio/voice/107.ogg"
+        },
+        {
+          "path": "scripts\\content\\part2.rpy",
+          "line": 73,
+          "asset": "audio/voice/108.ogg"
+        },
+        {
+          "path": "scripts\\content\\part2.rpy",
+          "line": 84,
+          "asset": "audio/voice/109.ogg"
+        },
+        {
+          "path": "scripts\\content\\part2.rpy",
+          "line": 90,
+          "asset": "audio/voice/110.ogg"
+        },
+        {
+          "path": "scripts\\content\\part2.rpy",
+          "line": 101,
+          "asset": "audio/voice/111-1.ogg"
+        }
+      ],
+      "unmatched_against_audio_rpa": [
+        {
+          "path": "scripts\\content\\part2.rpy",
+          "line": 15,
+          "asset": "audio/voice/100-1.ogg"
+        },
+        {
+          "path": "scripts\\content\\part2.rpy",
+          "line": 22,
+          "asset": "audio/voice/101-2.ogg"
+        },
+        {
+          "path": "scripts\\content\\part2.rpy",
+          "line": 36,
+          "asset": "audio/voice/102-1.ogg"
+        },
+        {
+          "path": "scripts\\content\\part2.rpy",
+          "line": 38,
+          "asset": "audio/voice/103.ogg"
+        },
+        {
+          "path": "scripts\\content\\part2.rpy",
+          "line": 47,
+          "asset": "audio/voice/104.ogg"
+        },
+        {
+          "path": "scripts\\content\\part2.rpy",
+          "line": 54,
+          "asset": "audio/voice/105.ogg"
+        },
+        {
+          "path": "scripts\\content\\part2.rpy",
+          "line": 63,
+          "asset": "audio/voice/106.ogg"
+        },
+        {
+          "path": "scripts\\content\\part2.rpy",
+          "line": 71,
+          "asset": "audio/voice/107.ogg"
+        },
+        {
+          "path": "scripts\\content\\part2.rpy",
+          "line": 73,
+          "asset": "audio/voice/108.ogg"
+        },
+        {
+          "path": "scripts\\content\\part2.rpy",
+          "line": 84,
+          "asset": "audio/voice/109.ogg"
+        },
+        {
+          "path": "scripts\\content\\part2.rpy",
+          "line": 90,
+          "asset": "audio/voice/110.ogg"
+        },
+        {
+          "path": "scripts\\content\\part2.rpy",
+          "line": 101,
+          "asset": "audio/voice/111-1.ogg"
+        },
+        {
+          "path": "scripts\\content\\part2.rpy",
+          "line": 115,
+          "asset": "audio/voice/112.ogg"
+        },
+        {
+          "path": "scripts\\content\\part2.rpy",
+          "line": 132,
+          "asset": "audio/voice/113-1.ogg"
+        },
+        {
+          "path": "scripts\\content\\part2.rpy",
+          "line": 134,
+          "asset": "audio/voice/114.ogg"
+        },
+        {
+          "path": "scripts\\content\\part2.rpy",
+          "line": 137,
+          "asset": "audio/voice/115-1.ogg"
+        },
+        {
+          "path": "scripts\\content\\part2.rpy",
+          "line": 147,
+          "asset": "audio/voice/116-1.ogg"
+        },
+        {
+          "path": "scripts\\content\\part2.rpy",
+          "line": 158,
+          "asset": "audio/voice/117.ogg"
+        },
+        {
+          "path": "scripts\\content\\part2.rpy",
+          "line": 161,
+          "asset": "audio/voice/118.ogg"
+        },
+        {
+          "path": "scripts\\content\\part2.rpy",
+          "line": 168,
+          "asset": "audio/voice/119.ogg"
+        }
+      ],
+      "unmatched_count": 650
+    },
+    "audio_rpa_voice_inventory": {
+      "available": true,
+      "exit_code": 0,
+      "count": 1494,
+      "paths": [
+        "audio/voice/extra1_0053bad8.ogg",
+        "audio/voice/extra1_04a6b4af.ogg",
+        "audio/voice/extra1_09e09fbe.ogg",
+        "audio/voice/extra1_0a3fad5b.ogg",
+        "audio/voice/extra1_0a3fad5b_1.ogg",
+        "audio/voice/extra1_0ac4abaf.ogg",
+        "audio/voice/extra1_0c8dcd2e.ogg",
+        "audio/voice/extra1_0ccc4010.ogg",
+        "audio/voice/extra1_0ea9d6b9.ogg",
+        "audio/voice/extra1_11fb44bc.ogg",
+        "audio/voice/extra1_13ad79f2.ogg",
+        "audio/voice/extra1_1432bb16.ogg",
+        "audio/voice/extra1_160fb884.ogg",
+        "audio/voice/extra1_16b04efe.ogg",
+        "audio/voice/extra1_1c241015.ogg",
+        "audio/voice/extra1_1dc92a67.ogg",
+        "audio/voice/extra1_20601eba.ogg",
+        "audio/voice/extra1_2598f3e0.ogg",
+        "audio/voice/extra1_28470a16.ogg",
+        "audio/voice/extra1_28d1bada.ogg"
+      ],
+      "truncated": true
+    },
+    "terminology_checks": {
+      "수유칭": 6,
+      "유에란쨩": 5,
+      "린모": 4,
+      "아저씨": 6,
+      "사축 아저씨": 5
+    }
+  },
+  "semantic_samples": [
+    {
+      "path": "scripts/content/script.rpy",
+      "source_line": 8,
+      "candidate_line": 8,
+      "source": "本篇",
+      "korean": "본편",
+      "speaker": ""
+    },
+    {
+      "path": "scripts/content/script.rpy",
+      "source_line": 661,
+      "candidate_line": 661,
+      "source": "996？",
+      "korean": "996?",
+      "speaker": "l"
+    },
+    {
+      "path": "scripts/content/script.rpy",
+      "source_line": 1199,
+      "candidate_line": 1199,
+      "source": "……哎？",
+      "korean": "……어?",
+      "speaker": "l"
+    },
+    {
+      "path": "scripts/content/part2.rpy",
+      "source_line": 8,
+      "candidate_line": 8,
+      "source": "我一瞬间宕机在了原地。",
+      "korean": "나는 순간적으로 그 자리에 얼어붙고 말았다.",
+      "speaker": ""
+    },
+    {
+      "path": "scripts/content/part2.rpy",
+      "source_line": 684,
+      "candidate_line": 684,
+      "source": "于是我老老实实地洗完澡之后，像一具安静的尸体一样躺在了备用床褥打的地铺上。",
+      "korean": "샤워를 마친 나는 여분의 침구를 깐 바닥에 조용히 시체처럼 누웠다.",
+      "speaker": ""
+    },
+    {
+      "path": "scripts/content/part2.rpy",
+      "source_line": 1355,
+      "candidate_line": 1355,
+      "source": "——但是这一次，却一点都不痛。",
+      "korean": "——하지만 이번에는 전혀 아프지 않았다.",
+      "speaker": ""
+    },
+    {
+      "path": "scripts/content/part3.rpy",
+      "source_line": 9,
+      "candidate_line": 9,
+      "source": "周末的早上，顶着黑眼圈的我长舒一口气，终于合上了电脑。",
+      "korean": "주말 아침, 다크서클이 퀭한 나는 안도의 한숨을 내쉬며 드디어 노트북을 덮었다.",
+      "speaker": ""
+    },
+    {
+      "path": "scripts/content/part3.rpy",
+      "source_line": 432,
+      "candidate_line": 432,
+      "source": "………………",
+      "korean": "………………",
+      "speaker": ""
+    },
+    {
+      "path": "scripts/content/part3.rpy",
+      "source_line": 827,
+      "candidate_line": 827,
+      "source": "——不知道为什么，光是说了这么几句话，就感觉更累了。",
+      "korean": "——왜인지 모르겠지만, 겨우 몇 마디 나눴을 뿐인데 더 피곤해진 기분이다.",
+      "speaker": ""
+    },
+    {
+      "path": "scripts/content/part4.rpy",
+      "source_line": 7,
+      "candidate_line": 7,
+      "source": "吃完饭后，瞄到了隔壁的同事还在不时地向我投来目光，一副欲言又止的模样。",
+      "korean": "식사를 마치고 슬쩍 보니 옆자리 동료가 여전히 뭔가를 말하고 싶어 입이 근질근질한 표정으로 나를 힐끗거리고 있었다.",
+      "speaker": ""
+    },
+    {
+      "path": "scripts/content/part4.rpy",
+      "source_line": 874,
+      "candidate_line": 874,
+      "source": "她再也没有来过这里，也没有去过线下的任何活动。",
+      "korean": "그녀는 다시는 이곳에 오지 않았고, 어떤 오프라인 활동에도 참여하지 않았다.",
+      "speaker": ""
+    },
+    {
+      "path": "scripts/content/part4.rpy",
+      "source_line": 1878,
+      "candidate_line": 1878,
+      "source": "夕阳下，我们的影子交织在一起，慢慢走远，直到再也分不清彼此。",
+      "korean": "노을 속에서 우리의 그림자는 서로 얽힌 채 천천히 멀어져 갔고, 마침내 서로의 경계조차 알아볼 수 없게 되었다.",
+      "speaker": ""
+    },
+    {
+      "path": "scripts/content/extra1.rpy",
+      "source_line": 7,
+      "candidate_line": 7,
+      "source": "周日的上午，秋天的阳光温吞吞地洒在人行道上。",
+      "korean": "일요일 오전, 가을 햇살이 보도 위에 포근하게 내려앉았다.",
+      "speaker": ""
+    },
+    {
+      "path": "scripts/content/extra1.rpy",
+      "source_line": 316,
+      "candidate_line": 316,
+      "source": "——怎么说呢。",
+      "korean": "——뭐랄까.",
+      "speaker": ""
+    },
+    {
+      "path": "scripts/content/extra1.rpy",
+      "source_line": 596,
+      "candidate_line": 596,
+      "source": "哇哇哇哇你在公众场合说什么呢！",
+      "korean": "와아아아아, 사람들 있는 데서 무슨 말을 하는 거예요!",
+      "speaker": "e astonished skin_blush"
+    },
+    {
+      "path": "scripts/content/extra1.rpy",
+      "source_line": 694,
+      "candidate_line": 694,
+      "source": "嗯，回家。",
+      "korean": "응, 집에 가자.",
+      "speaker": "l"
+    },
+    {
+      "path": "scripts/content/part4.rpy",
+      "source_line": 1372,
+      "candidate_line": 1372,
+      "source": "她忽然端正地坐到床上，竖起一根纤纤玉指，指了指自己的嘴唇。",
+      "korean": "그녀는 갑자기 침대 위에 똑바로 앉더니, 가느다란 손가락으로 자신의 입술을 가리켰다.",
+      "speaker": ""
+    },
+    {
+      "path": "scripts/content/part4.rpy",
+      "source_line": 1877,
+      "candidate_line": 1877,
+      "source": "好啊。",
+      "korean": "좋지.",
+      "speaker": "l"
+    }
+  ],
+  "compile_and_roundtrip": {
+    "runtime": "embedded Ren'Py 8.6.0.26032101+nightly",
+    "lint_exit_code": 0,
+    "lint_error_lines": [],
+    "lint_warning_line_count": 53,
+    "lint_warning_samples": [
+      "C:/Users/dead4/Documents/Codex/2026-08-16/d-steamlibrary-steamapps-common-tkpunk-ui/library-audit/work/tiny-shadows-recovery/staging/runtime-base/game/scripts/content/background.rpy:10 Image bg_coffee_2 uses file 'bg/coffee/bg_coffee_2.webp', which is not loadable.",
+      "C:/Users/dead4/Documents/Codex/2026-08-16/d-steamlibrary-steamapps-common-tkpunk-ui/library-audit/work/tiny-shadows-recovery/staging/runtime-base/game/scripts/content/background.rpy:10 Image bg_coffee_2 uses file 'bg/coffee/bg_coffee_2.webp', which is not loadable.",
+      "C:/Users/dead4/Documents/Codex/2026-08-16/d-steamlibrary-steamapps-common-tkpunk-ui/library-audit/work/tiny-shadows-recovery/staging/runtime-base/game/scripts/content/background.rpy:31 Image bg_street_3 uses file 'bg/street/bg_street_3.webp', which is not loadable.",
+      "C:/Users/dead4/Documents/Codex/2026-08-16/d-steamlibrary-steamapps-common-tkpunk-ui/library-audit/work/tiny-shadows-recovery/staging/runtime-base/game/scripts/content/background.rpy:31 Image bg_street_3 uses file 'bg/street/bg_street_3.webp', which is not loadable.",
+      "C:/Users/dead4/Documents/Codex/2026-08-16/d-steamlibrary-steamapps-common-tkpunk-ui/library-audit/work/tiny-shadows-recovery/staging/runtime-base/game/scripts/content/background.rpy:35 Image bg_street_4 uses file 'bg/street/bg_street_4.webp', which is not loadable.",
+      "C:/Users/dead4/Documents/Codex/2026-08-16/d-steamlibrary-steamapps-common-tkpunk-ui/library-audit/work/tiny-shadows-recovery/staging/runtime-base/game/scripts/content/background.rpy:35 Image bg_street_4 uses file 'bg/street/bg_street_4.webp', which is not loadable.",
+      "C:/Users/dead4/Documents/Codex/2026-08-16/d-steamlibrary-steamapps-common-tkpunk-ui/library-audit/work/tiny-shadows-recovery/staging/runtime-base/game/scripts/content/background.rpy:39 Image bg_street_5 uses file 'bg/street/bg_street_5.webp', which is not loadable.",
+      "C:/Users/dead4/Documents/Codex/2026-08-16/d-steamlibrary-steamapps-common-tkpunk-ui/library-audit/work/tiny-shadows-recovery/staging/runtime-base/game/scripts/content/background.rpy:39 Image bg_street_5 uses file 'bg/street/bg_street_5.webp', which is not loadable.",
+      "C:/Users/dead4/Documents/Codex/2026-08-16/d-steamlibrary-steamapps-common-tkpunk-ui/library-audit/work/tiny-shadows-recovery/staging/runtime-base/game/scripts/content/background.rpy:74 Image bg_hotel_1 uses file 'bg/hotel/bg_hotel_1.webp', which is not loadable.",
+      "C:/Users/dead4/Documents/Codex/2026-08-16/d-steamlibrary-steamapps-common-tkpunk-ui/library-audit/work/tiny-shadows-recovery/staging/runtime-base/game/scripts/content/background.rpy:74 Image bg_hotel_1 uses file 'bg/hotel/bg_hotel_1.webp', which is not loadable.",
+      "C:/Users/dead4/Documents/Codex/2026-08-16/d-steamlibrary-steamapps-common-tkpunk-ui/library-audit/work/tiny-shadows-recovery/staging/runtime-base/game/scripts/content/background.rpy:86 Image bg_hotel_4 uses file 'bg/hotel/bg_hotel_4.webp', which is not loadable.",
+      "C:/Users/dead4/Documents/Codex/2026-08-16/d-steamlibrary-steamapps-common-tkpunk-ui/library-audit/work/tiny-shadows-recovery/staging/runtime-base/game/scripts/content/background.rpy:86 Image bg_hotel_4 uses file 'bg/hotel/bg_hotel_4.webp', which is not loadable.",
+      "C:/Users/dead4/Documents/Codex/2026-08-16/d-steamlibrary-steamapps-common-tkpunk-ui/library-audit/work/tiny-shadows-recovery/staging/runtime-base/game/scripts/content/background.rpy:95 Image bg_corridor_2 uses file 'bg/corridor/bg_corridor_2.webp', which is not loadable.",
+      "C:/Users/dead4/Documents/Codex/2026-08-16/d-steamlibrary-steamapps-common-tkpunk-ui/library-audit/work/tiny-shadows-recovery/staging/runtime-base/game/scripts/content/background.rpy:95 Image bg_corridor_2 uses file 'bg/corridor/bg_corridor_2.webp', which is not loadable.",
+      "C:/Users/dead4/Documents/Codex/2026-08-16/d-steamlibrary-steamapps-common-tkpunk-ui/library-audit/work/tiny-shadows-recovery/staging/runtime-base/game/scripts/content/background.rpy:101 Image bg_living_room_1 uses file 'bg/living_room/bg_living_room_1.webp', which is not loadable.",
+      "C:/Users/dead4/Documents/Codex/2026-08-16/d-steamlibrary-steamapps-common-tkpunk-ui/library-audit/work/tiny-shadows-recovery/staging/runtime-base/game/scripts/content/background.rpy:101 Image bg_living_room_1 uses file 'bg/living_room/bg_living_room_1.webp', which is not loadable.",
+      "C:/Users/dead4/Documents/Codex/2026-08-16/d-steamlibrary-steamapps-common-tkpunk-ui/library-audit/work/tiny-shadows-recovery/staging/runtime-base/game/scripts/content/background.rpy:105 Image bg_living_room_2 uses file 'bg/living_room/bg_living_room_2.webp', which is not loadable.",
+      "C:/Users/dead4/Documents/Codex/2026-08-16/d-steamlibrary-steamapps-common-tkpunk-ui/library-audit/work/tiny-shadows-recovery/staging/runtime-base/game/scripts/content/background.rpy:105 Image bg_living_room_2 uses file 'bg/living_room/bg_living_room_2.webp', which is not loadable.",
+      "C:/Users/dead4/Documents/Codex/2026-08-16/d-steamlibrary-steamapps-common-tkpunk-ui/library-audit/work/tiny-shadows-recovery/staging/runtime-base/game/scripts/content/background.rpy:112 Image bg_living_room_4 uses file 'bg/living_room/bg_living_room_4.webp', which is not loadable.",
+      "C:/Users/dead4/Documents/Codex/2026-08-16/d-steamlibrary-steamapps-common-tkpunk-ui/library-audit/work/tiny-shadows-recovery/staging/runtime-base/game/scripts/content/background.rpy:112 Image bg_living_room_4 uses file 'bg/living_room/bg_living_room_4.webp', which is not loadable.",
+      "C:/Users/dead4/Documents/Codex/2026-08-16/d-steamlibrary-steamapps-common-tkpunk-ui/library-audit/work/tiny-shadows-recovery/staging/runtime-base/game/scripts/content/background.rpy:120 Image bg_sky_1 uses file 'bg/sky/bg_sky_1.webp', which is not loadable.",
+      "C:/Users/dead4/Documents/Codex/2026-08-16/d-steamlibrary-steamapps-common-tkpunk-ui/library-audit/work/tiny-shadows-recovery/staging/runtime-base/game/scripts/content/background.rpy:120 Image bg_sky_1 uses file 'bg/sky/bg_sky_1.webp', which is not loadable.",
+      "C:/Users/dead4/Documents/Codex/2026-08-16/d-steamlibrary-steamapps-common-tkpunk-ui/library-audit/work/tiny-shadows-recovery/staging/runtime-base/game/scripts/content/background.rpy:122 Image bg_sky_2 uses file 'bg/sky/bg_sky_2.webp', which is not loadable.",
+      "C:/Users/dead4/Documents/Codex/2026-08-16/d-steamlibrary-steamapps-common-tkpunk-ui/library-audit/work/tiny-shadows-recovery/staging/runtime-base/game/scripts/content/background.rpy:122 Image bg_sky_2 uses file 'bg/sky/bg_sky_2.webp', which is not loadable.",
+      "C:/Users/dead4/Documents/Codex/2026-08-16/d-steamlibrary-steamapps-common-tkpunk-ui/library-audit/work/tiny-shadows-recovery/staging/runtime-base/game/scripts/content/background.rpy:126 Image bg_girl_room_1 uses file 'bg/girl_room/bg_girl_room_1.webp', which is not loadable.",
+      "C:/Users/dead4/Documents/Codex/2026-08-16/d-steamlibrary-steamapps-common-tkpunk-ui/library-audit/work/tiny-shadows-recovery/staging/runtime-base/game/scripts/content/background.rpy:126 Image bg_girl_room_1 uses file 'bg/girl_room/bg_girl_room_1.webp', which is not loadable.",
+      "C:/Users/dead4/Documents/Codex/2026-08-16/d-steamlibrary-steamapps-common-tkpunk-ui/library-audit/work/tiny-shadows-recovery/staging/runtime-base/game/scripts/content/background.rpy:132 Image bg_girl_room_3 uses file 'bg/girl_room/bg_girl_room_3.webp', which is not loadable.",
+      "C:/Users/dead4/Documents/Codex/2026-08-16/d-steamlibrary-steamapps-common-tkpunk-ui/library-audit/work/tiny-shadows-recovery/staging/runtime-base/game/scripts/content/background.rpy:132 Image bg_girl_room_3 uses file 'bg/girl_room/bg_girl_room_3.webp', which is not loadable.",
+      "C:/Users/dead4/Documents/Codex/2026-08-16/d-steamlibrary-steamapps-common-tkpunk-ui/library-audit/work/tiny-shadows-recovery/staging/runtime-base/game/scripts/content/background.rpy:146 Image bg_conference_room_2 uses file 'bg/conference_room/bg_conference_room_2.webp', which is not loadable.",
+      "C:/Users/dead4/Documents/Codex/2026-08-16/d-steamlibrary-steamapps-common-tkpunk-ui/library-audit/work/tiny-shadows-recovery/staging/runtime-base/game/scripts/content/background.rpy:146 Image bg_conference_room_2 uses file 'bg/conference_room/bg_conference_room_2.webp', which is not loadable."
+    ],
+    "roundtrip_compiled_rpyc_count": 9,
+    "roundtrip_compiled_rpyc_samples": [
+      "scripts\\zzzz_codex_korean_main_menu.rpyc",
+      "scripts\\content\\end.rpyc",
+      "scripts\\content\\extra1.rpyc",
+      "scripts\\content\\part2.rpyc",
+      "scripts\\content\\part3.rpyc",
+      "scripts\\content\\part4.rpyc",
+      "scripts\\content\\script.rpyc",
+      "scripts\\roles\\role.rpyc",
+      "scripts\\roles\\syq.rpyc"
+    ],
+    "lint_report": "C:\\Users\\dead4\\Documents\\Codex\\2026-08-16\\d-steamlibrary-steamapps-common-tkpunk-ui\\library-audit\\work\\tiny-shadows-recovery\\staging\\renpy-lint.txt",
+    "roundtrip_tree": "C:\\Users\\dead4\\Documents\\Codex\\2026-08-16\\d-steamlibrary-steamapps-common-tkpunk-ui\\library-audit\\work\\tiny-shadows-recovery\\staging\\rebased-clean8"
+  },
+  "release_audit": {
+    "release_root": "C:\\Users\\dead4\\Documents\\Codex\\2026-08-16\\d-steamlibrary-steamapps-common-tkpunk-ui\\library-audit\\work\\tiny-shadows-recovery\\release",
+    "release_files": [
+      "LEGAL-NOTICE.txt",
+      "README.md",
+      "install.ps1",
+      "manifest.json",
+      "patch/game/scripts/content/end.rpy",
+      "patch/game/scripts/content/extra1.rpy",
+      "patch/game/scripts/content/part2.rpy",
+      "patch/game/scripts/content/part3.rpy",
+      "patch/game/scripts/content/part4.rpy",
+      "patch/game/scripts/content/script.rpy",
+      "patch/game/scripts/roles/role.rpy",
+      "patch/game/scripts/roles/syq.rpy",
+      "patch/game/scripts/zzzz_codex_korean_main_menu.rpy",
+      "qa.json",
+      "qa.md",
+      "release-notes.md",
+      "restore.ps1"
+    ],
+    "forbidden_release_files": [],
+    "zip": {
+      "note": "ZIP hash is recorded in the adjacent work-level QA report and sidecar."
+    },
+    "zip_sidecar": {
+      "note": "See the adjacent .zip.sha256 sidecar."
+    },
+    "zip_members": [],
+    "zip_has_original_archive": false,
+    "zip_has_compiled_or_runtime": false
+  },
+  "script_syntax": {
+    "python": {
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "",
+      "paths": [
+        "C:\\Users\\dead4\\Documents\\Codex\\2026-08-16\\d-steamlibrary-steamapps-common-tkpunk-ui\\library-audit\\work\\tiny-shadows-recovery\\rebase_tiny_shadows.py",
+        "C:\\Users\\dead4\\Documents\\Codex\\2026-08-16\\d-steamlibrary-steamapps-common-tkpunk-ui\\library-audit\\work\\tiny-shadows-recovery\\build_tiny_shadows_release.py",
+        "C:\\Users\\dead4\\Documents\\Codex\\2026-08-16\\d-steamlibrary-steamapps-common-tkpunk-ui\\library-audit\\work\\tiny-shadows-recovery\\package_tiny_shadows.py"
+      ]
+    },
+    "powershell": [
+      {
+        "path": "C:\\Users\\dead4\\Documents\\Codex\\2026-08-16\\d-steamlibrary-steamapps-common-tkpunk-ui\\library-audit\\work\\tiny-shadows-recovery\\release\\install.ps1",
+        "exit_code": 0,
+        "output": "0",
+        "errors": ""
+      },
+      {
+        "path": "C:\\Users\\dead4\\Documents\\Codex\\2026-08-16\\d-steamlibrary-steamapps-common-tkpunk-ui\\library-audit\\work\\tiny-shadows-recovery\\release\\restore.ps1",
+        "exit_code": 0,
+        "output": "0",
+        "errors": ""
+      }
+    ]
+  },
+  "synthetic_installer_roundtrip": {
+    "test_root": "C:\\Users\\dead4\\Documents\\Codex\\2026-08-16\\d-steamlibrary-steamapps-common-tkpunk-ui\\library-audit\\work\\tiny-shadows-recovery\\staging\\synthetic-install-test2",
+    "state_status": "restored"
+  },
+  "manual_quality_notes": [
+    "The candidate is rebased from the 2026-08-01 scripts.rpa decompilation; old loose code is not copied wholesale.",
+    "The new extra1 postscript has an explicit 288-line Korean pass with e's polite and l's casual register retained.",
+    "Part4's nine current-only literals are two obsolete narration lines and seven obsolete ending-overlay messages absent from the current archive; they are intentionally not reintroduced.",
+    "The old patch's numeric voice paths do not match the current hashed audio.rpa inventory and are omitted; the current archive's voice commands are not present in the rebased source.",
+    "The only CJK characters retained are the Japanese credit proper name 祈里マリヱ; unexpected Chinese residue is a QA failure.",
+    "No local translation model was used; wording and register were reviewed directly in scene order."
+  ]
+}
