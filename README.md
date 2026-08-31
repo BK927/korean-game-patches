@@ -10,6 +10,7 @@ BK927이 제작한 게임 한글 패치를 장기적으로 보관하고 배포�
 | --- | --- | --- | --- |
 | T.K.PUNK (삼국 펑크) | 배포 준비 완료 | v1.1.0 | [설치 및 상세 정보](games/tkpunk/README.md) |
 | Absent in the Rain (비가 되어, 사람을 벗다) | 번역 완료 | v1.0.1 | [설치 및 상세 정보](games/amehazu/README.md) |
+| 奇迹一刻 Surmount (기적의 순간) | 번역 완료 | v0.1.0 | [설치 및 상세 정보](games/surmount/README.md) |
 
 ## 저장소 구성
 
@@ -17,6 +18,7 @@ BK927이 제작한 게임 한글 패치를 장기적으로 보관하고 배포�
 games/
 ├─ _template/       새 게임을 추가할 때 사용하는 기본 틀
 ├─ amehazu/         Absent in the Rain 한글 패치
+├─ surmount/        奇迹一刻 Surmount 한글 패치
 └─ tkpunk/          T.K.PUNK 한글 패치
    ├─ assets/       소개용 이미지
    ├─ installer/    설치·복구 도구 원본

@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "game": {
+    "slug": "surmount",
+    "title": "Surmount",
+    "originalTitle": "奇迹一刻",
+    "koreanTitle": "기적의 순간",
+    "platform": "Windows / Steam",
+    "steamAppId": "1089630",
+    "steamBuildId": "8856270",
+    "engine": "Unity 2020.3.33f1"
+  },
+  "patchVersion": "0.1.0",
+  "language": {
+    "code": "ko",
+    "label": "한국어",
+    "slot": "번체 중국어 슬롯 교체"
+  },
+  "target": {
+    "relativePath": "Surmount_Data/resources.assets",
+    "originalSize": 178084176,
+    "originalSha256": "2B2AD7B0829A612269D6692B6FEC082DCA8D4EF2E6E7CA853F534FA111ECD169",
+    "patchedSize": 199311296,
+    "patchedSha256": "AE2539A5851375F6B30E86E2AA1DEBA5689471AE59A6974A5FB94F7B8F590063"
+  },
+  "delta": {
+    "format": "VCDIFF",
+    "file": "payload/resources.assets.xdelta",
+    "size": 13791063,
+    "sha256": "D9F20E55D9934CF594B77AE4F7B739479821A7D07CAE0DFAFB85D54525407323"
+  },
+  "distribution": {
+    "zip": "Surmount-Korean-Patch-v0.1.0-build8856270.zip",
+    "zipSize": 13961674,
+    "zipSha256": "4D5E2DC5DFF7BD3B7FAE91611584A972A65D83B09FB1269BD60BE5EEA77A5D7E"
+  },
+  "coverage": {
+    "dataTranslationEntries": 9790,
+    "textRowsChanged": 9367,
+    "storyUniqueDisplayStrings": 10648,
+    "storyAssetGroupsChanged": 528,
+    "storyTextAssetObjectsChanged": 1052,
+    "storyDisplayOccurrencesChanged": 24782,
+    "monoComponentsChanged": 1178,
+    "uiContextReviewed": 478,
+    "textureReplacements": 72,
+    "spriteMeshReplacements": 10,
+    "fontReplacements": 4
+  },
+  "tool": {
+    "name": "Xdelta",
+    "version": "3.2.0",
+    "license": "Apache-2.0"
+  },
+  "knownLimitations": [
+    "튜토리얼 예시 화면 26개에는 이미지에 새겨진 중국어 UI가 남아 있습니다",
+    "일부 장식과 캐릭터 명찰 이미지는 원작 미술을 유지했습니다"
+  ],
+  "rights": {
+    "official": false,
+    "notice": "정품 보유자를 위한 비공식 팬 패치이며 개발사의 허락을 받지 않았습니다. 게임과 상표, 시나리오의 권리는 각 권리자에게 있습니다.",
+    "takedown": "권리자의 요청이 있으면 관련 자료를 조정하거나 제거합니다."
+  }
+}
