@@ -1,0 +1,352 @@
+{
+  "schema": "lair-land-story-korean-patch/release-candidate/v1",
+  "status": "RELEASE_CANDIDATE",
+  "release_name": "Lair-Land-Story-Remake-Korean-Patch-0.1.0-rc1",
+  "generated_at_utc": "2026-09-17T13:42:18.202787Z",
+  "game": {
+    "name": "Lair Land Story Remake Edition",
+    "appid": 1268140,
+    "steam_build_id": 9253648,
+    "unity": "2018.4.20f1 Mono"
+  },
+  "localization": {
+    "authoritative_source": "Traditional Chinese (cnh)",
+    "target_slot": "English (language index 3)",
+    "story_units": 14965,
+    "ui_units": 748,
+    "dll_units": 610,
+    "image_replacements": 28
+  },
+  "distribution": {
+    "delta_only": true,
+    "complete_original_files_in_archive": false,
+    "automatic_source_hash_gate": true,
+    "automatic_backup": true,
+    "rollback_on_failure": true
+  },
+  "target_relative_paths": [
+    "Lair Land Story Remake Edition_Data\\StreamingAssets\\Data\\EventTxt_en.txt",
+    "Lair Land Story Remake Edition_Data\\StreamingAssets\\Data\\languagedata.txt",
+    "Lair Land Story Remake Edition_Data\\StreamingAssets\\Data\\languagedata.json",
+    "Lair Land Story Remake Edition_Data\\Managed\\Assembly-CSharp.dll",
+    "Lair Land Story Remake Edition_Data\\sharedassets0.assets",
+    "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_01.png.assetsbudle",
+    "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_02.png.assetsbudle",
+    "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_03.png.assetsbudle",
+    "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_04.png.assetsbudle",
+    "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_05.png.assetsbudle",
+    "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_06.png.assetsbudle",
+    "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_07.png.assetsbudle",
+    "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_08.png.assetsbudle",
+    "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_11.png.assetsbudle",
+    "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_12.png.assetsbudle",
+    "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_13.png.assetsbudle",
+    "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_14.png.assetsbudle",
+    "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_15.png.assetsbudle",
+    "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_16.png.assetsbudle",
+    "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_17.png.assetsbudle",
+    "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_18.png.assetsbudle",
+    "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_19.png.assetsbudle",
+    "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_21.png.assetsbudle",
+    "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_22.png.assetsbudle",
+    "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_23.png.assetsbudle",
+    "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_24.png.assetsbudle",
+    "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_25.png.assetsbudle",
+    "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_26.png.assetsbudle",
+    "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_27.png.assetsbudle",
+    "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_28.png.assetsbudle",
+    "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_29.png.assetsbudle",
+    "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\bg\\bg_gametitle.png.assetsbudle",
+    "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\bg\\bg_gametitle_pc.png.assetsbudle"
+  ],
+  "source_variants": {
+    "steam-build-9253648": {
+      "description": "Steam BuildID 9253648 clean files",
+      "source_hashes": {
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\Data\\EventTxt_en.txt": "331d115e5371df7d7fc81cc374d4164bd8c33750eafb8228d0e6ba3510aa3da3",
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\Data\\languagedata.txt": "d66e94eb5324987a75bd638c4cbfe502f1315b164521ced3a4fa095fee1ed9a0",
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\Data\\languagedata.json": "a1ac120c77adbee426d5c6e0b51d628ffe397c1583dd7575c8e8733acdee2e33",
+        "Lair Land Story Remake Edition_Data\\Managed\\Assembly-CSharp.dll": "1717b9706bc051748fad2b0e309cef900d1b173c6c936d2712bc8d4604d97536",
+        "Lair Land Story Remake Edition_Data\\sharedassets0.assets": "67edf5c2e5aee14f9cbc81ed47e6b4b4d5994bf0d2674eee69d0b3d38fe635c6",
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_01.png.assetsbudle": "e1726fdf49f2d59ca669b5d3306af6d6c1213c8aa2afce413935d25a9df21d4f",
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_02.png.assetsbudle": "776a50aaabad50a41694895dfa4985c6968cf15e58629dc7dd26cea9ceeddd79",
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_03.png.assetsbudle": "91f78ea523ac3d96766fe3141ebfe377b002dec7fb1d04f89e692138a9dc1c2e",
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_04.png.assetsbudle": "34d40145c4aa01b3530c8ef80d3fcada305690d8179978ae46d340a9d2ae1dab",
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_05.png.assetsbudle": "3c839532b9bb5ff1e186bcb3dda378e1e67cba4d678ef1ff42e24d33b6762b64",
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_06.png.assetsbudle": "fe056346856653464acb5e7a1754c78209b044bd16d8fa90b91bf078e840c78f",
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_07.png.assetsbudle": "764df0bae8375f6e112cd5efaae30724df7557f5360e517bb325f8159e9a5fb7",
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_08.png.assetsbudle": "7de0ea345bc4557c0eb4c44768c7493c266b0e43d71f359bb3cb04645e3fcf22",
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_11.png.assetsbudle": "3447192fc5893b0543db093e8706f7976dca937e4b05712c0ec58b390a8b49cf",
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_12.png.assetsbudle": "986d725cf57b4e7ecb00c04c4863d5a1cb40b830e8ce572ce359a7032e043379",
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_13.png.assetsbudle": "6fa034c9ef858b1e51838dd3dd25f634d15e47d50484fabb43c78beefdf6fd0e",
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_14.png.assetsbudle": "869b8be2f610fe9cbbeaafe56563732069ad827ae180ae4a56340d4f6d3368f1",
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_15.png.assetsbudle": "c4b9047b191b33f7c9674902069b88cdbdec0bd70956254603ff5d5274131df9",
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_16.png.assetsbudle": "0f2a54f0a01107bb9ea68af64791499b23f9492eed774c410e9a23d45845264a",
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_17.png.assetsbudle": "5077f04b18fa4de32279d35a3f91ef8237df9b5df60e2b95daa3ea2c441daba1",
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_18.png.assetsbudle": "2a4aacdd12d8d743da94494522071fc816428cf0723a856492d5c8eba77582a0",
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_19.png.assetsbudle": "68450dd4fb889c40b103fa6679759bb3a0a20f217148502dbebeed957fcf1b9b",
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_21.png.assetsbudle": "a7288446a050310dcd99e1cb362907386b7e61f7075a79004e116d7a41561104",
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_22.png.assetsbudle": "87f625e40c6d8aeafc8460076a147b0db7bb09a0dd6c4b8e361c4390b6c3dc71",
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_23.png.assetsbudle": "2a752a2eb478557a883d853952bc69d521c7aae416642b4d49c8d5dac81600c1",
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_24.png.assetsbudle": "a4b5f2da11787c35027ddb08533fb6f8927241df973746de9091d1e8572e46d7",
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_25.png.assetsbudle": "0849f494de49dca7d7e1b088c164f2cb7f39c9fdd42fc1b2fcab3f949d6f2ebb",
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_26.png.assetsbudle": "1944305de23dcba6527431d721c867bac3bf6170938643a5d6698e468ed31696",
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_27.png.assetsbudle": "a90047df3d24d3af76f04320832c747c3aac3f98b5dc4072a142312b60a65bae",
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_28.png.assetsbudle": "bd05ea236eb8f89c7235f681dea5627f4883949bc1972a828be31e462c6f0850",
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_29.png.assetsbudle": "20ca2d3abfe16ab439c6d2c46300346a8fe05381aeecdf614d15ed8dac208b95",
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\bg\\bg_gametitle.png.assetsbudle": "e522c3c75315199a9fa43f8a595960c095bd69f78411c8b30ae4e708379ce0c2",
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\bg\\bg_gametitle_pc.png.assetsbudle": "177f950e7e76c8d84197ff14c167ef10af167c06445ba5ac81bef6a53ab6fade"
+      },
+      "delta_files": {
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\Data\\EventTxt_en.txt": "delta\\a4e0331fee71-EventTxt_en.txt.vcdiff",
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\Data\\languagedata.txt": "delta\\61d7fb94c226-languagedata.txt.vcdiff",
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\Data\\languagedata.json": "delta\\28edf4bbef0c-languagedata.json.vcdiff",
+        "Lair Land Story Remake Edition_Data\\Managed\\Assembly-CSharp.dll": "delta\\03fb4becefe5-Assembly-CSharp.dll.vcdiff",
+        "Lair Land Story Remake Edition_Data\\sharedassets0.assets": "delta\\aa8269cd2463-sharedassets0.assets.vcdiff",
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_01.png.assetsbudle": "delta\\abc2716d3723-menutitle_01.png.assetsbudle.vcdiff",
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_02.png.assetsbudle": "delta\\077e607c27b3-menutitle_02.png.assetsbudle.vcdiff",
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_03.png.assetsbudle": "delta\\88bf0f2a68ba-menutitle_03.png.assetsbudle.vcdiff",
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_04.png.assetsbudle": "delta\\c433cef38299-menutitle_04.png.assetsbudle.vcdiff",
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_05.png.assetsbudle": "delta\\2de0564b6a19-menutitle_05.png.assetsbudle.vcdiff",
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_06.png.assetsbudle": "delta\\2c0dcc64878f-menutitle_06.png.assetsbudle.vcdiff",
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_07.png.assetsbudle": "delta\\cbbc829853f2-menutitle_07.png.assetsbudle.vcdiff",
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_08.png.assetsbudle": "delta\\b5b6a7a8bae6-menutitle_08.png.assetsbudle.vcdiff",
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_11.png.assetsbudle": "delta\\ea6533a95c31-menutitle_11.png.assetsbudle.vcdiff",
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_12.png.assetsbudle": "delta\\078114e05b16-menutitle_12.png.assetsbudle.vcdiff",
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_13.png.assetsbudle": "delta\\5d1c7135c4aa-menutitle_13.png.assetsbudle.vcdiff",
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_14.png.assetsbudle": "delta\\5b1c66935d8c-menutitle_14.png.assetsbudle.vcdiff",
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_15.png.assetsbudle": "delta\\30fff8e0bca4-menutitle_15.png.assetsbudle.vcdiff",
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_16.png.assetsbudle": "delta\\6b63fe483d92-menutitle_16.png.assetsbudle.vcdiff",
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_17.png.assetsbudle": "delta\\14faad47f255-menutitle_17.png.assetsbudle.vcdiff",
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_18.png.assetsbudle": "delta\\dd4bcb1dc481-menutitle_18.png.assetsbudle.vcdiff",
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_19.png.assetsbudle": "delta\\7b7ba6197d09-menutitle_19.png.assetsbudle.vcdiff",
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_21.png.assetsbudle": "delta\\ec40a5d81763-menutitle_21.png.assetsbudle.vcdiff",
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_22.png.assetsbudle": "delta\\e553be9b3af7-menutitle_22.png.assetsbudle.vcdiff",
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_23.png.assetsbudle": "delta\\9998ecfbbf38-menutitle_23.png.assetsbudle.vcdiff",
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_24.png.assetsbudle": "delta\\64e4a6d8052f-menutitle_24.png.assetsbudle.vcdiff",
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_25.png.assetsbudle": "delta\\18357c3ffccd-menutitle_25.png.assetsbudle.vcdiff",
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_26.png.assetsbudle": "delta\\ee8f6442f9f5-menutitle_26.png.assetsbudle.vcdiff",
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_27.png.assetsbudle": "delta\\152b2ed20b55-menutitle_27.png.assetsbudle.vcdiff",
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_28.png.assetsbudle": "delta\\63eb994250fe-menutitle_28.png.assetsbudle.vcdiff",
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_29.png.assetsbudle": "delta\\5b26f5a0d2d0-menutitle_29.png.assetsbudle.vcdiff",
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\bg\\bg_gametitle.png.assetsbudle": "delta\\418e12de768b-bg_gametitle.png.assetsbudle.vcdiff",
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\bg\\bg_gametitle_pc.png.assetsbudle": "delta\\20810f10987d-bg_gametitle_pc.png.assetsbudle.vcdiff"
+      },
+      "delta_sha256": {
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\Data\\EventTxt_en.txt": "b2d75404151d1c2765de4ee5e205882a3aba70f21cc85eee2453fb751ea4fbdb",
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\Data\\languagedata.txt": "485474a7db15d3b37f3adabd440fbad25726cc09e65d9bb3cce1596d0faf200e",
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\Data\\languagedata.json": "6bb9fb1b4ba77ef36fb9a8f748e69243717e2029b8ff3a50d392231be2af1cbd",
+        "Lair Land Story Remake Edition_Data\\Managed\\Assembly-CSharp.dll": "8fe720af55f06fb3623b38ec81463d38dd42008a7dd75b73ca2c5584598b550f",
+        "Lair Land Story Remake Edition_Data\\sharedassets0.assets": "7ba9a46194cc4573ac59a1c2e87d1a4d924dd6ac49c31c8f433184331e9f89a1",
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_01.png.assetsbudle": "91bdcd78130377d91819b07572f45f9300ad2630fdb0a593eda5e2ae85d4d137",
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_02.png.assetsbudle": "caec10cdb8c08659e10e88bb9a6f9bcb587a0c575ec3b2a240583024a8f3f015",
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_03.png.assetsbudle": "dc2b7401bde5276f68abb2ae5a9cf1f483267c7bfbcf1aae1a17367a28347969",
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_04.png.assetsbudle": "bf50594e045a17d30a2b14ced17473061d9700438db3512b60e203dfa5a9fce4",
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_05.png.assetsbudle": "840bdfc2cbc9794b3fc188733f2f707a51c77ac6086f66cb79f9b4c51e0306e9",
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_06.png.assetsbudle": "4f517c38b241b957d27507a8aa20f532386078ca2136d399ee882f106beea32d",
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_07.png.assetsbudle": "45a72d834c53b9458338e50414e5247b558a476f6aa3523fdbfb4b89209796f6",
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_08.png.assetsbudle": "9a95df1effe7c5ac6c419693e7677b32a5fe0378bcbd7ad38f1403fff5479ad9",
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_11.png.assetsbudle": "09376a98ae4d192bc638c78caf272692db8931e1ed7c65d85cc9006488d9f540",
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_12.png.assetsbudle": "e01e13455427941278d8fdb7edcd4df27d8676fe26946459699a5c9628e8c5e2",
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_13.png.assetsbudle": "b79bbbf2a2d31580ceeded7325dd68eda8762915bd18888f209620a711110498",
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_14.png.assetsbudle": "e137284c3ffeb39e17266f6d94abf67dd678ae7cc4925a79c3ff20647a155906",
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_15.png.assetsbudle": "0a38e4885455ff62eba814dc76653884fdf3c0e5744d8335069305b863508245",
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_16.png.assetsbudle": "a593f20a8bee369ea302c161dd263318286b49a2361cfd99650f80619d8075f1",
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_17.png.assetsbudle": "af074cf3f067f67498d8ee1637df780c46090acc3bb4b68c68271fe17f005f59",
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_18.png.assetsbudle": "21c8abbf691647c39e1a2715341de5c915879e84fd78e59a336aedf9c0dab3a0",
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_19.png.assetsbudle": "6c736e81830af9aab08d824762017de3ed5b0c3f5e6c88e90e282fdd6f20ab9b",
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_21.png.assetsbudle": "ebd46b5e33df48be62093cfd74ee1514a2919e9547937cde69650aa3d3af6a34",
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_22.png.assetsbudle": "a3c60eb5cc3c2357b4fb6dab0a6a60b1ed8f863b7b9a91a3eaa01def581d7679",
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_23.png.assetsbudle": "6e232399ca7ba1a63f3728e5c021814b5065b73026f8c9f8e80261b003333368",
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_24.png.assetsbudle": "9e6b370a871c0c65e0b1473f610ac634ac974e5f31e41b8297806634d8b73a8b",
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_25.png.assetsbudle": "00fa0dd32cf33476b5a54ae303b996c1e0d10e75e7a5bd009ff1d24df7cc47fa",
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_26.png.assetsbudle": "bd4bde003918635aa46bb6cd78c5a523100d21454b9575e9eb6797bde98038fa",
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_27.png.assetsbudle": "bf3297fb9ec1773758208d2b2fb5b8e8fdefe99b4e901e435d81c36d9406e1b3",
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_28.png.assetsbudle": "a3abeab7558a999b36944643accf7d66a6111a0cba1ab15b8251f5181eb71e4d",
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_29.png.assetsbudle": "6c62e9157a32a7238c56f5e7760454e127f7070bc5ddcd0c080e0d62047a4aa1",
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\bg\\bg_gametitle.png.assetsbudle": "dba47ea7e50ac2ded2164ad9822b2f748fa59def8259c25b3c65038c3b5d13bb",
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\bg\\bg_gametitle_pc.png.assetsbudle": "8a40c851b43d0e5eabeed881a73663c80b72f81c0185e4fba071ecc226b511d2"
+      },
+      "delta_bytes": {
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\Data\\EventTxt_en.txt": 534927,
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\Data\\languagedata.txt": 7737,
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\Data\\languagedata.json": 9422,
+        "Lair Land Story Remake Edition_Data\\Managed\\Assembly-CSharp.dll": 629137,
+        "Lair Land Story Remake Edition_Data\\sharedassets0.assets": 122546,
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_01.png.assetsbudle": 7547,
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_02.png.assetsbudle": 7916,
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_03.png.assetsbudle": 7463,
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_04.png.assetsbudle": 7470,
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_05.png.assetsbudle": 7872,
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_06.png.assetsbudle": 7904,
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_07.png.assetsbudle": 7767,
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_08.png.assetsbudle": 8307,
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_11.png.assetsbudle": 7849,
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_12.png.assetsbudle": 6674,
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_13.png.assetsbudle": 6517,
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_14.png.assetsbudle": 6550,
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_15.png.assetsbudle": 6630,
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_16.png.assetsbudle": 6626,
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_17.png.assetsbudle": 7738,
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_18.png.assetsbudle": 6598,
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_19.png.assetsbudle": 7810,
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_21.png.assetsbudle": 8185,
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_22.png.assetsbudle": 8044,
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_23.png.assetsbudle": 7547,
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_24.png.assetsbudle": 7238,
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_25.png.assetsbudle": 8254,
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_26.png.assetsbudle": 7341,
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_27.png.assetsbudle": 7147,
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_28.png.assetsbudle": 7966,
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_29.png.assetsbudle": 8222,
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\bg\\bg_gametitle.png.assetsbudle": 1496997,
+        "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\bg\\bg_gametitle_pc.png.assetsbudle": 1564281
+      }
+    }
+  },
+  "output_assets": {
+    "Lair Land Story Remake Edition_Data\\StreamingAssets\\Data\\EventTxt_en.txt": {
+      "sha256": "bef1eeeb3211b1887625725718852ca1a888cd56209b934aa541969cc19d674e",
+      "size_bytes": 2002726
+    },
+    "Lair Land Story Remake Edition_Data\\StreamingAssets\\Data\\languagedata.txt": {
+      "sha256": "e00b285ef8bfbbf5948e74f1a823779964219d053c8238e190d6c5e196763ccd",
+      "size_bytes": 48677
+    },
+    "Lair Land Story Remake Edition_Data\\StreamingAssets\\Data\\languagedata.json": {
+      "sha256": "492d0b2b36f324c63355e3e6b3bd842c8fef20e9146ea1ee92672eb7e3f416eb",
+      "size_bytes": 133952
+    },
+    "Lair Land Story Remake Edition_Data\\Managed\\Assembly-CSharp.dll": {
+      "sha256": "79660fb246bc3e172cd096025ca15b811520ae677d6a6d26e9e7b686d0b6aeee",
+      "size_bytes": 4056576
+    },
+    "Lair Land Story Remake Edition_Data\\sharedassets0.assets": {
+      "sha256": "0c41b5f533e1026e777deab50279081149a1df87a50b33b75fc32fd2f30b954e",
+      "size_bytes": 24723544
+    },
+    "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_01.png.assetsbudle": {
+      "sha256": "12e1dc97f39e4cfb0098b45eb1c40d0abc05ba7cfecb2373f9edc1945d68ea11",
+      "size_bytes": 63747
+    },
+    "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_02.png.assetsbudle": {
+      "sha256": "4933fc2e3da10e1e1edc089702b99247cae7df8336ba7a7442b0aa61e0da46f7",
+      "size_bytes": 63779
+    },
+    "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_03.png.assetsbudle": {
+      "sha256": "21fff36e67ae58d64d9f7d74e49e26de09d1cbb52d4a68baccb648bc980cbe5c",
+      "size_bytes": 63691
+    },
+    "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_04.png.assetsbudle": {
+      "sha256": "efb5db6d9d03f61547f9da2442993b0919f76645b5724ca5b7c4826406563885",
+      "size_bytes": 63819
+    },
+    "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_05.png.assetsbudle": {
+      "sha256": "669b621016f342bf250106e813b3a4db942e2ebbeeb9bbfb3e2579b96229f53f",
+      "size_bytes": 63779
+    },
+    "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_06.png.assetsbudle": {
+      "sha256": "ecd8ac43c8a9c3ebfeff7aefb57cac74566734a6cfb3936e789be16dc406eee7",
+      "size_bytes": 63835
+    },
+    "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_07.png.assetsbudle": {
+      "sha256": "c5938d88b8590667f13bdac73be2347b72d5790294e85b2fc74c4e62cc40c695",
+      "size_bytes": 63771
+    },
+    "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_08.png.assetsbudle": {
+      "sha256": "e9efab62990375b96cf03531578f45a79dbc52b4f8a9743503c6031ff4b3e35a",
+      "size_bytes": 63835
+    },
+    "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_11.png.assetsbudle": {
+      "sha256": "b824eaf6f278daba33574922967fbb68f3d51120dc740fbdc02ba357f860e03d",
+      "size_bytes": 63731
+    },
+    "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_12.png.assetsbudle": {
+      "sha256": "319fb5cf43464a19072fd1b9f98f7f9a3ecccb09729488356e8491eaead7e38c",
+      "size_bytes": 63843
+    },
+    "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_13.png.assetsbudle": {
+      "sha256": "1bb2a512118a31f7509f7b24cb34670d2d61965c7ff0f39fc194ef6afddf6523",
+      "size_bytes": 63843
+    },
+    "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_14.png.assetsbudle": {
+      "sha256": "a07208f838b9ef2d320f386fcdac4f0b60e0ce6f8e9f9511d50336542659e6fe",
+      "size_bytes": 63843
+    },
+    "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_15.png.assetsbudle": {
+      "sha256": "f701787bec50ca200e5502017d3d80894d548cba575d3835c18550cee1c99f72",
+      "size_bytes": 63843
+    },
+    "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_16.png.assetsbudle": {
+      "sha256": "be60cc6a251766a64994fdeda1661e39111f315295d47a41826a92d9aaf98734",
+      "size_bytes": 63843
+    },
+    "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_17.png.assetsbudle": {
+      "sha256": "d644424827b70d0e74ea35da3ffe1e912631df9131bd72d1ec9f0d8c3843628c",
+      "size_bytes": 63747
+    },
+    "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_18.png.assetsbudle": {
+      "sha256": "40e08284f74bfef5a9726b1c33caef1f9abbab0759dfa037fd64c6715455a552",
+      "size_bytes": 63795
+    },
+    "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_19.png.assetsbudle": {
+      "sha256": "8189cf53db6435e3f498c5ea1891a7b00f63bec0efe744624812bd0d304e40b8",
+      "size_bytes": 63723
+    },
+    "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_21.png.assetsbudle": {
+      "sha256": "0db152aba6b72bf260253b367f32b48546d4690652bb83fb41e070e73c191161",
+      "size_bytes": 63843
+    },
+    "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_22.png.assetsbudle": {
+      "sha256": "6e117abcb09658d1e9ba4388bb89223c6f2c85169be77a3f6e9ba7776ccb032e",
+      "size_bytes": 63867
+    },
+    "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_23.png.assetsbudle": {
+      "sha256": "a87e3ae37425fe9d855f972063a68cc8f341bf456eb5068f097d8499a3dafb4b",
+      "size_bytes": 63779
+    },
+    "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_24.png.assetsbudle": {
+      "sha256": "dcebfd79302d05cb39df565a38b6f52a355281a602eec48a52ee160ff491f1a1",
+      "size_bytes": 63819
+    },
+    "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_25.png.assetsbudle": {
+      "sha256": "40938fe9c5f7c48d0c5c39fa47df2b8effd67f2a405da2a618e32e2c215dd0ad",
+      "size_bytes": 63931
+    },
+    "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_26.png.assetsbudle": {
+      "sha256": "8c402a760aa485763564d04ab713bacada101b2d5c2772f28a1abb1f93d67e5d",
+      "size_bytes": 63843
+    },
+    "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_27.png.assetsbudle": {
+      "sha256": "806a210dcc84b489fca2a611039dfac39e0e53c85f1b74ad8bfdde6399484b5a",
+      "size_bytes": 63843
+    },
+    "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_28.png.assetsbudle": {
+      "sha256": "1cd0a693b56f95c30bee1fe953e9e4260e7542a899dfd015b3332de28bb83131",
+      "size_bytes": 63843
+    },
+    "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\title\\menutitle_29.png.assetsbudle": {
+      "sha256": "f489a3831d699fa54662124a210e765e9c62144fa5204e28317f998ff0874a37",
+      "size_bytes": 63763
+    },
+    "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\bg\\bg_gametitle.png.assetsbudle": {
+      "sha256": "66b8de07e78c74fcf56517df9e011ce2b7d5e90f2abf9211ff46f20b6bf227fe",
+      "size_bytes": 12443651
+    },
+    "Lair Land Story Remake Edition_Data\\StreamingAssets\\bundle\\pictures\\language\\en\\bg\\bg_gametitle_pc.png.assetsbudle": {
+      "sha256": "b47b1d7f00ad05a51dadc9681bfa6aec43f4d55b9d8724b2202df22ce082d840",
+      "size_bytes": 12443667
+    }
+  },
+  "verification": {
+    "xdelta_round_trip": true,
+    "installer_backup_restore_round_trip": true,
+    "static_build_report": "verification-report.json",
+    "runtime_qa": "PENDING_USER_PLAYTEST"
+  },
+  "third_party": {
+    "fonts": "Noto Sans CJK KR and Noto Serif KR subsets embedded in patched assets/images",
+    "license": "SIL Open Font License 1.1",
+    "license_file": "OFL-NotoFonts.txt"
+  }
+}

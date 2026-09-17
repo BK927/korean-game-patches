@@ -11,6 +11,7 @@ BK927이 제작한 게임 한글 패치를 장기적으로 보관하고 배포�
 | T.K.PUNK (삼국 펑크) | 배포 준비 완료 | v1.1.0 | [설치 및 상세 정보](games/tkpunk/README.md) |
 | Absent in the Rain (비가 되어, 사람을 벗다) | 번역 완료 | v1.0.2 | [설치 및 상세 정보](games/amehazu/README.md) |
 | 奇迹一刻 Surmount (기적의 순간) | 번역 완료 | v0.1.0 | [설치 및 상세 정보](games/surmount/README.md) |
+| Lair Land Story Remake Edition (란도 이야기) | 릴리스 후보 | v0.1.0-rc1 | [설치 및 상세 정보](games/lair-land-story/README.md) |
 | outside the door | 릴리스 후보 | v0.1.0-rc1 | [설치 및 상세 정보](games/outsidethedoor/README.md) |
 | Benefitship | 릴리스 후보 | v0.1.0-rc1 | [설치 및 상세 정보](games/benefitship/README.md) |
 | My succubus Kukula | 릴리스 후보 | v0.2.0-rc1 | [설치 및 상세 정보](games/my-succubus-kukula/README.md) |
@@ -27,6 +28,7 @@ games/
 ├─ amehazu/         Absent in the Rain 한글 패치
 ├─ benefitship/     Benefitship 한글 패치
 ├─ dream-date/      Dream Date 한글 패치
+├─ lair-land-story/ Lair Land Story Remake Edition 한글 패치
 ├─ my-succubus-kukula/ My succubus Kukula 한글 패치
 ├─ mishas-incident/ Misha's incident 한국어 품질 복구 패치
 ├─ outsidethedoor/  outside the door 한글 패치

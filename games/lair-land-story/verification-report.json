@@ -1,0 +1,15 @@
+{
+  "story_units": 14965,
+  "ui_units": 748,
+  "dll_units": 610,
+  "manifest_files": 33,
+  "unity_assets_parsed": 29,
+  "errors": [],
+  "dll": {
+    "translation_units": 610,
+    "english_references": 0,
+    "chinese_references": 240,
+    "errors": 0,
+    "mismatches": []
+  }
+}
