@@ -78,8 +78,12 @@ try {
         if ((Get-FileHash -LiteralPath $delta -Algorithm SHA256).Hash.ToLowerInvariant() -ne $expectedDelta) { throw "delta hash 실패: $relative" }
         $temporary = $target + ".korean-patch.tmp"
         if (Test-Path -LiteralPath $temporary) { Remove-Item -LiteralPath $temporary -Force }
-        & $XdeltaPath -q -f -d -s $target $delta $temporary
-        if ($LASTEXITCODE -ne 0) { throw "xdelta 적용 실패: $relative" }
+        $xdeltaOutput = @(& $XdeltaPath -q -f -d -s $target $delta $temporary 2>&1)
+        $xdeltaExit = $LASTEXITCODE
+        if ($xdeltaExit -ne 0) {
+            $detail = ($xdeltaOutput | ForEach-Object { $_.ToString() }) -join " / "
+            throw "xdelta 적용 실패(exit=$xdeltaExit): $relative / $detail"
+        }
         $expectedOutput = $Manifest.output_assets.PSObject.Properties[$relative].Value.sha256
         if ((Get-FileHash -LiteralPath $temporary -Algorithm SHA256).Hash.ToLowerInvariant() -ne $expectedOutput) { throw "임시 출력 hash 실패: $relative" }
         Copy-Item -LiteralPath $temporary -Destination $target -Force
